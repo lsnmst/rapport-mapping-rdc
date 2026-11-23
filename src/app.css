@@ -1,7 +1,9 @@
 :root {
   --ink: #1d1b1a;
   --muted: #6b625d;
-  --paper: #fffdfb;
+  /* sfondo dei pannelli: bianco, poi velato dal pastello del periodo corrente (impostato da App.svelte) */
+  --panel-bg: color-mix(in srgb, var(--period-bg, #ffffff) 45%, rgb(255 255 255 / 0.93));
+  --paper: color-mix(in srgb, var(--period-bg, #fffdfb) 28%, #fffdfb);
   --rule: #e4dcd6;
   --accent: #8f1f17;
   --serif: 'Source Serif 4', Georgia, 'Times New Roman', serif;

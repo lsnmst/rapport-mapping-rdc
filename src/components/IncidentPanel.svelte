@@ -1,7 +1,7 @@
 <script lang="ts">
-  import type { Actor, Incident, IncidentText, Lang, Vocab } from '../lib/types.ts';
+  import type { Act, Actor, Incident, IncidentText, Lang, Vocab } from '../lib/types.ts';
   import { loadContext, loadTexts } from '../lib/data.ts';
-  import { fmtIncidentDate, label, t } from '../lib/i18n.ts';
+  import { cap, fmtIncidentDate, label, t } from '../lib/i18n.ts';
 
   interface Props {
     incident: Incident;
@@ -42,6 +42,15 @@
     return page ? `${url}#page=${page}` : url;
   });
   const paragraphText = $derived(text ? (text.text[lang] ?? text.text.fr) : '');
+
+  /** Condizione e categorie delle vittime, senza ripetere quello che il testo del rapporto dice già. */
+  function victimDetails(act: Act): string[] {
+    const said = act.victims.toLowerCase();
+    return [
+      ...act.status.map((s) => label(vocab, 'victimStatus', s, lang)),
+      ...act.groups.map((g) => label(vocab, 'victimGroups', g, lang)),
+    ].filter((x, k, all) => x && all.indexOf(x) === k && !said.includes(x.toLowerCase()));
+  }
 
   function onKey(e: KeyboardEvent) {
     if (e.key === 'Escape') onclose();
@@ -99,19 +108,13 @@
         </p>
         <h3>{t(lang, 'victims')}</h3>
         <p>
-          <span lang="fr">{act.victims}</span>
-          {#if act.status.length || act.groups.length}
-            <span class="muted">
-              — {[...act.status.map((s) => label(vocab, 'victimStatus', s, lang)), ...act.groups.map((g) => label(vocab, 'victimGroups', g, lang))].join(', ')}
-            </span>
+          <span lang="fr">{cap(act.victims)}</span>
+          {#if victimDetails(act).length}
+            <span class="muted">({victimDetails(act).join(', ')})</span>
           {/if}
         </p>
         <h3>{t(lang, 'violations')}</h3>
-        <p>{act.viol.map((v) => label(vocab, 'violations', v, lang)).join(', ')}</p>
-        {#if act.number}
-          <h3>{t(lang, 'figures')}</h3>
-          <p><q lang="fr">{act.number}</q> <span class="muted">({label(vocab, 'numberPrecision', act.np, lang)})</span></p>
-        {/if}
+        <p>{cap(act.viol.map((v) => label(vocab, 'violations', v, lang)).join(', '))}</p>
       </section>
     {/each}
 

@@ -3,7 +3,8 @@
   import MapView from './components/MapView.svelte';
   import IncidentPanel from './components/IncidentPanel.svelte';
   import FiltersPanel from './components/FiltersPanel.svelte';
-  import type { Filters, Incident, Lang } from './lib/types.ts';
+  import type { Filters, Lang, Padding } from './lib/types.ts';
+  import { PERIOD_COLORS } from './lib/periods.ts';
   import { loadCore, type CoreData } from './lib/data.ts';
   import { buildScale, pxToTime, timeToPx, toMs, toISO, phase, DAY, type Scale } from './lib/timeline.ts';
   import { actorFamilies, applyFilters, actorCounts, emptyFilters, isEmpty } from './lib/filters.ts';
@@ -15,12 +16,15 @@
   const TO = '2003-09-30';
 
   const initial = parseHash(location.hash);
-  let lang = $state<Lang>(initial.lang ?? (navigator.language?.startsWith('en') ? 'en' : 'fr'));
+  let lang = $state<Lang>(initial.lang ?? 'fr');   // il francese è la lingua originale del rapporto
   let data = $state<CoreData | null>(null);
   let loadError = $state<string | null>(null);
   let scale = $state<Scale | null>(null);
   let scrollY = $state(0);
   let vh = $state(800);
+  let vw = $state(1200);
+  let listCollapsed = $state(false);
+  let awayAnchor: number | null = null;   // posizione di scroll quando la mappa è stata ingrandita
   let filters = $state<Filters>(emptyFilters());
   let selectedId = $state<string | null>(initial.i ?? null);
   let filtersOpen = $state(false);
@@ -28,6 +32,12 @@
   let mapView: ReturnType<typeof MapView> | undefined = $state();
 
   const intro = $derived(Math.round(vh * 1.1));
+  const overview = $derived(scrollY < intro * 0.6);   // apertura: tutti i punti, prima dello storyscrolling
+  const desktop = $derived(vw >= 900);
+  // spazio occupato dai pannelli: la mappa centra la RDC nell'area libera
+  const padding = $derived<Padding>(desktop
+    ? { top: 70, bottom: 40, right: overview ? 40 : listCollapsed ? 70 : 350, left: overview ? Math.min(600, vw * 0.42) : 40 }
+    : { top: 60, bottom: overview ? 40 : 190, left: 12, right: 12 });
   const now = $derived(scale ? pxToTime(scale, scrollY - intro) : toMs(FROM));
   const families = $derived(data ? actorFamilies(data.actors) : new Map());
   const filtered = $derived(data ? applyFilters(data.incidents, filters, families) : []);
@@ -55,8 +65,26 @@
     }));
   });
 
+  // velatura della mappa e colore dei pannelli secondo il periodo corrente
+  $effect(() => {
+    const root = document.documentElement.style;
+    if (overview) { root.removeProperty('--period-bg'); root.removeProperty('--period-ink'); return; }
+    const c = PERIOD_COLORS[periodNow as 1 | 2 | 3 | 4];
+    root.setProperty('--period-bg', c.bg);
+    root.setProperty('--period-ink', c.ink);
+  });
+
+  // la mappa è stata ingrandita (clic, doppio clic, zoom sul mese): alla ripresa dello scroll torna all'insieme
+  function onAway() { awayAnchor = scrollY; }
+  $effect(() => {
+    if (awayAnchor !== null && Math.abs(scrollY - awayAnchor) > 80) {
+      awayAnchor = null;
+      mapView?.resetView();
+    }
+  });
+
   onMount(() => {
-    vh = innerHeight;
+    vh = innerHeight; vw = innerWidth;
     loadCore()
       .then((d) => {
         data = d;
@@ -73,7 +101,7 @@
       if (raf) return;
       raf = requestAnimationFrame(() => { raf = 0; scrollY = window.scrollY; });
     };
-    const onResize = () => (vh = innerHeight);
+    const onResize = () => { vh = innerHeight; vw = innerWidth; };
     addEventListener('scroll', onScroll, { passive: true });
     addEventListener('resize', onResize);
     return () => { removeEventListener('scroll', onScroll); removeEventListener('resize', onResize); };
@@ -103,14 +131,24 @@
   function open(id: string) {
     selectedId = id;
     const i = data?.incidents.find((x) => x.id === id);
-    if (i) mapView?.focus(i);
+    if (i) mapView?.focus(i, desktop ? 460 - padding.right + 40 : 0);
+  }
+  function closePanel() {
+    selectedId = null;
+    awayAnchor = null;
+    mapView?.resetView();
+  }
+  function zoomMonth() {
+    mapView?.zoomTo(active.length ? active : visible.slice(-10));
   }
 </script>
 
 {#if loadError}
   <p class="fatal">{loadError}</p>
 {:else}
-  <MapView bind:this={mapView} incidents={filtered} {now} selected={selectedId} {lang} styleUrl={STYLE_URL} onselect={open} />
+  <MapView bind:this={mapView} incidents={filtered} {now} {overview} {padding} selected={selectedId} {lang} styleUrl={STYLE_URL}
+    onselect={open} onaway={onAway} />
+  <div class="tint" class:on={!overview} aria-hidden="true"></div>
 {/if}
 
 <header class="top">
@@ -153,7 +191,7 @@
     </section>
   </main>
 
-  {#if scrollY > intro * 0.6}
+  {#if !overview}
     <div class="hud" aria-live="polite">
       <p class="period">{label(data.vocab, 'periods', String(periodNow), lang)}</p>
       <p class="now">{fmtMonth(lang, now)}</p>
@@ -161,37 +199,50 @@
       <div class="steps">
         <button class="btn" onclick={() => step(-1)} aria-label={t(lang, 'prev')}>‹</button>
         <button class="btn" onclick={() => step(1)} aria-label={t(lang, 'next')}>›</button>
+        <button class="btn" onclick={zoomMonth}>{t(lang, 'zoomMonth')}</button>
         <button class="btn list-toggle" onclick={() => (listOpen = !listOpen)} aria-expanded={listOpen}>
           {t(lang, 'activeNow')} ({active.length})
         </button>
       </div>
+      <p class="small help">{t(lang, 'mapHelp')}</p>
     </div>
 
-    <section class="active" class:open={listOpen} aria-label={t(lang, 'activeNow')}>
-      <h2>{t(lang, 'activeNow')}</h2>
-      {#if active.length === 0}
-        <p class="small">{t(lang, 'noneActive')}</p>
-      {:else}
-        <ul>
-          {#each active as i (i.id)}
-            <li>
-              <button onclick={() => open(i.id)} class:sel={i.id === selectedId}>
-                <span class="place">{i.place}</span>
-                <span class="small">{fmtIncidentDate(lang, i.start, i.end, i.dp)} · {i.actors.map((a) => data!.actors[a]?.[lang].replace(/\s*\(.*\)$/, '')).join(', ')}</span>
-              </button>
-            </li>
-          {/each}
-        </ul>
-      {/if}
-    </section>
-
-    <aside class="legend" aria-label={t(lang, 'legend')}>
-      <p><span class="sym s-high"></span>{label(data.vocab, 'confidence', 'high', lang)}</p>
-      <p><span class="sym s-low"></span>{label(data.vocab, 'confidence', 'low', lang)}</p>
-      <p><span class="sym s-none"></span>{label(data.vocab, 'confidence', 'none', lang)}</p>
-      <p><span class="sym s-past"></span>{t(lang, 'past')}</p>
-      <p class="small">{t(lang, 'mapHelp')}</p>
-    </aside>
+    {#if desktop && listCollapsed}
+      <button class="btn expand" onclick={() => (listCollapsed = false)} aria-label={t(lang, 'showList')}>
+        ‹ {active.length}
+      </button>
+    {:else}
+      <section class="active" class:open={listOpen} aria-label={t(lang, 'activeNow')}>
+        <div class="active-head">
+          <h2>{t(lang, 'activeNow')}</h2>
+          {#if desktop}
+            <button class="collapse" onclick={() => (listCollapsed = true)} aria-label={t(lang, 'hideList')}>›</button>
+          {/if}
+        </div>
+        <div class="active-list">
+          {#if active.length === 0}
+            <p class="small">{t(lang, 'noneActive')}</p>
+          {:else}
+            <ul>
+              {#each active as i (i.id)}
+                <li>
+                  <button onclick={() => open(i.id)} class:sel={i.id === selectedId}>
+                    <span class="place">{i.place}</span>
+                    <span class="small">{fmtIncidentDate(lang, i.start, i.end, i.dp)} · {i.actors.map((a) => data!.actors[a]?.[lang].replace(/\s*\(.*\)$/, '')).join(', ')}</span>
+                  </button>
+                </li>
+              {/each}
+            </ul>
+          {/if}
+        </div>
+        <div class="legend" aria-label={t(lang, 'legend')}>
+          <p><span class="sym s-high"></span>{label(data.vocab, 'confidence', 'high', lang)}</p>
+          <p><span class="sym s-low"></span>{label(data.vocab, 'confidence', 'low', lang)}</p>
+          <p><span class="sym s-none"></span>{label(data.vocab, 'confidence', 'none', lang)}</p>
+          <p><span class="sym s-past"></span>{t(lang, 'past')}</p>
+        </div>
+      </section>
+    {/if}
   {/if}
 
   {#if filtersOpen}
@@ -201,7 +252,7 @@
 
   {#if selected}
     <IncidentPanel incident={selected} {lang} vocab={data.vocab} actors={data.actors} pdf={data.source}
-      onclose={() => (selectedId = null)} />
+      onclose={closePanel} />
   {/if}
 {:else if !loadError}
   <p class="loading">{t(lang, 'loading')}</p>
@@ -211,7 +262,7 @@
   .top {
     position: fixed; top: 0; left: 0; right: 0; z-index: 10;
     display: flex; justify-content: space-between; align-items: center; gap: 1rem;
-    padding: 0.6rem 1rem; background: rgb(255 255 255 / 0.88); backdrop-filter: blur(6px);
+    padding: 0.6rem 1rem; background: var(--panel-bg); backdrop-filter: blur(6px); transition: background-color 0.8s;
     border-bottom: 1px solid var(--rule);
   }
   .top h1 { margin: 0; font: 600 1rem/1.2 var(--serif); }
@@ -221,10 +272,10 @@
   .lang button.on { background: var(--ink); color: #fff; }
   .btn { border: 1px solid var(--rule); background: #fff; border-radius: 4px; padding: 0.35rem 0.7rem; cursor: pointer; font: 0.85rem var(--sans); color: var(--ink); }
 
-  .track { position: relative; z-index: 1; pointer-events: none; }
+  .track { position: relative; z-index: 2; pointer-events: none; }
   .card {
     position: absolute; left: clamp(1rem, 4vw, 3rem); width: min(520px, calc(100vw - 2rem));
-    pointer-events: auto; background: rgb(255 255 255 / 0.94); border: 1px solid var(--rule);
+    pointer-events: auto; background: var(--panel-bg); border: 1px solid var(--rule);
     border-radius: 6px; padding: 1.25rem 1.5rem; box-shadow: 0 2px 16px rgb(0 0 0 / 0.08);
   }
   .card h2 { margin: 0.2rem 0 0.6rem; font: 600 1.6rem/1.2 var(--serif); }
@@ -235,50 +286,62 @@
   .small { font-size: 0.8rem; color: var(--muted); }
   .hint { font-weight: 600; color: var(--accent); }
 
+  .tint {
+    position: fixed; inset: 0; z-index: 1; pointer-events: none;
+    background: var(--period-bg, transparent); mix-blend-mode: multiply;
+    opacity: 0; transition: opacity 0.6s, background-color 0.8s;
+  }
+  .tint.on { opacity: 0.55; }
+
   .hud {
     position: fixed; left: clamp(1rem, 4vw, 3rem); bottom: 1.25rem; z-index: 5;
-    background: rgb(255 255 255 / 0.94); border: 1px solid var(--rule); border-radius: 6px;
-    padding: 0.8rem 1rem; max-width: min(420px, calc(100vw - 2rem));
+    background: var(--panel-bg); border: 1px solid var(--rule); border-radius: 6px;
+    padding: 0.8rem 1rem; max-width: min(440px, calc(100vw - 2rem));
+    transition: background-color 0.8s;
   }
   .hud p { margin: 0; }
-  .period { font-size: 0.8rem; color: var(--muted); }
+  .period { font-size: 0.8rem; color: var(--period-ink, var(--muted)); font-weight: 600; }
   .now { font: 600 2rem/1.1 var(--serif); text-transform: capitalize; margin: 0.2rem 0 !important; }
   .count { font: 0.8rem var(--mono); color: var(--muted); }
   .steps { display: flex; gap: 0.4rem; margin-top: 0.5rem; flex-wrap: wrap; }
+  .help { margin-top: 0.4rem !important; }
 
   .active {
-    position: fixed; top: 3.4rem; right: 1rem; bottom: 1rem; z-index: 5; width: 300px; overflow-y: auto;
-    background: rgb(255 255 255 / 0.94); border: 1px solid var(--rule); border-radius: 6px; padding: 0.8rem;
+    position: fixed; top: 3.4rem; right: 1rem; bottom: 1rem; z-index: 5; width: 310px;
+    display: flex; flex-direction: column;
+    background: var(--panel-bg); border: 1px solid var(--rule); border-radius: 6px; padding: 0.8rem;
+    transition: background-color 0.8s;
   }
+  .active-head { display: flex; justify-content: space-between; align-items: center; }
   .active h2 { margin: 0 0 0.4rem; font: 600 0.75rem var(--sans); text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+  .collapse { background: none; border: 0; font-size: 1.3rem; cursor: pointer; color: var(--muted); line-height: 1; }
+  .expand { position: fixed; top: 3.6rem; right: 1rem; z-index: 5; background: var(--panel-bg); }
+  .active-list { flex: 1; overflow-y: auto; min-height: 0; }
   .active ul { list-style: none; margin: 0; padding: 0; }
   .active li button {
     display: block; width: 100%; text-align: left; background: none; border: 0; border-bottom: 1px solid var(--rule);
     padding: 0.45rem 0.2rem; cursor: pointer; font: inherit; color: var(--ink);
   }
-  .active li button:hover, .active li button.sel { background: #f6f1ee; }
+  .active li button:hover, .active li button.sel { background: rgb(255 255 255 / 0.6); }
   .place { display: block; font-weight: 600; }
   .list-toggle { display: none; }
 
-  .legend {
-    position: fixed; right: 330px; bottom: 1.25rem; z-index: 5; background: rgb(255 255 255 / 0.94);
-    border: 1px solid var(--rule); border-radius: 6px; padding: 0.6rem 0.8rem; font-size: 0.8rem; max-width: 240px;
-  }
+  .legend { border-top: 1px solid var(--rule); padding-top: 0.5rem; margin-top: 0.5rem; font-size: 0.8rem; }
   .legend p { margin: 0.15rem 0; display: flex; align-items: center; gap: 0.5rem; }
-  .sym { display: inline-block; width: 12px; height: 12px; border-radius: 50%; flex: none; }
-  .s-high { background: #b3261e; border: 1px solid #fff; }
-  .s-low { background: #b3261e; box-shadow: 0 0 0 3px #fff, 0 0 0 4.5px #b3261e; transform: scale(0.7); }
+  .sym { display: inline-block; width: 14px; height: 14px; border-radius: 50%; flex: none; }
+  .s-high { background: #b3261e; border: 2px solid #fff; box-shadow: 0 0 0 1px #b3261e55; }
+  .s-low { background: #b3261e80; border: 1px solid #b3261e; transform: scale(0.65); }
   .s-none { background: radial-gradient(#b3261e88, #b3261e00 70%); width: 18px; height: 18px; }
-  .s-past { background: #6b5e57; opacity: 0.5; transform: scale(0.6); }
+  .s-past { background: #6b5e57; opacity: 0.5; transform: scale(0.5); }
 
   .loading, .fatal { position: fixed; inset: 0; display: grid; place-items: center; margin: 0; }
 
   @media (max-width: 900px) {
     .top h1 { font-size: 0.85rem; }
     .list-toggle { display: inline-block; }
-    .active { display: none; left: 1rem; right: 1rem; width: auto; top: auto; bottom: 9rem; max-height: 45vh; }
+    .active { display: none; left: 1rem; right: 1rem; width: auto; top: auto; bottom: 11rem; max-height: 45vh; }
+    .help { display: none; }
     .active.open { display: block; }
-    .legend { display: none; }
     .now { font-size: 1.5rem; }
   }
 </style>

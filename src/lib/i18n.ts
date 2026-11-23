@@ -50,7 +50,6 @@ const UI = {
   perpetrators: { fr: 'Auteurs présumés', en: 'Alleged perpetrators' },
   victims: { fr: 'Victimes', en: 'Victims' },
   violations: { fr: 'Violations', en: 'Violations' },
-  figures: { fr: 'Chiffres (formule du rapport)', en: 'Figures (as worded in the report)' },
   reportText: { fr: 'Texte du rapport', en: 'Report text' },
   context: { fr: 'Contexte (paragraphe du rapport)', en: 'Context (report paragraph)' },
   sources: { fr: 'Sources citées par le rapport', en: 'Sources cited by the report' },
@@ -64,9 +63,12 @@ const UI = {
   about: { fr: 'À propos', en: 'About' },
   mapLabel: { fr: 'Carte des incidents', en: 'Map of incidents' },
   mapHelp: {
-    fr: 'Ctrl + molette ou deux doigts pour zoomer et déplacer la carte.',
-    en: 'Ctrl + scroll or two fingers to zoom and pan the map.',
+    fr: "Double-clic, boutons + / − ou Ctrl + molette pour zoomer. Dès que vous reprenez le défilement, la carte revient à la vue d'ensemble.",
+    en: 'Double-click, + / − buttons or Ctrl + scroll to zoom. As soon as you resume scrolling, the map returns to the overview.',
   },
+  zoomMonth: { fr: 'Zoomer sur ce mois', en: 'Zoom to this month' },
+  showList: { fr: 'Afficher la liste des incidents en cours', en: 'Show the list of ongoing incidents' },
+  hideList: { fr: 'Masquer la liste', en: 'Hide the list' },
   geoConfidence: { fr: 'Fiabilité de la position', en: 'Position reliability' },
 } satisfies Record<string, Bi>;
 
@@ -106,6 +108,11 @@ export function fmtIncidentDate(lang: Lang, start: string, end: string, dp: stri
   }
   const ms = fmtMonth(lang, s), me = fmtMonth(lang, e);
   return ms === me ? ms : `${ms} – ${me}`;
+}
+
+/** Prima lettera maiuscola (le etichette del vocabolario sono in minuscolo). */
+export function cap(s: string): string {
+  return s ? s.charAt(0).toLocaleUpperCase() + s.slice(1) : s;
 }
 
 export function bi(b: Bi | undefined, lang: Lang): string {

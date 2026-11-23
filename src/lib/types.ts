@@ -68,3 +68,10 @@ export interface Filters {
   cats: Set<string>;
   periods: Set<number>;
 }
+
+export interface Padding {
+  top: number;
+  right: number;
+  bottom: number;
+  left: number;
+}

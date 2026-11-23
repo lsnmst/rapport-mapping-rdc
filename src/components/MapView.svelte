@@ -2,29 +2,40 @@
   import { onMount, onDestroy } from 'svelte';
   import maplibregl from 'maplibre-gl';
   import 'maplibre-gl/dist/maplibre-gl.css';
-  import type { Incident, Lang, Point } from '../lib/types.ts';
+  import type { Incident, Lang, Padding, Point } from '../lib/types.ts';
   import { DAY, toMs } from '../lib/timeline.ts';
   import { t } from '../lib/i18n.ts';
+  import { PERIOD_COLORS } from '../lib/periods.ts';
 
   interface Props {
     incidents: Incident[];          // incidenti filtrati
     now: number;                    // istante corrente (ms)
+    overview: boolean;              // apertura: tutti gli incidenti, piccoli, senza filtro temporale
     selected: string | null;
     lang: Lang;
     styleUrl: string;
+    padding: Padding;               // spazio occupato dai pannelli: la RDC resta nell'area libera
     onselect: (id: string) => void;
+    onaway: () => void;             // la mappa è stata ingrandita rispetto alla vista d'insieme
   }
-  let { incidents, now, selected, lang, styleUrl, onselect }: Props = $props();
+  let { incidents, now, overview, selected, lang, styleUrl, padding, onselect, onaway }: Props = $props();
 
   const AFTER_DAYS = 30;            // per quanto un incidente resta "in corso" dopo la fine
-  const DRC_BOUNDS: [[number, number], [number, number]] = [[12.0, -13.6], [31.5, 5.5]];
+  const DRC_BOUNDS: [[number, number], [number, number]] = [[12.2, -13.5], [31.3, 5.4]];
   const COLOR_ACTIVE = '#b3261e';
   const COLOR_PAST = '#6b5e57';
+  const reduced = () => matchMedia('(prefers-reduced-motion: reduce)').matches;
 
   let container: HTMLDivElement;
   let map: maplibregl.Map | null = null;
   let ready = $state(false);
   let popup: maplibregl.Popup | null = null;
+  let baseZoom = 0;                 // zoom della vista d'insieme
+  let away = false;
+
+  function overviewZoom(): number {
+    return map?.cameraForBounds(DRC_BOUNDS, { padding })?.zoom ?? 0;
+  }
 
   // Un punto per ogni luogo di evento/origine/destinazione; per gli incidenti senza punti, il centro dell'area.
   function toGeoJSON(list: Incident[]): GeoJSON.FeatureCollection {
@@ -37,51 +48,101 @@
         features.push({
           type: 'Feature',
           geometry: { type: 'Point', coordinates: [p.lon, p.lat] },
-          properties: { id: i.id, name: p.n, role: p.r, conf: p.c, main: p.main ? 1 : 0, t0d, t1d },
+          properties: { id: i.id, name: p.n, role: p.r, conf: p.c, main: p.main ? 1 : 0, period: i.period, t0d, t1d },
         });
       }
     }
     return { type: 'FeatureCollection', features };
   }
 
-  // Espressioni che dipendono dal tempo: aggiornate a ogni cambio di `now`.
-  function timeExpressions(nowD: number) {
-    const isPast: maplibregl.ExpressionSpecification = ['>', nowD, ['+', ['get', 't1d'], AFTER_DAYS]];
-    return {
-      filter: ['<=', ['get', 't0d'], nowD] as maplibregl.FilterSpecification,
-      color: ['case', isPast, COLOR_PAST, COLOR_ACTIVE] as maplibregl.ExpressionSpecification,
-      opacity: (active: number, past: number) =>
-        ['case', isPast, past, active] as maplibregl.ExpressionSpecification,
-    };
-  }
+  type Expr = maplibregl.ExpressionSpecification;
+  const byConf = (conf: 'high' | 'low' | 'none'): Expr => ['==', ['get', 'conf'], conf];
+  const periodColor: Expr = ['match', ['get', 'period'],
+    1, PERIOD_COLORS[1].ink, 2, PERIOD_COLORS[2].ink, 3, PERIOD_COLORS[3].ink, PERIOD_COLORS[4].ink];
 
-  function applyTime() {
+  /**
+   * Simboli:
+   *  high  punto pieno, il più evidente (bordo bianco)
+   *  low   punto più piccolo e semitrasparente, senza bordo bianco: visibile ma meno affermativo
+   *  none  area sfumata (solo il territorio o la provincia sono noti)
+   */
+  function applyStyle() {
     if (!map || !ready) return;
+    const m = map;
+    if (overview) {
+      for (const id of ['area', 'low', 'high']) m.setFilter(id, byConf(id === 'area' ? 'none' : id as 'high' | 'low'));
+      m.setPaintProperty('high', 'circle-color', periodColor);
+      m.setPaintProperty('high', 'circle-opacity', 0.85);
+      m.setPaintProperty('high', 'circle-radius', 2.6);
+      m.setPaintProperty('high', 'circle-stroke-width', 0.5);
+      m.setPaintProperty('low', 'circle-color', periodColor);
+      m.setPaintProperty('low', 'circle-opacity', 0.45);
+      m.setPaintProperty('low', 'circle-radius', 2);
+      m.setPaintProperty('low', 'circle-stroke-opacity', 0);
+      m.setPaintProperty('area', 'circle-color', periodColor);
+      m.setPaintProperty('area', 'circle-opacity', 0.12);
+      m.setPaintProperty('area', 'circle-radius', ['interpolate', ['exponential', 2], ['zoom'], 4, 6, 8, 90]);
+      return;
+    }
     const nowD = Math.floor(now / DAY);
-    const e = timeExpressions(nowD);
-    const f = (conf: maplibregl.ExpressionSpecification) => ['all', conf, e.filter] as maplibregl.FilterSpecification;
-    map.setFilter('area', f(['==', ['get', 'conf'], 'none']));
-    map.setFilter('halo', f(['==', ['get', 'conf'], 'low']));
-    map.setFilter('dot', f(['!=', ['get', 'conf'], 'none']));
-    map.setPaintProperty('area', 'circle-color', e.color);
-    map.setPaintProperty('area', 'circle-opacity', e.opacity(0.28, 0.08));
-    map.setPaintProperty('halo', 'circle-stroke-color', e.color);
-    map.setPaintProperty('halo', 'circle-stroke-opacity', e.opacity(0.7, 0.15));
-    map.setPaintProperty('dot', 'circle-color', e.color);
-    map.setPaintProperty('dot', 'circle-opacity', e.opacity(0.95, 0.35));
-    map.setPaintProperty('dot', 'circle-radius', ['case', ['>', nowD, ['+', ['get', 't1d'], AFTER_DAYS]], 3,
-      ['case', ['==', ['get', 'main'], 1], 6, 4.5]] as maplibregl.ExpressionSpecification);
+    const started: maplibregl.FilterSpecification = ['<=', ['get', 't0d'], nowD];
+    const isPast: Expr = ['>', nowD, ['+', ['get', 't1d'], AFTER_DAYS]];
+    const color: Expr = ['case', isPast, COLOR_PAST, COLOR_ACTIVE];
+    const op = (a: number, p: number): Expr => ['case', isPast, p, a];
+    m.setFilter('area', ['all', byConf('none'), started] as maplibregl.FilterSpecification);
+    m.setFilter('low', ['all', byConf('low'), started] as maplibregl.FilterSpecification);
+    m.setFilter('high', ['all', byConf('high'), started] as maplibregl.FilterSpecification);
+    m.setPaintProperty('area', 'circle-color', color);
+    m.setPaintProperty('area', 'circle-opacity', op(0.26, 0.06));
+    m.setPaintProperty('area', 'circle-radius', ['interpolate', ['exponential', 2], ['zoom'], 4, 12, 8, 190]);
+    m.setPaintProperty('high', 'circle-color', color);
+    m.setPaintProperty('high', 'circle-opacity', op(1, 0.4));
+    m.setPaintProperty('high', 'circle-radius', ['case', isPast, 3, ['case', ['==', ['get', 'main'], 1], 6.5, 5]] as Expr);
+    m.setPaintProperty('high', 'circle-stroke-width', ['case', isPast, 0.5, 1.5] as Expr);
+    m.setPaintProperty('low', 'circle-color', color);
+    m.setPaintProperty('low', 'circle-opacity', op(0.5, 0.25));
+    m.setPaintProperty('low', 'circle-radius', ['case', isPast, 2.5, 4] as Expr);
+    m.setPaintProperty('low', 'circle-stroke-opacity', op(0.9, 0.3));
   }
 
   function applyData() {
     if (!map || !ready) return;
     (map.getSource('incidents') as maplibregl.GeoJSONSource).setData(toGeoJSON(incidents));
-    applyTime();
+    applyStyle();
   }
 
   function applySelected() {
     if (!map || !ready) return;
     map.setFilter('selected', ['==', ['get', 'id'], selected ?? '']);
+  }
+
+  /** Torna alla vista d'insieme della RDC. */
+  export function resetView(animate = true) {
+    if (!map) return;
+    away = false;
+    baseZoom = overviewZoom();
+    map.fitBounds(DRC_BOUNDS, { padding, duration: animate && !reduced() ? 700 : 0 });
+  }
+
+  /** Centra la mappa su un incidente, lasciando libero lo spazio della scheda a destra. */
+  export function focus(i: Incident, extraRight = 0) {
+    if (!map) return;
+    const pts = i.points.length ? i.points : [{ lat: i.lat, lon: i.lon }];
+    const b = new maplibregl.LngLatBounds();
+    for (const p of pts) b.extend([p.lon, p.lat]);
+    map.fitBounds(b, {
+      padding: { ...padding, right: padding.right + extraRight },
+      maxZoom: i.conf === 'none' ? 6.5 : 8.5,
+      duration: reduced() ? 0 : 800,
+    });
+  }
+
+  /** Ingrandisce sull'insieme degli incidenti indicati (es. quelli in corso nel mese corrente). */
+  export function zoomTo(list: Incident[]) {
+    if (!map || !list.length) return;
+    const b = new maplibregl.LngLatBounds();
+    for (const i of list) for (const p of (i.points.length ? i.points : [i])) b.extend([p.lon, p.lat]);
+    map.fitBounds(b, { padding, maxZoom: 8, duration: reduced() ? 0 : 800 });
   }
 
   onMount(() => {
@@ -90,11 +151,12 @@
       container,
       style: styleUrl,
       bounds: DRC_BOUNDS,
-      fitBoundsOptions: { padding: 40 },
+      fitBoundsOptions: { padding },
       // Touch: un dito fa scorrere la pagina (il tempo), due dita muovono la mappa.
-      // Desktop: la rotella fa scorrere la pagina; Ctrl/⌘ + rotella fa lo zoom (gestito sotto).
+      // Desktop: la rotella fa scorrere la pagina; doppio clic, +/− o Ctrl/⌘ + rotella fanno lo zoom.
       cooperativeGestures: touch,
       scrollZoom: touch,
+      doubleClickZoom: true,
       attributionControl: { compact: true },
       dragRotate: false,
       pitchWithRotate: false,
@@ -110,48 +172,31 @@
         map.easeTo({ zoom: map.getZoom() - e.deltaY * 0.004, around, duration: 0 });
       }, { passive: false });
     }
+    // Ogni ingrandimento rispetto alla vista d'insieme viene segnalato: lo scroll successivo riporta indietro.
+    map.on('moveend', () => {
+      if (!map) return;
+      if (!away && map.getZoom() > baseZoom + 0.35) { away = true; onaway(); }
+    });
 
     map.on('load', () => {
       const m = map!;
+      baseZoom = overviewZoom();
       m.addSource('incidents', { type: 'geojson', data: toGeoJSON([]) });
-      // confidenza "none": solo un'area sfumata attorno al centro del territorio o della provincia
+      m.addLayer({ id: 'area', type: 'circle', source: 'incidents', paint: { 'circle-blur': 1, 'circle-color': COLOR_ACTIVE } });
       m.addLayer({
-        id: 'area', type: 'circle', source: 'incidents',
-        paint: {
-          // ~50-70 km di raggio: ordine di grandezza di un territoire
-          'circle-radius': ['interpolate', ['exponential', 2], ['zoom'], 4, 12, 8, 190],
-          'circle-blur': 1,
-          'circle-color': COLOR_ACTIVE,
-          'circle-opacity': 0.25,
-        },
+        id: 'low', type: 'circle', source: 'incidents',
+        paint: { 'circle-stroke-width': 1, 'circle-stroke-color': COLOR_ACTIVE },
       });
-      // confidenza "low": anello di incertezza attorno al punto
       m.addLayer({
-        id: 'halo', type: 'circle', source: 'incidents',
-        paint: {
-          'circle-radius': ['interpolate', ['linear'], ['zoom'], 4, 9, 9, 22],
-          'circle-color': 'rgba(0,0,0,0)',
-          'circle-stroke-width': 1.5,
-          'circle-stroke-color': COLOR_ACTIVE,
-          'circle-stroke-opacity': 0.6,
-        },
-      });
-      // tutti i punti con posizione (high e low)
-      m.addLayer({
-        id: 'dot', type: 'circle', source: 'incidents',
-        paint: {
-          'circle-radius': 5,
-          'circle-color': COLOR_ACTIVE,
-          'circle-stroke-width': 1,
-          'circle-stroke-color': '#ffffff',
-        },
+        id: 'high', type: 'circle', source: 'incidents',
+        paint: { 'circle-stroke-color': '#ffffff' },
       });
       m.addLayer({
         id: 'selected', type: 'circle', source: 'incidents', filter: ['==', ['get', 'id'], ''],
         paint: { 'circle-radius': 11, 'circle-color': 'rgba(0,0,0,0)', 'circle-stroke-width': 3, 'circle-stroke-color': '#111' },
       });
 
-      for (const layer of ['dot', 'area']) {
+      for (const layer of ['high', 'low', 'area']) {
         m.on('click', layer, (e) => {
           const f = e.features?.[0];
           if (f) onselect(String(f.properties!.id));
@@ -181,15 +226,13 @@
   onDestroy(() => map?.remove());
 
   $effect(() => { void incidents; applyData(); });
-  $effect(() => { void now; applyTime(); });
+  $effect(() => { void now; void overview; applyStyle(); });
   $effect(() => { void selected; applySelected(); });
-
-  /** Centra la mappa su un incidente (chiamato dal genitore quando si apre una scheda). */
-  export function focus(i: Incident) {
-    if (!map) return;
-    const z = i.conf === 'none' ? 6 : 8;
-    map.easeTo({ center: [i.lon, i.lat], zoom: Math.max(map.getZoom(), z), duration: matchMedia('(prefers-reduced-motion: reduce)').matches ? 0 : 800 });
-  }
+  // i pannelli cambiano dimensione (apertura, ridimensionamento): si ricalcola la vista d'insieme
+  $effect(() => {
+    void padding.left; void padding.right; void padding.top; void padding.bottom;
+    if (ready && !away) resetView();
+  });
 </script>
 
 <div class="map" bind:this={container} role="region" aria-label={t(lang, 'mapLabel')}></div>
