@@ -1,0 +1,169 @@
+## P2-041 | puntuale | Sud-Kivu
+L camp de Kashusha | camp | E* | in=Kabare:territoire | n=Kashusha/INERA
+A AFDL,APR > réfugiés | hutu | rifugiati | | attacco_campo_rifugiati,bombardamento_indiscriminato,uccisione | des centaines | ordine_di_grandezza | | tiro indiscriminato su FAZ, ex-FAR/Interahamwe e rifugiati
+## P2-042 | puntuale | Sud-Kivu
+L camp de Chimanga | camp | E* | in=Kabare:territoire | rel=71@Bukavu^ouest
+L Bukavu | ville | R
+A AFDL,APR > réfugiés | hutu,rwandais | rifugiati | | attacco_campo_rifugiati,uccisione,massacro | plusieurs centaines (entre 500 et 800) | intervallo | | rifugiati radunati con il pretesto di una riunione e registrati prima dell'uccisione
+## P2-043 | puntuale | Sud-Kivu
+L route Bukavu-Walungu | route | E* | rel=16@Bukavu>Walungu
+L Bukavu | ville | R
+L Walungu | localité | R
+A AFDL,APR > réfugiés rwandais et burundais | rwandais,burundais,hutu | rifugiati | | rapimento,tortura,mutilazione,uccisione | au moins trente | minimo | | rastrellamento
+## P2-044 | puntuale | Sud-Kivu
+L Nyabibwe | village | E* | in=Kalehe:territoire
+A EX_FAR_INTERAHAMWE > réfugiés malades, âgés ou handicapés | hutu | rifugiati | anziani,disabili | uccisione,distruzione_incendio | nombre indéterminé | indeterminato | | ipotesi che alcune vittime abbiano chiesto di essere uccise non confermata dal rapporto
+## P2-045 | multi-sito | Sud-Kivu
+L Shanje | camp | E* | in=Kalehe:territoire | n=campo di fortuna
+L forêt de Rukiga | forêt | E | in=Kalehe:territoire | n=foresta di bambù e dintorni
+A AFDL,APR > réfugiés | hutu | rifugiati | anziani,bambini | attacco_campo_rifugiati,bombardamento_indiscriminato,uccisione,ferimento,massacro | plusieurs centaines | ordine_di_grandezza | | sopravvissuti uccisi lungo la strada mentre marciavano 'verso il Rwanda'
+## P2-046 | puntuale | Sud-Kivu
+L Lumbishi | localité | E* | in=Kalehe:territoire
+A AFDL,APR > réfugiés rescapés de Shanje | hutu | rifugiati | | uccisione | nombre indéterminé | indeterminato
+## P2-047 | areale | Sud-Kivu
+L parc de la Kahuzi-Biega | parc national | E*
+A AFDL,APR > réfugiés | hutu | rifugiati | | uccisione | nombre indéterminé | indeterminato
+## P2-048 | puntuale | Sud-Kivu
+L pont sur l'Ulindi | pont | E* | in=Shabunda:territoire | rel=9@Shabunda
+L Shabunda | localité | R | n=Shabunda-centre
+L camps de Kabakita | camp | O | n=Kabakita I, II, III
+A AFDL,APR > réfugiés | hutu | rifugiati | | uccisione,massacro,lavoro_forzato,occultamento_cadaveri | environ 500 | approssimato | | abitanti costretti a gettare i corpi nel fiume
+A AFDL,APR > rescapés | hutu | rifugiati | | rapimento,esecuzione_sommaria | | | | giustiziati il giorno dopo verso Kabakita
+## P2-049 | puntuale | Sud-Kivu
+L Mpwe | localité | E* | in=Shabunda:territoire | rel=~Kigulube | n=sulla strada per Kigulube
+L Kigulube | village | R
+A AFDL,APR > réfugiés | hutu | rifugiati | | uccisione,massacro,occultamento_cadaveri | entre 70 et 180 | intervallo | | uccisi a piccoli gruppi in una casa; fossa comune
+## P2-050 | multi-sito | Sud-Kivu
+L Kigulube | village | E* | in=Shabunda:territoire | n=due siti a 4 e 7 km da Kigulube
+A AFDL,APR > réfugiés | hutu | rifugiati | | uccisione,massacro,distruzione_incendio,occultamento_cadaveri | près de 200 | approssimato | | una sessantina bruciati vivi in una casa
+## P2-051 | itinerario | Sud-Kivu
+L Katshungu | localité | O | rel=54@Shabunda^nord-ouest
+L Ivela | localité | E* | in=Shabunda:territoire
+L Balika | localité | E | in=Shabunda:territoire
+L Lulingu | localité | E | in=Shabunda:territoire
+L Keisha | localité | E | in=Shabunda:territoire
+L pont sur l'Ulindi | pont | E | in=Shabunda:territoire
+L Shabunda | localité | R
+A AFDL,APR > réfugiés rescapés de Chimanga | hutu | rifugiati | donne,bambini | uccisione,massacro | plusieurs centaines | ordine_di_grandezza | | alla presenza di alti responsabili dell'APR
+A AFDL,APR > organisations humanitaires | | civili | | ostruzione_aiuti | | | | zona resa inaccessibile; operazioni di 'pulizia'
+## P2-052 | itinerario | Sud-Kivu
+L Kigulube | village | E* | in=Shabunda:territoire | n=tragitto Kigulube–Shabunda
+L Shabunda | localité | E
+L Bukavu | ville | R | n=perimetro di 30 km imposto agli umanitari
+A AFDL,APR > réfugiés | hutu | rifugiati | | decessi_per_privazioni,ostruzione_aiuti,uccisione | plusieurs centaines voire plusieurs milliers | ordine_di_grandezza | condizionale | 'facilitatori' AFDL usati per localizzare i rifugiati
+A AFDL,APR > civils zaïrois ayant aidé les réfugiés | zaïrois | civili | | uccisione | nombre indéterminé | indeterminato
+## P2-053 | multi-sito | Sud-Kivu
+L Lwiro | localité | E | in=Kabare:territoire | n=centro di cura per bambini rifugiati
+L aéroport de Kavumu | aéroport | E* | in=Kabare:territoire
+A AFDL,APR > mineurs hutu rwandais et réfugiés adultes | hutu,rwandais | rifugiati | minori | rapimento,detenzione_arbitraria,tortura,trattamenti_inumani | une cinquantaine de mineurs et neuf adultes | approssimato | | detenuti in container; consegnati all'UNHCR il 29 aprile
+A AFDL,APR > personnel médical du centre de Lwiro | | civili | | percosse,attacco_sanita | | | | per aver curato rifugiati
+## P2-054 | puntuale | Nord-Kivu
+L camp de Kibumba | camp | E* | in=Nyiragongo:territoire
+A NON_SPECIFICATO > réfugiés, militaires du CZSC, gardiens de la Croix-Rouge | hutu | rifugiati, militari, personale umanitario | | attacco_campo_rifugiati,uccisione,attacco_personale_umanitario | trois réfugiés, deux militaires, trois gardiens | esatto | | 'infiltrati venuti dal Rwanda'; giugno 1996
+## P2-055 | puntuale | Nord-Kivu
+L camp de Kibumba | camp | E* | in=Nyiragongo:territoire
+L camp de Mugunga | camp | D
+A AFDL,APR > réfugiés | hutu | rifugiati | | bombardamento_indiscriminato,attacco_campo_rifugiati,attacco_sanita,uccisione,sfollamento_forzato | nombre indéterminé | indeterminato | | ospedale distrutto; circa 194 000 in fuga verso Mugunga
+## P2-056 | puntuale | Nord-Kivu
+L camp de Katale | camp | E* | in=Rutshuru:territoire
+A AFDL,APR > réfugiés | hutu | rifugiati | | attacco_campo_rifugiati,bombardamento_indiscriminato,uccisione | plusieurs dizaines | ordine_di_grandezza | | ucciso anche un militare del CZSC
+## P2-057 | multi-sito | Nord-Kivu
+L camp de Kahindo | camp | E* | in=Rutshuru:territoire
+L camp de Katale | camp | E | in=Rutshuru:territoire
+A AFDL,APR > réfugiés | hutu | rifugiati | | uccisione,attacco_campo_rifugiati | plusieurs centaines (Rapporteur spécial : 143 à Katale, 100 à 200 à Kahindo) | ordine_di_grandezza | condizionale
+## P2-058 | areale | Nord-Kivu
+L volcan Nyiragongo | volcan | R
+L camp de Mugunga | camp | R
+L parc national des Virunga | parc national | E* | n=posti di blocco tra il Nyiragongo e Mugunga
+A AFDL,APR > rescapés de Kahindo et Katale, hommes adultes | hutu | rifugiati | | esecuzione_sommaria | nombre indéterminé | indeterminato | | selezione per età e sesso
+## P2-059 | areale | Nord-Kivu
+L parc national des Virunga | parc national | E*
+A AFDL,APR > réfugiés | hutu | rifugiati | | uccisione,attacco_campo_rifugiati | nombre indéterminé | indeterminato
+## P2-060 | puntuale | Nord-Kivu
+L Mwaro | forêt | E* | in=Nyiragongo:territoire | rel=~Kibumba
+L Kibumba | village | R
+A AFDL,APR > réfugiés tentant de rentrer au Rwanda | hutu | rifugiati | | rapimento,detenzione_arbitraria,uccisione,massacro | plusieurs centaines | ordine_di_grandezza | | rinchiusi in una moschea e in un ex progetto di allevamento
+## P2-061 | puntuale | Nord-Kivu
+L camp de Mugunga | camp | E*
+A AFDL,APR > réfugiés | hutu | rifugiati | | bombardamento_indiscriminato,attacco_campo_rifugiati,uccisione | nombre indéterminé | indeterminato | | sei ore di tiro di artiglieria
+## P2-062 | puntuale | Nord-Kivu
+L Sake | cité | E* | in=Masisi:territoire | n=colline intorno a Sake; fossa comune nella piantagione di Madimba
+A AFDL,APR > réfugiés en fuite vers Masisi | hutu | rifugiati | | bombardamento_indiscriminato,uccisione,massacro | un grand nombre ; des centaines de corps | ordine_di_grandezza
+## P2-063 | itinerario | Nord-Kivu
+L camp de Mugunga | camp | E*
+L Sake | cité | E | in=Masisi:territoire
+A AFDL,APR > réfugiés | hutu | rifugiati | donne,bambini | uccisione | 40 dénombrés dans le camp ; 166 corps le long de la route | minimo
+## P2-064 | puntuale | Nord-Kivu
+L lac Vert | lac | E* | rel=~Mugunga
+L camp de Mugunga | camp | O
+A AFDL,APR > hommes hutu rwandais | hutu,rwandais | rifugiati | | rapimento,esecuzione_sommaria,occultamento_cadaveri | nombre indéterminé | indeterminato | | alcuni legati e gettati vivi nel lago
+## P2-065 | areale | Nord-Kivu
+L camp de Mugunga | camp | E*
+L lac Vert | lac | E
+A AFDL,APR > réfugiés cherchant à être rapatriés | hutu | rifugiati | | esecuzione_sommaria | | indeterminato | | fosse comuni nel parco a 5 km da Mugunga (una fonte)
+## P2-066 | puntuale | Nord-Kivu
+L Ngungu | village | E* | in=Masisi:territoire
+A MAYI_MAYI,AFDL:sostegno,APR:sostegno > réfugiés et ex-FAR/Interahamwe | hutu | rifugiati e combattenti | | uccisione,bombardamento_indiscriminato | nombre indéterminé (peut-être plusieurs centaines) | indeterminato | | Mayi-Mayi alleati dell'AFDL, con l'artiglieria AFDL/APR
+## P2-067 | puntuale | Nord-Kivu
+L ferme d'Osso | ferme | E* | in=Masisi:territoire | n=campo di fortuna accanto alla fattoria
+A AFDL,APR > réfugiés | hutu | rifugiati | donne,bambini | uccisione,attacco_campo_rifugiati | des dizaines (20 à 100 corps vus) | intervallo
+A AFDL,APR > civils zaïrois accusés d'avoir aidé les réfugiés | zaïrois | civili | | uccisione | | indeterminato
+## P2-068 | puntuale | Nord-Kivu
+L Mbeshe Mbeshe | village | E* | in=Katoyi:chefferie,Masisi:territoire | n=collectivité de Katoyi
+A AFDL,APR > réfugiés rwandais | hutu,rwandais | rifugiati | | attacco_campo_rifugiati,uccisione,massacro | plusieurs centaines | ordine_di_grandezza | | secondo una fonte uccisi anche sfollati zairesi
+## P2-069 | puntuale | Nord-Kivu
+L Miandja | village | E* | in=Masisi:territoire
+A AFDL,APR > réfugiés rwandais et Banyarwanda hutu | hutu,rwandais,banyarwanda | rifugiati e civili | | uccisione | une cinquantaine (40 réfugiés, dix Banyarwanda) | approssimato
+## P2-070 | multi-sito | Nord-Kivu
+L Karunda | site | E* | in=Kirumbu:village,Bashali:chefferie,Masisi:territoire
+L Kirumbu | village | C | in=Masisi:territoire
+L Nyabura | plantation | E | in=Bashali:chefferie,Masisi:territoire | n=groupement Bashali-Mokoto
+A AFDL,APR > réfugiés | hutu | rifugiati | | uccisione | un grand nombre | indeterminato
+## P2-071 | puntuale | Nord-Kivu
+L Humule | village | E* | in=Masisi:territoire | rel=~Karuba | n=in una scuola; a 50 km da Goma
+L Karuba | localité | R
+A AFDL,APR > réfugiés en route vers le centre HCR | hutu | rifugiati | donne | uccisione,attacco_scuola | 53 | esatto
+A AFDL,APR > femmes réfugiées | hutu | rifugiati | donne | violenza_sessuale | | indeterminato | condizionale | secondo alcuni testimoni
+## P2-072 | puntuale | Nord-Kivu
+L Karuba | localité | E* | in=Masisi:territoire
+A AFDL,APR > réfugiés et un employé de Save The Children | hutu | rifugiati, personale umanitario | bambini | uccisione,attacco_personale_umanitario | quatre réfugiés et un employé | esatto
+## P2-073 | multi-sito | Nord-Kivu
+L pont de Hombo | pont | E* | in=Walikale:territoire
+L Kampala | localité | E | rel=?@Hombo
+L Hombo | localité | R
+A AFDL,APR > réfugiés | hutu | rifugiati | donne,bambini | uccisione,massacro,distruzione_incendio | plusieurs centaines | ordine_di_grandezza | | col pretesto del rimpatrio; alcuni bruciati vivi a Kampala
+A AFDL,APR > femmes réfugiées | hutu | rifugiati | donne | violenza_sessuale | de nombreuses femmes | indeterminato
+## P2-074 | puntuale | Nord-Kivu
+L Chambucha | village | E* | in=Walikale:territoire | rel=4@Hombo | n=ponte sulla Lowa
+L Hombo | localité | R
+A AFDL,APR > réfugiés rwandais | hutu,rwandais | rifugiati | donne,bambini | esecuzione_sommaria,massacro,occultamento_cadaveri | plusieurs centaines | ordine_di_grandezza | | corpi gettati nella Lowa
+## P2-075 | puntuale | Nord-Kivu
+L Biriko | localité | E* | in=Walikale:territoire | n=campi di fortuna; fiume Nyawaranga
+L Ziralo | localité | O | n=Sud-Kivu
+L Bunyakiri | localité | O | n=Sud-Kivu
+L Ngungu | village | O
+A AFDL,APR > réfugiés | hutu | rifugiati | donne,bambini | attacco_campo_rifugiati,uccisione,massacro | des centaines | ordine_di_grandezza
+## P2-076 | puntuale | Nord-Kivu
+L Kifuruka | localité | E* | in=Walikale:territoire | rel=10@Biriko
+L Biriko | localité | R
+A AFDL,APR > réfugiés | hutu | rifugiati | | uccisione,massacro | plusieurs centaines | ordine_di_grandezza | | col pretesto del rimpatrio
+## P2-077 | puntuale | Nord-Kivu
+L Musenge | localité | E* | in=Walikale:territoire | n=tra Hombo e Walikale; colline di Ikoyi e Musenge
+L Hombo | localité | R
+L Walikale | localité | R
+A AFDL,APR > réfugiés rwandais | hutu,rwandais | rifugiati | | rapimento,detenzione_arbitraria,uccisione,massacro | des centaines | ordine_di_grandezza | | posti di blocco; pretesto del rimpatrio con l'UNHCR
+## P2-078 | puntuale | Nord-Kivu
+L Mutiko | localité | E* | in=Walikale:territoire | n=il testo scrive anche 'Mukito'
+A AFDL,APR,POPULATION_LOCALE:complicità > réfugiés | hutu | rifugiati | | uccisione,massacro | plusieurs centaines | ordine_di_grandezza | | popolazione incitata a partecipare
+A AFDL,APR > population autochtone | | civili | | lavoro_forzato | | | | costretta a seppellire i cadaveri
+## P2-079 | puntuale | Nord-Kivu
+L Walikale | localité | E* | n=Walikale-centre
+L Nyarusukula | quartier | E | in=Walikale:ville
+A AFDL,APR > réfugiés | hutu | rifugiati | | uccisione,occultamento_cadaveri | nombre indéterminé | indeterminato | | corpi gettati nella Lowa
+## P2-080 | puntuale | Nord-Kivu
+L Kariki | camp | E* | in=Walikale:territoire | rel=13@Walikale
+L Walikale | localité | R
+L Ngora | localité | O
+A AFDL,APR > réfugiés | hutu | rifugiati | | attacco_campo_rifugiati,uccisione | nombre indéterminé | indeterminato | | ossa ancora visibili alla stesura del rapporto
+A AFDL,APR > civils de Ngora | | civili | | lavoro_forzato | | | | costretti a fare da portatori
+A AFDL,APR > ex-FAR/Interahamwe désarmés | hutu | combattenti fuori combattimento | | esecuzione_sommaria | | indeterminato

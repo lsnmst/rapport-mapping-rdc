@@ -1,0 +1,169 @@
+## P2-001 | puntuale | Sud-Kivu
+L Uvira | ville | E*
+A FAZ > Tutsi/Banyamulenge | tutsi,banyamulenge | civili | | arresto_arbitrario | nombre indéterminé | indeterminato
+A FAZ > établissements religieux et ONG banyamulenge | banyamulenge | civili | | saccheggio,attacco_luogo_di_culto
+## P2-002 | puntuale | Sud-Kivu
+L Kabela | village | E* | in=Fizi:territoire
+A ELEMENTS_ARMES_BEMBE,FAZ:sostegno > civils banyamulenge (hommes) | banyamulenge | civili | | uccisione | nombre indéterminé | indeterminato
+A ELEMENTS_ARMES_BEMBE,FAZ:sostegno > femmes banyamulenge | banyamulenge | civili | donne | violenza_sessuale | la plupart des femmes | indeterminato
+## P2-003 | puntuale | Sud-Kivu
+L Kamanyola | poste frontalier | E* | in=Walungu:territoire | rel=90@Uvira^nord
+L Uvira | ville | R
+A FAZ > Banyamulenge en attente d'expulsion | banyamulenge | civili | minori | uccisione,esecuzione_sommaria,saccheggio | au moins deux | minimo | | tra le vittime il presidente della comunità banyamulenge di Uvira
+## P2-004 | puntuale | Sud-Kivu
+L Kamanyola | poste frontalier | E* | in=Walungu:territoire
+A FAZ > Banyamulenge/Tutsi | banyamulenge,tutsi | civili | | uccisione | au moins une quinzaine | minimo | | accusati di appartenere a gruppi armati infiltrati
+## P2-005 | puntuale | Sud-Kivu
+L Nyamugali | village | E* | rel=47@Uvira^nord | n=piana della Ruzizi
+L Uvira | ville | R
+A FAZ > civils banyamulenge | banyamulenge | civili | | esecuzione_sommaria | deux | esatto | | esecuzione pubblica
+## P2-006 | puntuale | Sud-Kivu
+L Lubonja | village | E* | in=Nganja:chefferie,Fizi:territoire | n=il testo indica 'secteur de Nganja'
+L Minembwe | localité | D
+A ELEMENTS_ARMES_BEMBE > Banyamulenge, surtout des femmes | banyamulenge | civili | donne | uccisione | nombre indéterminé | indeterminato | | uccisi anche due pastori
+## P2-007 | puntuale | Sud-Kivu
+L Baraka | localité | E* | in=Fizi:territoire
+L Bibokoboko | village | O | n=Hauts et Moyens plateaux
+A ELEMENTS_ARMES_BEMBE,FAZ:sostegno > civils banyamulenge | banyamulenge | civili | donne,bambini | uccisione,massacro | près de 300 | approssimato | | fossa comune a Baraka
+A ELEMENTS_ARMES_BEMBE,FAZ:sostegno > femmes banyamulenge | banyamulenge | civili | donne,minori | violenza_sessuale | de nombreuses femmes | indeterminato | | stupri collettivi prima dell'uccisione
+A NON_SPECIFICATO > restes des victimes | banyamulenge | civili | | occultamento_cadaveri | | | antefatto | nel 2005 un'alta autorità chiede ai Mayi-Mayi di disperdere le ossa nel lago Tanganyika
+## P2-008 | puntuale | Sud-Kivu
+L Lueba | village | E* | in=Fizi:territoire | rel=78@Uvira^sud
+L Uvira | ville | R
+A ELEMENTS_ARMES_BEMBE,FAZ:sostegno > civils banyamulenge | banyamulenge | civili | donne,bambini | uccisione,massacro,distruzione_incendio | 152 | esatto | | alcune vittime bruciate vive
+A ELEMENTS_ARMES_BEMBE,FAZ:sostegno > femmes banyamulenge | banyamulenge | civili | donne,minori | violenza_sessuale | de nombreuses femmes | indeterminato | | stupri collettivi
+## P2-009 | puntuale | Sud-Kivu
+L Mboko | village | E* | in=Fizi:territoire | n=di fronte al villaggio; lago Tanganyika
+A ELEMENTS_ARMES_BEMBE > civils banyamulenge rescapés de Lueba (hommes) | banyamulenge | civili | | uccisione | près d'une centaine | approssimato | | legati e gettati nel lago
+A ELEMENTS_ARMES_BEMBE > hommes banyamulenge | banyamulenge | civili | | detenzione_arbitraria,sparizione_forzata | quinze | esatto
+## P2-010 | puntuale | Sud-Kivu
+L Sange | village | E* | in=Uvira:territoire
+A POPULATION_LOCALE,FAZ > Banyamulenge | banyamulenge | civili | | rapimento,uccisione | quinze | esatto | | 'jeunes locaux' con militari, col pretesto di scortarli in Rwanda
+## P2-011 | puntuale | Sud-Kivu
+L Bukavu | ville | E*
+L Panzi | quartier | E | in=Bukavu:ville
+A FAZ > Banyamulenge, dont des familles de militaires tutsi des FAZ | banyamulenge,tutsi | civili | donne,bambini | uccisione,esecuzione_sommaria,massacro | plusieurs centaines | ordine_di_grandezza | | anche al sito SNCZ (zona portuale)
+## P2-012 | puntuale | Sud-Kivu
+L Kabindula | quartier | E* | in=Uvira:ville
+A POPULATION_LOCALE > civil banyamulenge/tutsi | banyamulenge,tutsi | civili | | uccisione,mutilazione | un | esatto
+## P2-013 | puntuale | Sud-Kivu
+L Kamituga | localité | E* | in=Mwenga:territoire
+L Lugushwa | village | O | in=Shabunda:territoire
+A FDD > Banyamulenge/Tutsi travailleurs miniers | banyamulenge,tutsi | sfollati | | esecuzione_sommaria | entre 12 et 20 | intervallo | | esecuzione pubblica; accusati di collaborare con AFDL/APR; data ottobre o novembre 1996
+## P2-014 | puntuale | Sud-Kivu
+L rivière Zalya | rivière | E* | in=Mwenga:territoire | rel=?@Kamituga
+L Kamituga | localité | R
+A FDD,FAZ > civils tutsi | tutsi | civili | | uccisione,occultamento_cadaveri | une cinquantaine | approssimato
+## P2-015 | multi-sito | Kinshasa
+L Kinshasa | ville | E*
+L Ngaliema | commune | E | in=Kinshasa:ville | n=bâtiment du SARM
+L Gombe | commune | E | in=Kinshasa:ville | n=bâtiment du SNIP
+L camp Tshatshi | camp militaire | E | in=Kinshasa:ville
+A POPULATION_LOCALE > Rwandais et personnes d'origine rwandaise, surtout tutsi | rwandais,tutsi | civili | donne,bambini | percosse,trattamenti_inumani | | | | manifestazioni studentesche
+A FORCES_SECURITE_ZAIROISES,POPULATION_LOCALE:complicità > Rwandais, surtout tutsi | rwandais,tutsi | civili | | arresto_arbitrario,detenzione_arbitraria,tortura,saccheggio,requisizione_beni | de nombreux | indeterminato | | condizioni di detenzione potenzialmente letali
+A FORCES_SECURITE_ZAIROISES > détenus rwandais | rwandais,tutsi | civili | | esecuzione_sommaria | nombre indéterminé | indeterminato | | soprattutto al camp Tshatshi
+A AUTORITES_ZAIROISES > Rwandais | rwandais,tutsi | civili | | espulsione_forzata | | | | deportati in Rwanda e Burundi
+## P2-016 | puntuale | Orientale
+L Kisangani | ville | E* | n=e dintorni
+A FORCES_SECURITE_ZAIROISES,POPULATION_LOCALE > civils rwandais ou d'origine rwandaise | rwandais | civili | | arresto_arbitrario,detenzione_arbitraria,tortura,uccisione | plusieurs dizaines | ordine_di_grandezza | | almeno un'uccisione in pubblico
+## P2-017 | puntuale | Sud-Kivu
+L camp de Birava | camp | E* | in=Kabare:territoire
+L camp de Chimanga | camp | D
+L camp de Kashusha | camp | D
+A APR > réfugiés rwandais | rwandais,hutu | rifugiati | | attacco_campo_rifugiati,uccisione,ferimento | une trentaine | approssimato | | avvenuto l'11 aprile 1995, prima del periodo
+## P2-018 | puntuale | Sud-Kivu
+L camp de Runingu | camp | E* | in=Uvira:territoire
+A BANYAMULENGE_ARMES > réfugiés | hutu | rifugiati | | uccisione,attacco_campo_rifugiati | entre huit et dix | intervallo | | aggressori provenienti dal Burundi
+## P2-019 | puntuale | Sud-Kivu
+L camp de Runingu | camp | E* | in=Uvira:territoire
+A BANYAMULENGE_ARMES > réfugiés | hutu | rifugiati | | attacco_campo_rifugiati,uccisione,ferimento | quatre tués, sept blessés | esatto
+## P2-020 | multi-sito | Sud-Kivu
+L camp d'Itara | camp | E* | in=Uvira:territoire | rel=~Luvungi | n=Itara I e II
+L Katala | village | E | rel=~Luvungi
+L Luvungi | village | R
+A AFDL,APR,FAB > réfugiés burundais et rwandais | burundais,rwandais,hutu | rifugiati | | attacco_campo_rifugiati,uccisione,esecuzione_sommaria | au moins 100 | minimo
+A AFDL,APR,FAB > population locale | | civili | | lavoro_forzato | | | | costretta a seppellire i corpi in fosse comuni
+## P2-021 | puntuale | Sud-Kivu
+L camp de Kanganiro | camp | E* | in=Uvira:territoire | rel=~Luvungi
+L Luvungi | village | E | in=Uvira:territoire
+A AFDL,APR,FAB > réfugiés, dont patients de l'hôpital du camp | hutu | rifugiati | | attacco_campo_rifugiati,attacco_sanita,uccisione,bombardamento_indiscriminato | nombre indéterminé, dont une vingtaine à l'hôpital | indeterminato
+A AFDL,APR,FAB > population locale | | civili | | lavoro_forzato | | | | sepoltura forzata in fosse comuni
+## P2-022 | puntuale | Sud-Kivu
+L Rubenga | village | E* | in=Uvira:territoire
+L rivière Ruzizi | rivière | E | n=corpi gettati nel fiume
+A AFDL,APR,FAB > réfugiés et civils zaïrois en fuite | hutu,zaïrois | rifugiati e civili | | uccisione,occultamento_cadaveri | nombre indéterminé | indeterminato
+## P2-023 | multi-sito | Sud-Kivu
+L Lubarika | village | E* | in=Uvira:territoire | n=campo e villaggio
+L Kakumbukumbu | village | E | rel=5@Lubarika
+A AFDL,APR,FAB > réfugiés rwandais et burundais, civils zaïrois | rwandais,burundais,hutu,zaïrois | rifugiati e civili | | attacco_campo_rifugiati,uccisione,lavoro_forzato | nombre indéterminé | indeterminato | | sepoltura forzata in quattro fosse comuni
+A AFDL,APR,FAB > réfugiés | hutu | rifugiati | | uccisione,distruzione_incendio | trente | esatto | | bruciati vivi in una casa a Kakumbukumbu
+## P2-024 | multi-sito | Sud-Kivu
+L camp de Luberizi | camp | E* | in=Uvira:territoire | n=tra Luberizi e Mutarule
+L Luberizi | village | E
+L Mutarule | village | E
+A AFDL,APR,FAB > réfugiés | hutu | rifugiati | | attacco_campo_rifugiati,bombardamento_indiscriminato,uccisione,occultamento_cadaveri | environ 370 | approssimato
+A AFDL,APR,FAB > réfugiés et Zaïrois | hutu,zaïrois | rifugiati e civili | | uccisione | plusieurs dizaines | ordine_di_grandezza | | oltre 60 corpi ritrovati nelle case
+## P2-025 | multi-sito | Sud-Kivu
+L camp de Kagunga | camp | E* | in=Uvira:territoire
+L Hongero | village | E | rel=1@Kagunga
+A AFDL,APR,FAB > réfugiés | hutu | rifugiati | | attacco_campo_rifugiati,uccisione | nombre indéterminé | indeterminato | | un testimone ha visto otto cadaveri
+## P2-026 | puntuale | Sud-Kivu
+L Kiliba | sucrerie | E* | in=Uvira:territoire | n=settori 3 e 4 dello zuccherificio
+A AFDL,APR,FAB > réfugiés cachés | hutu | rifugiati | | uccisione | nombre indéterminé | indeterminato
+## P2-027 | puntuale | Sud-Kivu
+L Ndunda | village | E* | in=Uvira:territoire | n=vicino al confine con il Burundi
+A AFDL,APR,FAB > réfugiés et civils zaïrois | hutu,zaïrois | rifugiati e civili | | uccisione,massacro | environ 250 (plus de 200 réfugiés et une trentaine de Zaïrois) | approssimato | | annegamenti nella Ruzizi durante la fuga
+## P2-028 | puntuale | Sud-Kivu
+L Mwaba | village | E* | in=Uvira:territoire
+L camp de Biriba | camp | O
+A AFDL,APR,FAB > réfugiés hutu burundais | hutu,burundais | rifugiati | | detenzione_arbitraria,uccisione,distruzione_incendio | 24 | esatto | | bruciati vivi in una casa
+## P2-029 | puntuale | Sud-Kivu
+L ravin de Rushima | ravin | E* | in=Uvira:territoire | rel=~Bwegera | n=tra Bwegera e Luberizi
+L Bwegera | village | R
+L Luberizi | village | R
+A AFDL,APR,FAB > réfugiés hutu rwandais | hutu,rwandais | rifugiati | | uccisione,massacro | près de 550 | approssimato
+A AFDL,APR,FAB > réfugiés | hutu | rifugiati | | esecuzione_sommaria | nombre indéterminé | indeterminato | | 27 ottobre–1 novembre, col pretesto del rimpatrio
+## P2-030 | puntuale | Sud-Kivu
+L Kahororo | lieu-dit | E* | in=Kiliba:sucrerie,Uvira:territoire | rel=~Kiliba | n=settore 7 dello zuccherificio
+L Kiliba | sucrerie | R
+A AFDL,APR,FAB > réfugiés | hutu | rifugiati | | rapimento,uccisione | nombre indéterminé | indeterminato
+## P2-031 | puntuale | Sud-Kivu
+L Luberizi | village | E* | in=Uvira:territoire | n=presso la chiesa CEPZA/CEPAC
+A AFDL,APR,FAB > réfugiés de sexe masculin | hutu | rifugiati | | esecuzione_sommaria,massacro | environ 220 | approssimato | | col pretesto del rimpatrio; fosse comuni presso la chiesa
+## P2-032 | puntuale | Sud-Kivu
+L Bwegera | village | E* | in=Uvira:territoire | n=casa della COTONCO a 1 km dal villaggio
+A AFDL,APR,FAB > réfugiés rwandais | rwandais,hutu | rifugiati | | rapimento,uccisione,distruzione_incendio | 72 | esatto | | bruciati vivi
+## P2-033 | puntuale | Sud-Kivu
+L Ngendo | village | E* | in=Uvira:territoire | rel=7@Sange
+L Sange | village | R
+A AFDL,APR,FAB > réfugiés burundais | burundais,hutu | rifugiati | | uccisione | environ 100 | approssimato
+## P2-034 | puntuale | Sud-Kivu
+L Rukogero | village | E* | in=Uvira:territoire | rel=9@Sange
+L Sange | village | R
+L camp de Kibogoye | camp | O
+A AFDL,APR,FAB > réfugiés de sexe masculin, dont des garçons | hutu | rifugiati | minori | detenzione_arbitraria,esecuzione_sommaria,occultamento_cadaveri | 13 | esatto | | rinchiusi nella chiesa CEPZA
+## P2-035 | puntuale | Sud-Kivu
+L Ruzia | village | E* | in=Uvira:territoire
+A AFDL,APR,FAB > réfugiés et civils zaïrois | hutu,zaïrois | rifugiati e civili | | rapimento,uccisione,distruzione_incendio | quinze | esatto | | rastrellamento; tre fosse comuni
+## P2-036 | puntuale | Sud-Kivu
+L Ruzia | village | E* | in=Uvira:territoire | n=sulla riva della Ruzizi
+A AFDL,APR,FAB > réfugiés rescapés de Runingu | hutu | rifugiati | | uccisione,massacro,occultamento_cadaveri | au moins 150 (une autre source : 600) | minimo
+## P2-037 | puntuale | Sud-Kivu
+L camp de Kamanyola | camp | E* | in=Walungu:territoire
+L Bwegera | village | O
+L Bugarama | ville | O | n=Rwanda
+A AFDL,APR > réfugiés et civils zaïrois | hutu,zaïrois | rifugiati e civili | | attacco_campo_rifugiati,uccisione,occultamento_cadaveri | nombre indéterminé | indeterminato
+## P2-038 | puntuale | Sud-Kivu
+L Nyarubale | colline | E* | in=Walungu:territoire | rel=2@Kamanyola | n=colline di Kalunga
+L Kamanyola | localité | R
+A AFDL,APR > réfugiés en fuite | hutu | rifugiati | | uccisione,esecuzione_sommaria | nombre indéterminé | indeterminato | | esecuzioni ai posti di blocco in base all'accento
+## P2-039 | itinerario | Sud-Kivu
+L Nyantende | localité | E*
+L Walungu | localité | E | n=Walungu-centre
+L Bukavu | ville | E
+A AFDL,APR > réfugiés en fuite | hutu | rifugiati | donne,bambini,anziani | uccisione,massacro,bombardamento_indiscriminato,distruzione_incendio | plusieurs centaines (entre 200 et 600) | intervallo | | lungo gli assi Nyantende–Walungu e Nyantende–Bukavu
+## P2-040 | puntuale | Sud-Kivu
+L Lwakabiri | village | E* | rel=30@Bukavu^ouest
+L Bukavu | ville | R
+L Nyangezi | localité | O
+A AFDL,APR > réfugiés | hutu | rifugiati | | uccisione | cinq | esatto

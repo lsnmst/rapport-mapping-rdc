@@ -1,0 +1,66 @@
+{
+ "uccisioni": [
+  "uccisione",
+  "esecuzione_sommaria",
+  "uso_della_forza_letale",
+  "bombardamento_indiscriminato",
+  "mutilazione",
+  "occultamento_cadaveri",
+  "massacro"
+ ],
+ "violenza_sessuale": [
+  "violenza_sessuale"
+ ],
+ "tortura_maltrattamenti": [
+  "tortura",
+  "trattamenti_inumani",
+  "percosse",
+  "ferimento",
+  "minaccia"
+ ],
+ "privazione_liberta": [
+  "arresto_arbitrario",
+  "detenzione_arbitraria",
+  "rapimento",
+  "sparizione_forzata",
+  "reclutamento_forzato",
+  "lavoro_forzato"
+ ],
+ "sfollamento_espulsione": [
+  "sfollamento_forzato",
+  "espulsione_forzata",
+  "rimpatrio_forzato",
+  "restrizione_movimento"
+ ],
+ "distruzione_saccheggio": [
+  "saccheggio",
+  "distruzione_incendio",
+  "distruzione_beni",
+  "requisizione_beni",
+  "perquisizione_arbitraria"
+ ],
+ "attacchi_beni_protetti": [
+  "attacco_scuola",
+  "attacco_sanita",
+  "attacco_luogo_di_culto",
+  "attacco_convogli",
+  "attacco_villaggi",
+  "attacco",
+  "attacco_campo_rifugiati",
+  "attacco_personale_umanitario"
+ ],
+ "persecuzione_discriminazione": [
+  "persecuzione",
+  "licenziamento_discriminatorio",
+  "sospensione_arbitraria"
+ ],
+ "decessi_per_condizioni_imposte": [
+  "decessi_per_privazioni",
+  "decessi_durante_trasferimento",
+  "negazione_assistenza",
+  "ostruzione_aiuti"
+ ],
+ "bambini_soldato": [
+  "reclutamento_minori"
+ ]
+}

@@ -1,0 +1,167 @@
+## P2-081 | puntuale | Maniema
+L camp de Tingi-Tingi | camp | E* | n=dispensario del campo
+A AFDL,APR > derniers occupants du camp, dont malades et enfants non accompagnés | hutu | rifugiati | bambini,malati | attacco_campo_rifugiati,attacco_sanita,uccisione,massacro | plusieurs centaines | ordine_di_grandezza | | fosse comuni scavate dalla Croce Rossa di Lubutu
+## P2-082 | itinerario | Maniema
+L pont sur la Lubilinga | pont | E* | rel=~Lubutu
+L Lubutu | localité | D
+A AFDL,APR > réfugiés en fuite vers Lubutu | hutu | rifugiati | | uccisione,massacro | plusieurs dizaines puis plusieurs centaines | ordine_di_grandezza | | annegamenti e calca sul ponte
+A AFDL,APR > population de Lubutu | | civili | | lavoro_forzato | | | | sepoltura dei corpi, in gran parte gettati nel fiume
+## P2-083 | puntuale | Maniema
+L route Kalima-Kindu | route | E* | in=Pangi:territoire | rel=20@Kalima>Kindu
+L Kalima | localité | O | n=parrocchia di Kalima
+L Kindu | ville | R
+A AFDL,APR > religieux réfugiés hutu rwandais (huit abbés, trois sœurs) | hutu,rwandais,clero cattolico | rifugiati | | rapimento,uccisione | 11 | esatto | | col pretesto del ritorno in Rwanda
+## P2-084 | itinerario | Maniema
+L Kalima | localité | E* | in=Pangi:territoire | n=campo presso l'aeroporto e città
+L Kingombe Mungembe | village | E | in=Pangi:territoire
+L Mumbuza | village | E
+L Kenye | village | E
+L Idombo | village | E
+L Kisanji | village | E | in=Kasongo:territoire
+L Sengaluji | village | E | in=Kasongo:territoire
+L Karubenda | village | E | in=Kasongo:territoire
+L Kindu | ville | R
+A AFDL,APR > réfugiés rescapés de Shabunda | hutu | rifugiati | donne,bambini | uccisione,attacco_campo_rifugiati,esecuzione_sommaria,massacro | quelque 200 (au moins 165 corps vus) | approssimato | | almeno 20 al campo presso l'aeroporto di Kalima
+A AFDL,APR > Zaïrois ayant hébergé des réfugiés | zaïrois | civili | | percosse,perquisizione_arbitraria | | indeterminato
+## P2-085 | multi-sito | Maniema
+L camp de Tingi-Tingi | camp | E*
+L camp d'Amisi | camp | E
+A AFDL,APR > réfugiés rescapés | hutu | rifugiati | | ostruzione_aiuti,decessi_per_privazioni | au moins 216 morts à Tingi-Tingi | minimo
+## P2-086 | puntuale | Orientale
+L Wanie Rukula | localité | E* | in=Ubundu:territoire | n=due campi vicini; fiume Luboya
+A AFDL,APR > réfugiés | hutu | rifugiati | | attacco_campo_rifugiati,uccisione,massacro,occultamento_cadaveri | au moins 470 | minimo
+## P2-087 | puntuale | Orientale
+L prison centrale de Kisangani | prison | E* | in=Kisangani:ville
+A AFDL,APR > réfugiés hutu détenus | hutu | rifugiati | donne,bambini | sparizione_forzata,persecuzione | une trentaine (et une vingtaine de femmes et enfants) | approssimato | | selezione su base etnica: i tutsi liberati
+## P2-088 | puntuale | Orientale
+L route Kisangani-Lubutu | route | E*
+A AFDL,APR > réfugiés | hutu | rifugiati | | arresto_arbitrario,sparizione_forzata | 11 | esatto
+## P2-089 | puntuale | Orientale
+L camp d'Obilo | camp | E* | in=Ubundu:territoire | n=«Camp de la Paix»
+A AFDL,APR > réfugiés | hutu | rifugiati | donne,bambini | attacco_campo_rifugiati,uccisione,massacro | au moins 80 | minimo | | quattro fosse comuni
+## P2-090 | areale | Orientale
+L Kisangani | ville | R
+L camp de Biaro | camp | E*
+L camp de Kasese | camp | E
+L Lula | localité | E | n=barriera d'accesso alla zona interdetta
+A AFDL,APR > réfugiés des camps au sud de Kisangani | hutu | rifugiati | bambini | ostruzione_aiuti,decessi_per_privazioni | entre 60 et 120 décès par jour | intervallo | | rimpatri ostacolati e rinviati
+A POPULATION_LOCALE,AFDL:istigazione,APR:istigazione > convoi humanitaire et dépôt du PAM | | personale umanitario | | attacco_personale_umanitario,saccheggio
+## P2-091 | puntuale | Orientale
+L camp de Kasese | camp | E* | n=Kasese I e II
+L Kisesa | village | O
+A POPULATION_LOCALE,AFDL:istigazione,APR:istigazione > réfugiés | hutu | rifugiati | | attacco_campo_rifugiati,uccisione,saccheggio | nombre indéterminé | indeterminato | condizionale | movente di rappresaglia contestato da fonti credibili
+## P2-092 | puntuale | Orientale
+L camp de Kasese | camp | E* | n=Kasese I e II
+L Kisesa | village | E
+A AFDL,APR,POPULATION_LOCALE:complicità > réfugiés, surtout des civils | hutu | rifugiati | bambini,malati | attacco_campo_rifugiati,massacro,uccisione,occultamento_cadaveri | au moins 200 | minimo | | alla presenza di alti responsabili dell'APR; corpi esumati e bruciati
+A AFDL,APR > villageois de Kisesa | | civili | | lavoro_forzato | | | | raccolta dei corpi
+## P2-093 | puntuale | Orientale
+L camp de Biaro | camp | E*
+A AFDL,APR > réfugiés | hutu | rifugiati | donne,bambini | attacco_campo_rifugiati,bombardamento_indiscriminato,uccisione,massacro,occultamento_cadaveri | près de 100 | approssimato | | inseguiti nella foresta; corpi bruciati su roghi
+## P2-094 | puntuale | Orientale
+L PK 52 | point kilométrique | E* | n=punto chilometrico 52, asse ferroviario Ubundu–Kisangani
+A AFDL,APR > réfugiés | hutu | rifugiati | donne,bambini | esecuzione_sommaria,occultamento_cadaveri | nombre indéterminé | indeterminato
+## P2-095 | itinerario | Orientale
+L ligne Ubundu-Kisangani | voie ferrée | E* | n=treno dei rifugiati
+L Kisangani | ville | D
+A AFDL,APR > réfugiés | hutu | rifugiati | | decessi_durante_trasferimento,ostruzione_aiuti | plus de 90 | minimo
+## P2-096 | puntuale | Orientale
+L Yalikaka | village | E* | in=Opala:territoire
+A POPULATION_LOCALE > réfugiés | hutu | rifugiati | | uccisione,occultamento_cadaveri | au moins 50 | minimo | condizionale | abitanti agli ordini di un civile; rappresaglia per un omicidio degli ex-FAR/Interahamwe
+## P2-097 | puntuale | Orientale
+L Yalikaka | village | E* | in=Opala:territoire
+A AFDL,APR > réfugiés | hutu | rifugiati | | esecuzione_sommaria,massacro | des centaines | ordine_di_grandezza
+## P2-098 | puntuale | Orientale
+L Makako | village | E* | in=Opala:territoire
+A POPULATION_LOCALE,AFDL,APR > réfugiés | hutu | rifugiati | | uccisione,massacro | 300 | esatto | | abitanti di Yalikaka con l'AFDL/APR
+## P2-099 | itinerario | Orientale
+L Yaoleka | localité | E | in=Opala:territoire | n=asse Yaoleka–Anzi
+L Anzi | localité | E | in=Opala:territoire
+L Yaata | village | E* | in=Opala:territoire
+L Lilanga | village | E | in=Opala:territoire
+L Lekatelo | village | E | in=Opala:territoire
+L Otala | village | E | in=Opala:territoire | n=al confine con l'Équateur
+A POPULATION_LOCALE > réfugiés | hutu | rifugiati | | uccisione | plusieurs dizaines (25-30 à Yaata, 10 à Lilanga, 21 à Lekatelo, une quarantaine à Otala) | ordine_di_grandezza | | frecce e cibo avvelenati
+## P2-100 | puntuale | Orientale
+L Bengamisa | localité | E* | rel=51@Kisangani^nord | n=sito militare
+L Kisangani | ville | O
+A AFDL,APR > réfugiés, dont des femmes et enfants et quelques ex-FAR | hutu | rifugiati | donne,bambini | rapimento,esecuzione_sommaria,massacro,occultamento_cadaveri | nombre indéterminé | indeterminato | | operazione pianificata durata almeno un mese; tracce cancellate
+## P2-101 | puntuale | Orientale
+L Alibuku | localité | E* | n=dintorni; collina sopra una valle rocciosa
+A AFDL,APR > réfugiés | hutu | rifugiati | | rapimento,uccisione,massacro,occultamento_cadaveri | probablement des centaines | ordine_di_grandezza | condizionale
+## P2-102 | puntuale | Orientale
+L camp de transit | camp | E* | rel=11@Kisangani
+L Kisangani | ville | R
+A FAC,APR > réfugiés rwandais et burundais | rwandais,burundais,hutu | rifugiati | donne,bambini | rimpatrio_forzato | 765 (440 Rwandais, 325 Burundais) | esatto | | senza testimoni esterni
+## P2-103 | puntuale | Orientale
+L camp de Lula | camp | E* | rel=7@Kisangani
+L Kisangani | ville | R
+A FAC,APR,AUTORITES_PROVINCIALES:complicità > enfants de réfugiés recueillis par la population | hutu | rifugiati | bambini | perquisizione_arbitraria,rapimento,sparizione_forzata,persecuzione | | indeterminato | | dichiarazioni discriminatorie contro gli hutu; sorte incerta
+## P2-104 | puntuale | Orientale
+L Hôpital général de Kisangani | hôpital | E* | in=Kisangani:ville
+A FAC,APR > réfugiés | hutu | rifugiati | malati | rapimento,sparizione_forzata,attacco_sanita | 33 | esatto
+## P2-105 | puntuale | Orientale
+L Kisangani | ville | E*
+A FAC,APR > réfugiés rwandais d'une même famille | rwandais,hutu | rifugiati | minori | arresto_arbitrario,sparizione_forzata | quatre | esatto
+## P2-106 | puntuale | Équateur
+L Boende | ville | E* | n=porto ONATRA; riva sinistra della Tshuapa; a 560 km da Mbandaka
+A AFDL,APR > réfugiés attendant un bateau | hutu | rifugiati | | uccisione | nombre indéterminé | indeterminato | | annegamenti nella Tshuapa
+## P2-107 | puntuale | Équateur
+L Lifomi | village | E* | rel=14@Boende | n=diga tra la riva destra di Boende e Lifomi
+L Boende | ville | R
+A AFDL,APR > réfugiés rescapés | hutu | rifugiati | | uccisione | nombre indéterminé | indeterminato
+## P2-108 | puntuale | Équateur
+L Lolengi | village | E* | rel=48@Boende
+L Boende | ville | R
+A AFDL,APR > réfugiés | hutu | rifugiati | | uccisione,distruzione_incendio | | indeterminato | | bruciati vivi
+## P2-109 | puntuale | Équateur
+L Lofonda | carrefour | E* | rel=32@Boende
+L Boende | ville | R
+A AFDL,APR > réfugiés sortis de la forêt | hutu | rifugiati | | uccisione | une vingtaine | approssimato | | promessa di rimpatrio
+## P2-110 | puntuale | Équateur
+L Djoa | village | E* | rel=310@Mbandaka
+L Mbandaka | ville | R
+A AFDL,APR > réfugiés attendant des soins | hutu | rifugiati | malati | uccisione | au moins 10 | minimo
+## P2-111 | multi-sito | Équateur
+L Bekondji | village | E*
+L Buya | village | E
+A AFDL,APR > réfugiés | hutu | rifugiati | | uccisione | sept et deux | esatto
+## P2-112 | multi-sito | Équateur
+L Wele | village | E* | n=a 25 km dal fiume Ruki
+L digue de Lolo | digue | E | rel=~Yele | n=tra Yele e la riva destra della Ruki
+L Yele | village | R
+A AFDL,APR > réfugiés | hutu | rifugiati | | uccisione | 9 et 30 | esatto
+## P2-113 | itinerario | Équateur
+L Djoa | village | E* | n=60 km da Djoa al fiume Ruki
+L rivière Ruki | rivière | E
+A AFDL,APR > réfugiés | hutu | rifugiati | | uccisione | nombre indéterminé | indeterminato
+## P2-114 | puntuale | Équateur
+L Lomposo | village | E* | rel=85@Mbandaka
+L Kalamba | village | E | rel=70@Mbandaka
+L Itipo | paroisse | R | n=a 187 km da Mbandaka, riva sinistra della Ruki
+L Mbandaka | ville | R
+A AFDL,APR > réfugiés civils | hutu | rifugiati | | uccisione | une dizaine | approssimato
+## P2-115 | puntuale | Équateur
+L Wendji | village | E* | n=campo e ufficio della Croce Rossa
+A AFDL,APR > réfugiés, dont enfants non accompagnés et un bébé | hutu | rifugiati | bambini | attacco_campo_rifugiati,uccisione,massacro | au moins 140 (116 puis 17 corps enterrés) | minimo | | alla presenza di alti responsabili dell'APR
+## P2-116 | multi-sito | Équateur
+L Bolenge | village | E*
+L Iyonda | concession catholique | E
+L Wendji | village | O
+A AFDL,APR > réfugiés en fuite vers Mbandaka | hutu | rifugiati | | uccisione | nombre indéterminé, dont 18 à Bolenge et 3 à Iyonda | indeterminato
+## P2-117 | puntuale | Équateur
+L Mbandaka | ville | E* | n=avenue Mobutu, Banca centrale
+A AFDL,APR > réfugiés | hutu | rifugiati | | uccisione | nombre indéterminé | indeterminato
+## P2-118 | puntuale | Équateur
+L port ONATRA de Mbandaka | port | E* | in=Mbandaka:ville
+L Bolenge | mission protestante | R | n=fossa comune a 5 km da Mbandaka
+A AFDL,APR > réfugiés | hutu | rifugiati | | uccisione,esecuzione_sommaria,massacro,occultamento_cadaveri | au moins 200 selon certaines sources | minimo | condizionale | selezione e esecuzioni con mazze
+## P2-119 | puntuale | Nord-Kivu
+L Goma | ville | E*
+A NON_SPECIFICATO > civils | | civili | | uccisione | nombre indéterminé | indeterminato | | combattimenti per Goma
+A FAZ > population de Goma | | civili | | saccheggio | | 
+## P2-120 | puntuale | Nord-Kivu
+L Goma | ville | E* | n=Hôpital général de Goma
+A AFDL,APR > civils, dont des membres influents de la communauté banyarwanda hutu | banyarwanda,hutu | civili | | uccisione,sparizione_forzata | nombre indéterminé (776 corps ramassés) | indeterminato
+A AFDL,APR > militaires des FAZ hors de combat, dont blessés hospitalisés | | militari fuori combattimento | | esecuzione_sommaria,attacco_sanita | plusieurs | indeterminato
+A AFDL,APR > ville de Goma, organismes humanitaires (CICR, PAM, HCR) | | civili, personale umanitario | | saccheggio,attacco_personale_umanitario

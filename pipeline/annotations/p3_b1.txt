@@ -1,0 +1,157 @@
+## P3-001 | multi-sito | Kinshasa
+L Kinshasa | ville | E* | n=cachots PIR e Ipkin
+L prison de Makala | prison | E | in=Kinshasa:ville | n=CPRK
+A PIR > personnalités soupçonnées de soutenir le RCD, civils tutsi ou d'origine rwandaise | tutsi,rwandais | civili | | arresto_arbitrario,detenzione_arbitraria | 111 détenus au 14 septembre 1998 | esatto
+A PIR > femmes détenues | | civili | donne | violenza_sessuale | nombre indéterminé | indeterminato
+## P3-002 | puntuale | Kinshasa
+L Mont-Ngafula | commune | E* | in=Kinshasa:ville | n=route de Matadi, tra il cimitero Mbenseke e Gombe-Lutendele
+A FAC > militaires rwandais, Tutsi congolais et ex-FAZ soupçonnés de ralliement | tutsi,rwandais | militari fuori combattimento | | esecuzione_sommaria,occultamento_cadaveri | une vingtaine | approssimato | | altri gruppi giustiziati in seguito
+## P3-003 | multi-sito | Kinshasa
+L Palais de Marbre | lieu de détention | E* | in=Kinshasa:ville
+L GLM | lieu de détention | E | in=Kinshasa:ville
+L Palais de la Nation | lieu de détention | E | in=Kinshasa:ville
+A NON_SPECIFICATO > détenus, dont de nombreux Tutsi | tutsi | detenuti | | esecuzione_sommaria,occultamento_cadaveri | nombre indéterminé | indeterminato | | autori non precisati nel testo (luoghi di detenzione governativi)
+## P3-004 | puntuale | Kinshasa
+L camp Kokolo | camp militaire | E* | in=Kinshasa:ville | n=cachot della 50a brigata e uffici T2
+A FAC > civils tutsi, rwandais ou leur ressemblant | tutsi,rwandais | civili | | esecuzione_sommaria,tortura,trattamenti_inumani,detenzione_arbitraria,decessi_per_privazioni,occultamento_cadaveri | nombre indéterminé (plus de 160 prisonniers tutsi recensés le 19 août) | indeterminato
+A FAC > femmes détenues | tutsi | detenuti | donne | violenza_sessuale | | indeterminato
+## P3-005 | puntuale | Kinshasa
+L camp Tshatshi | camp militaire | E* | in=Kinshasa:ville
+A FAC > détenus, dont de nombreux Tutsi | tutsi | detenuti | | detenzione_arbitraria,tortura,esecuzione_sommaria,occultamento_cadaveri | nombre indéterminé | indeterminato
+## P3-006 | puntuale | Kinshasa
+L pont sur la Ndjili | pont | E* | in=Ndjili:commune,Kinshasa:ville
+A FORCES_SECURITE_CONGOLAISES > une personne, probablement tutsi | tutsi | civili | | uccisione | une | esatto | condizionale | scena filmata e trasmessa in televisione
+## P3-007 | multi-sito | Kinshasa
+L Mbuku | village | E* | in=Mont-Ngafula:commune,Kinshasa:ville | n=quartieri Vundamanenga, Kimbiolongo, Ndjili Brasserie
+A POPULATION_LOCALE,MILICES_PRO_GOUVERNEMENT > personnes soupçonnées d'être des infiltrés | | civili | | uccisione,distruzione_incendio | plusieurs | indeterminato | | bruciati vivi
+## P3-008 | multi-sito | Kinshasa
+L avenue Kasavubu | rue | E* | in=Kinshasa:ville
+L Limete | commune | E | in=Kinshasa:ville
+L marché central | marché | E | in=Kinshasa:ville
+A POPULATION_LOCALE > personnes, dont un handicapé mental | | civili | disabili | uccisione,mutilazione | plusieurs | indeterminato
+## P3-009 | puntuale | Kinshasa
+L Kimbanseke | commune | E* | in=Kinshasa:ville | n=Tshangu; fossa comune nel quartiere Mokali
+A POPULATION_LOCALE > personnes soupçonnées d'être des infiltrés | | civili | | uccisione,percosse | au moins une dizaine | minimo
+## P3-010 | puntuale | Kinshasa
+L Barumbu | commune | E* | in=Kinshasa:ville
+A NON_SPECIFICATO > famille tutsi | tutsi | civili | | percosse | | | | uomini armati incappucciati
+## P3-011 | puntuale | Kinshasa
+L Kinshasa | ville | E* | n=cachots della DEMIAP
+A DEMIAP > détenus | | detenuti | | detenzione_arbitraria,tortura,decessi_per_privazioni | nombre indéterminé | indeterminato
+## P3-012 | puntuale | Kinshasa
+L Centre d'instruction Kibomango | centre militaire | E* | in=Kinshasa:ville | n=route de Bandundu
+A GARDE_PRESIDENTIELLE > Tutsi et ex-FAZ détenus au GLM | tutsi | detenuti | | esecuzione_sommaria,occultamento_cadaveri | une vingtaine | approssimato
+## P3-013 | multi-sito | Kinshasa
+L Centre Béthanie | centre religieux | E* | in=Gombe:commune,Kinshasa:ville
+L camp Kokolo | camp militaire | E | in=Kinshasa:ville
+A FAC > personnes, dont au moins 25 Tutsi, surtout des femmes | tutsi | civili | donne | arresto_arbitrario,detenzione_arbitraria,saccheggio,attacco_luogo_di_culto | une trentaine | approssimato | | ospitati su iniziativa della nunziatura
+A FAC > Tutsi détenus au camp Kokolo | tutsi | detenuti | | detenzione_arbitraria,decessi_per_privazioni | près de 140 | approssimato
+## P3-014 | puntuale | Nord-Kivu
+L Goma | ville | E*
+L Katindo | quartier | E | in=Goma:ville | n=orfanotrofio
+A EX_FAR_INTERAHAMWE > civils, dont de nombreux Tutsi | tutsi | civili | donne,bambini | uccisione,massacro | plus d'une centaine | minimo
+## P3-015 | puntuale | Katanga
+L Kalemie | ville | E* | n=prigione centrale, collina SNCC, 'camp marin' presso l'aeroporto
+L Uvira | ville | D | n=monumento commemorativo
+A FAC,MILICES_PRO_GOUVERNEMENT > Tutsi de Kalemie | tutsi | civili | donne,bambini | arresto_arbitrario,detenzione_arbitraria | | indeterminato
+A FAC > hommes tutsi détenus | tutsi | detenuti | | esecuzione_sommaria,occultamento_cadaveri | plusieurs dizaines (plus de 70 corps exhumés) | ordine_di_grandezza
+## P3-016 | puntuale | Katanga
+L Vyura | localité | E* | in=Moba:territoire | n=campo di Kansalale, chiese, scuola primaria di Kasanga
+L Kalemie | ville | D
+A FAC > Tutsi | tutsi | civili | donne,bambini | arresto_arbitrario,detenzione_arbitraria,esecuzione_sommaria,saccheggio | plus de 2 000 arrêtés ; une dizaine de notables exécutés | minimo
+A FAC > Tutsi en contre-attaque | tutsi | civili e combattenti | | uccisione,distruzione_incendio,saccheggio | une soixantaine (plus d'une centaine au total en août selon plusieurs sources) | approssimato
+## P3-017 | puntuale | Katanga
+L Moba | localité | E*
+A FAC,POPULATION_LOCALE:complicità > membres de la communauté tutsi (commerçants, étudiants) | tutsi | civili | | esecuzione_sommaria | une quarantaine | approssimato
+## P3-018 | puntuale | Katanga
+L base de Kamina | base militaire | E*
+A FORCES_SECURITE_CONGOLAISES > jeunes recrues tutsi ou d'origine rwandaise non armées | tutsi,rwandais | militari disarmati | | uccisione,massacro,occultamento_cadaveri | au moins une centaine | minimo | condizionale
+## P3-019 | multi-sito | Katanga
+L Lubumbashi | ville | E* | n=couvent des Bakhita, quartier Kigoma
+L Kipushi | ville | E
+L Likasi | ville | E
+L Kolwezi | ville | E
+L camp Vangu | camp militaire | E | rel=~Lubumbashi
+L carrière de Kilimasimba | carrière | E | n=strada Lubumbashi–Kipushi
+A ANR,FORCES_SECURITE_CONGOLAISES,FAC > Tutsi, personnes d'origine rwandaise et civils leur ressemblant | tutsi,rwandais | civili | | arresto_arbitrario,tortura,esecuzione_sommaria,detenzione_arbitraria,sparizione_forzata | plusieurs centaines arrêtés ; plusieurs dizaines exécutés (ASADHO : plus de 70) | ordine_di_grandezza | | più di 500 civili internati per oltre un anno
+## P3-020 | puntuale | Orientale
+L Kisangani | ville | E* | n=comuni Mangobo e Kabondo; aeroporto Simi-Simi
+A PNC,FAC,MILICES_PRO_GOUVERNEMENT > Tutsi, personnes d'origine rwandaise ou leur ressemblant | tutsi,rwandais | civili | | uccisione,tortura,esecuzione_sommaria,saccheggio,occultamento_cadaveri | au moins plusieurs dizaines | minimo | | in alcuni casi la polizia ha protetto le vittime
+## P3-021 | puntuale | Orientale
+L pont sur la Neva | pont | E* | in=Rungu:territoire | rel=13@Isiro^sud
+L Isiro | ville | R
+A FAC > civils tutsi | tutsi | civili | minori | uccisione,occultamento_cadaveri | six | esatto
+## P3-022 | puntuale | Kasaï-Occidental
+L Kananga | ville | E* | n=campo EFO; fiume Lulua
+A FAC > militaires tutsi hors de combat, ex-FAZ désarmés, civils | tutsi | militari fuori combattimento, civili | | sparizione_forzata,esecuzione_sommaria,occultamento_cadaveri | environ 80 disparus, au moins sept exécutés | approssimato
+## P3-023 | multi-sito | Maniema
+L Kalima | ville | E* | in=Pangi:territoire
+L Rushurukuru | centrale | E | rel=~Kalima
+L Kakula | ville | E
+A FAC > civils d'origine rwandaise, surtout Tutsi | tutsi,rwandais | civili | | esecuzione_sommaria,massacro | au moins 133 | minimo
+## P3-024 | multi-sito | Kasaï-Oriental
+L Mbuji-Mayi | ville | E*
+L Kinshasa | ville | D | n=Makala, Mont-Ngafula, sede ANR
+A FORCES_SECURITE_CONGOLAISES > Tutsi et personnes d'origine rwandaise | tutsi,rwandais | civili | | arresto_arbitrario,uccisione,detenzione_arbitraria | nombre indéterminé | indeterminato | condizionale
+A ANR > défenseur des droits de l'homme | | civili | | arresto_arbitrario,detenzione_arbitraria,trattamenti_inumani | un | esatto
+## P3-025 | puntuale | Bas-Congo
+L Boma | ville | E*
+A ANC,APR,UPDF,FAC > civils | | civili | | uccisione | nombre indéterminé | indeterminato | | combattimenti
+A ANC,APR,UPDF > civils, dont des handicapés mentaux | | civili | disabili | uccisione | au moins 22 | minimo
+## P3-026 | puntuale | Bas-Congo
+L Boma | ville | E* | n=hotel Premier Bassin
+A ANC,APR,UPDF > femmes | | civili | donne | detenzione_arbitraria,violenza_sessuale,distruzione_beni | plusieurs | indeterminato
+## P3-027 | multi-sito | Bas-Congo
+L Moanda | ville | E*
+L Matadi | ville | E
+L Mbanza-Ngungu | ville | E
+A ANC,APR,UPDF > banques | | civili | | saccheggio
+## P3-028 | puntuale | Bas-Congo
+L barrage d'Inga | barrage | E*
+A ANC,APR,UPDF > population de Kinshasa et du Bas-Congo, enfants et malades | | civili | bambini,malati | distruzione_beni,decessi_per_privazioni | nombre indéterminé | indeterminato | | interruzione dell'elettricità per tre settimane
+## P3-029 | puntuale | Bas-Congo
+L Moanda | ville | E* | n=quartiere Bwamanu
+A FAA > femmes et jeunes filles | | civili | donne,minori | violenza_sessuale,minaccia | au moins 30 | minimo
+## P3-030 | puntuale | Bas-Congo
+L Boma | ville | E*
+A FAA > civils | | civili | donne,minori | esecuzione_sommaria,violenza_sessuale,saccheggio | nombre indéterminé | indeterminato
+## P3-031 | puntuale | Bas-Congo
+L Manterne | village | E* | rel=19@Boma>Matadi
+L Boma | ville | R
+L Matadi | ville | R
+A FAA > commerçantes et jeunes filles | | civili | donne,minori | violenza_sessuale | six et au moins trois | minimo
+## P3-032 | puntuale | Bas-Congo
+L Kinzau Mvwete | village | E* | n=a metà strada tra Boma e Matadi
+A FAA > civils | | civili | donne,bambini | uccisione,massacro | 45 | esatto
+## P3-033 | puntuale | Bas-Congo
+L Matadi | ville | E* | n=quartieri Mvuadu e Kinkanda
+A FAA > femmes et jeunes filles | | civili | donne,minori | violenza_sessuale,saccheggio | nombre indéterminé | indeterminato
+## P3-034 | puntuale | Bas-Congo
+L Kimpese | localité | E*
+A FAA > civils | | civili | donne | violenza_sessuale,saccheggio | grande échelle | indeterminato
+## P3-035 | multi-sito | Kinshasa
+L Kimbanseke | commune | E* | in=Kinshasa:ville
+L Masina | commune | E | in=Kinshasa:ville
+L Ndjili | commune | E | in=Kinshasa:ville
+L Kingatoko | village | E | n=al confine con il Bas-Congo
+A ZDF > civils | | civili | | bombardamento_indiscriminato,uccisione,ferimento,attacco_sanita,attacco_luogo_di_culto,sfollamento_forzato | plus d'une cinquantaine (282 blessés) | minimo
+A FAC > civils | | civili | | minaccia | | | | civili costretti a restare in casa durante i tiri
+## P3-036 | puntuale | Kinshasa
+L Mont-Ngafula | commune | E* | in=Kinshasa:ville
+A ANC,APR,UPDF,FAC,ZDF > civils | | civili | | uccisione | plusieurs | indeterminato | | combattimenti
+## P3-037 | puntuale | Kinshasa
+L Mont-Ngafula | commune | E* | in=Kinshasa:ville | n=quartieri Mitendi e Mbenseke
+A FAC > volontaires de la Croix-Rouge | | personale umanitario | | attacco_personale_umanitario,uccisione,ferimento | au moins deux tués | minimo
+## P3-038 | areale | Kinshasa
+L Kinshasa | ville | E* | n=Hôpital général
+L barrage d'Inga | barrage | O
+A ANC,APR,UPDF > population, centres médicaux | | civili | bambini,malati | distruzione_beni,decessi_per_privazioni,attacco_sanita | | indeterminato
+## P3-039 | multi-sito | Kinshasa
+L Kinshasa | ville | E* | n=cachots PIR, DRGS (Kin Mazière), Ipkin, camp Kokolo
+A FORCES_SECURITE_CONGOLAISES,PIR > militants de l'UDPS et du PALU | UDPS,PALU | militanti | donne | sparizione_forzata,tortura,violenza_sessuale | de nombreux | indeterminato | | fine 1998–2001
+## P3-040 | multi-sito | Kinshasa
+L centre d'entraînement de Maluku | centre militaire | E* | in=Kinshasa:ville
+L camp Kokolo | camp militaire | E | in=Kinshasa:ville
+L camp Tshatshi | camp militaire | E | in=Kinshasa:ville
+L GLM | lieu de détention | E | in=Kinshasa:ville
+A FORCES_SECURITE_CONGOLAISES > militaires et civils originaires des Kivu et du Maniema | | militari e civili | | arresto_arbitrario,tortura,esecuzione_sommaria,detenzione_arbitraria | au moins 93 (60 militaires, 33 civils) | minimo | | accusati di preparare un colpo di stato

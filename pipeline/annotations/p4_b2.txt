@@ -1,0 +1,185 @@
+## P4-036 | multi-sito | Orientale
+L Nyakunde | localité | E* | in=Andisoma:chefferie,Irumu:territoire | n=Centre médical évangélique; villaggi circostanti
+A FRPI,APC > civils hema-gegere et bira, dont de nombreux enfants | hema,bira | civili | bambini | massacro,uccisione,persecuzione,detenzione_arbitraria,trattamenti_inumani,esecuzione_sommaria,attacco_sanita,saccheggio | plus d'un millier | minimo | | posti di blocco per impedire la fuga; selezione etnica nel centro medico
+## P4-037 | areale | Orientale
+L Bandikado | groupement | E* | in=Bahema-Sud:chefferie,Irumu:territoire | n=groupement lacustre
+L Nyamavi | localité | E
+L Gety | localité | O
+A FRPI > personnes, surtout hema | hema | civili | | uccisione,mutilazione,saccheggio,sfollamento_forzato | environ 150 | approssimato
+## P4-038 | multi-sito | Orientale
+L Nizi | cité minière | E* | in=Mambisa:chefferie,Djugu:territoire
+L Kilomoto | site minier | E | in=Djugu:territoire
+A FNI > civils alur, hema, bira et nyali | alur,hema,bira,nyali | civili | donne | uccisione,rapimento,mutilazione,saccheggio,distruzione_incendio,attacco_scuola,attacco_sanita,occultamento_cadaveri | nombre indéterminé ; 28 tués et 23 femmes enlevées à Kilomoto | indeterminato | | nove fosse comuni
+## P4-039 | puntuale | Orientale
+L Zumbe | localité | E* | in=Walendu Tatsi:chefferie
+A UPC > personnes, dont des civils | lendu,ngiti | civili | donne | uccisione,massacro,violenza_sessuale,mutilazione,saccheggio,distruzione_incendio,attacco_sanita,attacco_scuola | au moins 180 tués, au moins 50 femmes violées | minimo | | roccaforte FRPI
+## P4-040 | multi-sito | Orientale
+L Nombe | village | E* | in=Walendu Bindi:chefferie,Irumu:territoire
+L Medhu | village | E
+L Pinga | village | E
+L Kagaba | village | E
+L Singo | village | E
+L Songolo | localité | E
+L Bunia | ville | O
+L Bogoro | village | O
+A UPC > civils lendu | lendu | civili | | uccisione,saccheggio | au moins 10 | minimo
+## P4-041 | multi-sito | Orientale
+L Nombe | village | E* | in=Walendu Bindi:chefferie,Irumu:territoire
+L Kagaba | village | E
+L Lakabo | village | E
+L Lokpa | village | E
+L Medhu | village | E
+L Songolo | localité | E
+L Pinga | village | E
+L Androzo | village | E
+L Singo | village | E
+A UPC > Lendu | lendu | civili | donne | uccisione,rapimento,saccheggio,distruzione_incendio,attacco_scuola,attacco_sanita | plusieurs dizaines | ordine_di_grandezza | | almeno 351 case bruciate
+## P4-042 | puntuale | Orientale
+L Saliboko | village | E* | in=Mobala:chefferie,Irumu:territoire
+A FRPI > civils, surtout bira | bira | civili | donne | uccisione,mutilazione,saccheggio,distruzione_incendio | au moins 14 | minimo | | accusati di aver ospitato sfollati hema
+## P4-043 | itinerario | Orientale
+L Mambasa | ville | E*
+L Teturi | village | E | in=Mambasa:territoire
+L Mwemba | village | E | in=Mambasa:territoire
+L Byakato | village | E | in=Mambasa:territoire
+L Beni | ville | R
+A ALC,RCD_N > civils nande et pygmées | nande,pygmées | civili | donne,bambini | uccisione,massacro,mutilazione,violenza_sessuale,saccheggio,persecuzione | au moins 173 | minimo | | operazione «Effacer le tableau»; atti di cannibalismo; accusati di sostenere il RCD-ML
+## P4-044 | puntuale | Orientale
+L Mongbwalu | ville | E* | in=Djugu:territoire | n=anche in una chiesa
+A ALC,RCD_N,UPC > Lendu, civils et miliciens hors de combat | lendu | civili e combattenti fuori combattimento | | uccisione,tortura,mutilazione,attacco_luogo_di_culto | au moins une cinquantaine | minimo
+## P4-045 | puntuale | Orientale
+L Djalusene | village | E* | in=Djukoth:chefferie,Mahagi:territoire
+L Mahagi | localité | O
+A FAPC > civils alur | alur | civili | donne | uccisione,violenza_sessuale,saccheggio,distruzione_incendio | une dizaine | approssimato
+## P4-046 | puntuale | Orientale
+L Nyangaraye | localité | E* | in=Djugu:territoire | n=chiesa cattolica
+L Mongbwalu | ville | O
+A UPC > civils | | civili | | detenzione_arbitraria,uccisione,attacco_luogo_di_culto,distruzione_incendio | au moins une dizaine | minimo
+## P4-047 | multi-sito | Orientale
+L Ngongo Kobu | village | E* | in=Djugu:territoire
+L Lipri | village | E
+L Nyangaraye | localité | E
+L Bambou | ville minière | E
+A UPC > civils | | civili | donne | violenza_sessuale,uccisione,distruzione_beni,attacco_scuola,attacco_sanita | nombre indéterminé | indeterminato | | infrastrutture della società mineraria di Kilomoto
+## P4-048 | puntuale | Orientale
+L Bogoro | village | E* | in=Bahema-Sud:chefferie,Irumu:territoire
+A FNI,FRPI > personnes, surtout civils hema | hema | civili | | uccisione,massacro,saccheggio,distruzione_beni | entre 200 et 350 | intervallo | | il rapporto nomina i comandanti, all'epoca sotto processo alla CPI
+A FNI,FRPI > femmes et jeunes filles | hema | civili | donne,minori | violenza_sessuale | de nombreuses | indeterminato | | schiavitù sessuale
+A FNI,FRPI > enfants de moins de 15 ans dans leurs rangs | | combattenti | bambini | reclutamento_minori | de nombreux | indeterminato
+## P4-049 | multi-sito | Orientale
+L Sangi | village | E* | in=Walendu Djatsi:chefferie,Djugu:territoire | n=chiesa del villaggio
+L Kobu | village | E
+L Buli | village | R
+A UPC > délégués lendu venus négocier | lendu | civili | donne | rapimento,esecuzione_sommaria,massacro,attacco_luogo_di_culto,occultamento_cadaveri | une cinquantaine | approssimato
+## P4-050 | multi-sito | Orientale
+L Buli | village | E* | in=Walendu Djatsi:chefferie,Djugu:territoire
+L Jitchu | village | E
+L Ngabuli | village | E
+L Pili | village | E
+L Athe | village | E
+L Bakpa | village | E
+L Lambi | village | E
+L Widde | village | E
+L Kobu | village | E | n=detenzione ed esecuzioni
+A UPC > civils | lendu | civili | donne,bambini | bombardamento_indiscriminato,violenza_sessuale,uccisione,arresto_arbitrario,esecuzione_sommaria | nombre indéterminé (une quarantaine de corps à Kobu) | indeterminato
+## P4-051 | puntuale | Orientale
+L Mandro | village | E* | n=ex centro di addestramento UPC, poi roccaforte PUSIC
+L Zumbe | localité | O
+A FNI,APC > civils, surtout Hema-Sud | hema | civili | donne | uccisione,rapimento,violenza_sessuale,saccheggio | au moins 47 | minimo | | donne ridotte in schiavitù
+## P4-052 | puntuale | Orientale
+L Bunia | ville | E*
+A UPC,UPDF,FNI,FRPI > civils | | civili | | bombardamento_indiscriminato,uccisione | entre 17 et 52 | intervallo | | scontri
+A FNI > civils hema | hema | civili | | uccisione,persecuzione | nombre indéterminé | indeterminato
+A UPDF,FNI,FRPI > habitations et locaux d'ONG | | civili, personale umanitario | | saccheggio,distruzione_beni,attacco_personale_umanitario
+## P4-053 | multi-sito | Orientale
+L Kilo | localité | E* | in=Kilo-Banyari:chefferie,Djugu:territoire
+L Itende | village | E
+L Kabakaba | village | E
+L Kilo-Missio | village | E
+L Sindoni-Akeso | groupement | E
+L Mongbwalu | ville | R
+A FNI > civils de diverses ethnies, dont de nombreux Nyali | nyali | civili | | uccisione,mutilazione,saccheggio,distruzione_incendio | au moins 113 | minimo
+## P4-054 | multi-sito | Orientale
+L Largude | groupement | E* | in=Bahema-Nord:chefferie,Djugu:territoire
+L hôpital de Drodro | hôpital | E | in=Djugu:territoire
+A FNI > personnes, surtout civils hema | hema | civili | bambini,malati | uccisione,mutilazione,bombardamento_indiscriminato,attacco_sanita,massacro | plusieurs centaines (au moins 27 à l'hôpital) | ordine_di_grandezza
+A FNI > femmes | hema | civili | donne | rapimento,violenza_sessuale,sparizione_forzata | de nombreuses | indeterminato | | schiavitù sessuale
+## P4-055 | puntuale | Orientale
+L Mongbwalu | ville | E* | n=strada per l'aeroporto
+A FNI > deux observateurs militaires de la MONUC | | personale ONU | | rapimento,esecuzione_sommaria,mutilazione,saccheggio,attacco_personale_umanitario | deux | esatto | | condanna nel 2007 di sette miliziani FNI da parte del Tribunale militare di guarnigione di Bunia, come indicato nel rapporto
+## P4-056 | puntuale | Orientale
+L Bunia | ville | E* | n=quartieri Mudzipela e Nyagasenza
+A FNI,UPC > civils, dont des religieux | hema | civili | donne | uccisione,violenza_sessuale,saccheggio,mutilazione,distruzione_incendio,attacco_personale_umanitario | plusieurs centaines | ordine_di_grandezza | | il FNI in misura prevalente
+## P4-057 | puntuale | Orientale
+L Bunia | ville | E*
+A UPC > civils, surtout Lendu de Ngiti, Jajambo et Nande | lendu,ngiti,nande | civili | | uccisione,persecuzione | plusieurs centaines | ordine_di_grandezza
+## P4-058 | puntuale | Orientale
+L Tchomia | village | E* | in=Bahema-Sud:chefferie | n=ospedale
+A FNI,POPULATION_LOCALE:complicità > Hema-Sud | hema | civili | malati,donne | massacro,uccisione,persecuzione,attacco_sanita,saccheggio,distruzione_incendio,attacco_scuola,attacco_luogo_di_culto | près de 300 (dont 40 à l'hôpital) | approssimato | | familiari dei miliziani partecipano al saccheggio
+A FNI > femmes | hema | civili | donne | rapimento,lavoro_forzato,violenza_sessuale | 10 | esatto
+## P4-059 | puntuale | Orientale
+L Katoto | village | E* | in=Bahema-Nord:chefferie,Djugu:territoire
+A FNI > civils hema | hema | civili | | uccisione,mutilazione,saccheggio,distruzione_incendio,occultamento_cadaveri | nombre indéterminé (137 selon certaines sources) | indeterminato
+## P4-060 | puntuale | Orientale
+L Nizi | cité minière | E* | in=Mambisa:chefferie,Djugu:territoire
+A FAPC,FNI > civils | hema | civili | | uccisione | 33 | esatto
+## P4-061 | areale | Orientale
+L Kasenyi | localité | R | in=Irumu:territoire
+L Bagungu | groupement | E* | in=Irumu:territoire | rel=~Kasenyi
+L Beiziha | groupement | E | in=Irumu:territoire
+A FNI,FRPI,APC > déplacés hema | hema | sfollati | donne | uccisione,rapimento,lavoro_forzato,esecuzione_sommaria,distruzione_incendio | nombre indéterminé (plus de 160 selon certaines sources) | indeterminato | | una trentaine uccisi mentre fuggivano in barca sul lago Alberto
+## P4-062 | puntuale | Orientale
+L Nioka | localité | E* | in=Mahagi:territoire
+A FNI > civils, surtout alur | alur | civili | bambini | uccisione | une quarantaine | approssimato
+## P4-063 | puntuale | Orientale
+L Mongbwalu | ville | E* | in=Djugu:territoire
+A FNI > personnes, dont de nombreux civils | | civili | donne | uccisione,massacro,violenza_sessuale,saccheggio,occultamento_cadaveri | plusieurs centaines | ordine_di_grandezza
+## P4-064 | multi-sito | Orientale
+L Mandro | camp | E*
+L Katoto | camp | E
+L Bule | camp | E
+L Kyankwanzi | camp militaire | D | n=Uganda
+A UPC > enfants hema recrutés | hema | combattenti | bambini | reclutamento_minori,tortura,trattamenti_inumani,violenza_sessuale | des milliers | ordine_di_grandezza | | alcuni addestrati in Uganda (UPDF) e in Rwanda (APR)
+A MILICES_LENDU > enfants lendu | lendu | combattenti | bambini | reclutamento_minori | nombre indéterminé | indeterminato
+## P4-065 | areale | Katanga
+L Badia | chefferie | E* | in=Malemba Nkulu:territoire | n=Ayamba, Lufuy, Kikose, Lubinda, Kyungu, Kimbalama e altri
+L Mwanza Seya | chefferie | E | in=Malemba Nkulu:territoire
+A FAC > habitants accusés de soutenir les Mayi-Mayi | | civili | | distruzione_incendio,attacco_villaggi,uccisione,sfollamento_forzato | plus d'une dizaine de morts | minimo | | una ventina di villaggi incendiati
+## P4-066 | puntuale | Katanga
+L Kilumba Kumbula | localité | E* | in=Mwanza:chefferie,Malemba Nkulu:territoire
+A FAC > civils | | civili | bambini | rapimento,uccisione,distruzione_incendio | 11 | esatto | | bruciati vivi
+## P4-067 | puntuale | Katanga
+L Kimiba | village | E* | in=Mwanza:chefferie,Malemba Nkulu:territoire
+A FAC > chef de localité et sa famille | | civili | bambini,donne | uccisione,distruzione_incendio | sept | esatto
+## P4-068 | puntuale | Katanga
+L Ngwena Mai | village | E* | in=Luela Luvunguyi:chefferie,Kabalo:territoire
+A FAC > civils et déplacés | | civili, sfollati | bambini,donne | uccisione,violenza_sessuale,saccheggio,distruzione_incendio | au moins neuf | minimo
+## P4-069 | puntuale | Katanga
+L Lubondoyi | village | E* | in=Mwanza:chefferie,Malemba Nkulu:territoire
+A FAC > épouse et enfants d'un pasteur | | civili | donne,bambini | uccisione | quatre | esatto
+## P4-070 | puntuale | Katanga
+L Lwizi | village | E* | in=Sud-Lukuga:chefferie,Nyunzu:territoire
+A ANC,APR > civils accusés d'avoir vendu de la nourriture aux FDLR | | civili | bambini | uccisione | 13 | esatto | | sepolti vivi
+## P4-071 | multi-sito | Katanga
+L Lubinda | village | E* | in=Badia:chefferie,Malemba Nkulu:territoire
+L Kikose | village | E
+L Sukie | village | E
+L Kimbalama | village | E
+A FAC > civils accusés de soutenir les Mayi-Mayi | | civili | | uccisione,mutilazione,saccheggio,distruzione_incendio | au moins huit | minimo
+A MAYI_MAYI > civils | | civili | | saccheggio
+## P4-072 | puntuale | Katanga
+L Mukanga | ville | E* | in=Kayumba:chefferie,Malemba Nkulu:territoire
+L Mukubu | village | D
+A MAYI_MAYI > civils considérés comme hostiles | | civili | | uccisione,sfollamento_forzato,mutilazione | au moins 16 | minimo | | casi di cannibalismo riferiti
+## P4-073 | areale | Katanga
+L Malemba Nkulu | territoire | E* | n=collettività Nkulu, Mwanza e Kayumba
+A MAYI_MAYI > enfants | | civili | bambini | rapimento,reclutamento_minori,lavoro_forzato | plusieurs dizaines | ordine_di_grandezza
+## P4-074 | areale | Katanga
+L Malemba Nkulu | territoire | E* | n=collettività Nkulu, Kayumba e Mwanza
+A MAYI_MAYI > petites filles de 8 à 12 ans | | civili | bambini,donne | rapimento,violenza_sessuale,lavoro_forzato | des dizaines | ordine_di_grandezza | | schiavitù sessuale e domestica
+A FAC:istigazione > femmes | | civili | donne | violenza_sessuale | | | condizionale | un testimone
+## P4-075 | multi-sito | Katanga
+L Lunfunkwe | village | E* | rel=10@Kalemie
+L Kiwewe | village | E | rel=10@Kalemie
+L Kalemie | ville | R
+A ANC,APR > civils soupçonnés d'être des Mayi-Mayi | | civili | | uccisione | au moins 34 | minimo

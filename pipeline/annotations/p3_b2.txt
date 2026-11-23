@@ -1,0 +1,178 @@
+## P3-041 | puntuale | Kinshasa
+L Kinshasa | ville | E* | n=uffici del FLEC
+L Angola | pays | D
+A FORCES_SECURITE_CONGOLAISES > militants indépendantistes cabindais | cabindais | militanti | | arresto_arbitrario,tortura,espulsione_forzata,sparizione_forzata | de nombreux | indeterminato | | alcuni trasferiti in Angola
+## P3-042 | puntuale | Nord-Kivu
+L Goma | ville | E*
+L Mukosasenge | quartier | E | in=Karisimbi:commune,Goma:ville
+A FAC > civils | | civili | | bombardamento_indiscriminato,uccisione,ferimento | une dizaine (tués et blessés) | approssimato | | bombardamento aereo
+## P3-043 | areale | Nord-Kivu
+L Tanda | zone | E* | in=Rutshuru:territoire
+A ANC,APR > Banyarwanda hutu | banyarwanda,hutu | civili | | uccisione | nombre indéterminé | indeterminato | | operazione contro l'ALiR
+## P3-044 | puntuale | Nord-Kivu
+L Lukweti | marché | E* | in=Masisi:territoire
+A ANC,APR > civils | | civili | | uccisione,massacro | 45 | esatto
+## P3-045 | puntuale | Nord-Kivu
+L Otobora | village | E* | in=Walikale:territoire
+L Hombo | localité | O
+A ANC,APR > civils, surtout des déplacés de Hombo | | sfollati | | uccisione | au moins 17 | minimo
+## P3-046 | puntuale | Nord-Kivu
+L Miano | village | E* | in=Masisi:territoire
+A ANC,APR > civils tembo, surtout femmes et enfants | tembo | civili | donne,bambini | uccisione,massacro,mutilazione,attacco_sanita,persecuzione | au moins 44 | minimo | | vittime prese di mira per l'origine etnica
+## P3-047 | multi-sito | Nord-Kivu
+L Ngenge | village | E* | in=Walikale:territoire
+L Kangati | village | E | in=Walikale:territoire
+L Kaliki | village | E | in=Walikale:territoire
+A ANC,APR > civils et notables | | civili | | uccisione,percosse | nombre indéterminé | indeterminato | | notabili picchiati a morte
+## P3-048 | puntuale | Nord-Kivu
+L Kilambo | village | E* | in=Masisi:territoire
+A ANC,APR > personnes | | civili | | massacro,uccisione | au moins une trentaine (27 identifiées ; près de 60 dans les environs) | minimo
+## P3-049 | puntuale | Nord-Kivu
+L Luke | village | E* | n=e dintorni
+A ALIR > civils accusés de collaborer avec l'ANC/APR | | civili | | uccisione,massacro,saccheggio | une centaine | approssimato
+## P3-050 | puntuale | Nord-Kivu
+L Sake | cité | E* | in=Masisi:territoire | n=campo sfollati
+A ALIR > déplacés hunde et tembo, surtout femmes et enfants | hunde,tembo | sfollati | donne,bambini | attacco_campo_rifugiati,uccisione | entre 34 et 42 | intervallo
+## P3-051 | puntuale | Nord-Kivu
+L Lubero | localité | E*
+A APC,UPDF,MAYI_MAYI_KASINDIENS > civils | | civili | | uccisione | nombre indéterminé (certaines sources : 17) | indeterminato | | scontri tra Mayi-Mayi Vurondo e APC/UPDF
+A APC,UPDF > prisonniers Mayi-Mayi | | combattenti fuori combattimento | | esecuzione_sommaria | sept | esatto | condizionale | secondo alcune fonti
+## P3-052 | multi-sito | Nord-Kivu
+L Maboya | village | E* | rel=16@Butembo^nord
+L Loya | village | E
+L Butembo | ville | R
+A UPDF > habitants | | civili | | uccisione,distruzione_incendio | entre sept et onze | intervallo | | 43 case incendiate; rappresaglia
+## P3-053 | puntuale | Nord-Kivu
+L Kikere | village | E* | rel=~Butuhe | n=a nord di Butembo
+L Butuhe | village | R
+A UPDF > civils | | civili | | uccisione,bombardamento_indiscriminato,distruzione_incendio,distruzione_beni | 36 | esatto
+## P3-054 | puntuale | Nord-Kivu
+L Beni | ville | E*
+A UPDF > manifestants | | civili | | uccisione,ferimento | quatre tués, plusieurs blessés | esatto
+## P3-055 | multi-sito | Nord-Kivu
+L Mutwanga | localité | E* | in=Beni:territoire
+A ADF_NALU > civils | | civili | | uccisione,rapimento,lavoro_forzato,reclutamento_minori | des centaines (plus de 100 enlevés en janvier) | ordine_di_grandezza
+A ADF_NALU > mineures | | civili | minori,donne | rapimento,violenza_sessuale | des dizaines | ordine_di_grandezza | | schiavitù sessuale per anni
+## P3-056 | puntuale | Nord-Kivu
+L Bulongo | ville | E* | in=Beni:territoire | n=ai piedi del Ruwenzori
+A ADF_NALU > civils | | civili | donne,minori | uccisione,rapimento,lavoro_forzato,reclutamento_forzato,reclutamento_minori,violenza_sessuale,decessi_per_privazioni,trattamenti_inumani | nombre indéterminé | indeterminato | | marce forzate; schiavitù sessuale e domestica
+## P3-057 | puntuale | Sud-Kivu
+L aéroport de Kavumu | aéroport | E* | rel=~Bukavu | n=a nord di Bukavu
+A BANYAMULENGE_ARMES,APR > officiers et soldats des FAC hors de combat | | militari fuori combattimento | | esecuzione_sommaria,massacro | au moins 38 officiers et une centaine de soldats | minimo | | militari banyamulenge ammutinati; kadogo costretti a sparare
+A BANYAMULENGE_ARMES,APR > Kadogo | | combattenti | bambini | reclutamento_minori | | | | costretti a partecipare alle esecuzioni
+## P3-058 | multi-sito | Sud-Kivu
+L Bukavu | ville | E*
+L Kadutu | commune | E | in=Bukavu:ville
+L Ibanda | commune | E | in=Bukavu:ville
+A ANC,APR > civils | | civili | donne | uccisione,violenza_sessuale,perquisizione_arbitraria | nombre indéterminé | indeterminato | | operazioni 'Musako'
+## P3-059 | multi-sito | Sud-Kivu
+L Bukavu | ville | E*
+L Uvira | ville | E
+L Goma | ville | D
+L Kisangani | ville | D
+A RCD_GOMA > chefs coutumiers, responsables administratifs, opposants, société civile | opposizione politica | civili | | arresto_arbitrario,tortura,detenzione_arbitraria,trattamenti_inumani,sparizione_forzata | plusieurs | indeterminato | | 1998-2002; alcuni trasferiti in Rwanda
+## P3-060 | puntuale | Sud-Kivu
+L Uvira | ville | E*
+A ANC,APR,FAB > civils | | civili | donne | uccisione,esecuzione_sommaria,violenza_sessuale | des dizaines | ordine_di_grandezza | | durante e dopo gli scontri con le FAC
+## P3-061 | puntuale | Sud-Kivu
+L Lwiburule | village | E* | rel=53@Uvira^nord-ouest
+L Uvira | ville | R
+A ANC > chef de localité de Kiringye et personnes présentes chez lui | | civili | | uccisione | 13 | esatto
+## P3-062 | multi-sito | Sud-Kivu
+L Kivovo | village | E* | rel=11@Uvira^sud | n=porto di Kalundu, installazioni SEP Congo
+L Kigongo | village | E
+L Kalungwe | village | E
+L Uvira | ville | R
+A ANC,APR > civils accusés d'héberger des Mayi-Mayi | | civili | | uccisione | 15 | esatto
+A ANC,APR > jeunes réquisitionnés | | civili | | lavoro_forzato | | | | sepoltura in fosse comuni
+## P3-063 | multi-sito | Sud-Kivu
+L Kasika | village | E* | in=Mwenga:territoire | rel=108@Bukavu
+L Kilungutwe | village | E | in=Mwenga:territoire
+L Kalama | village | E | in=Mwenga:territoire
+L Bukavu | ville | R
+A ANC,APR > civils, dont femmes, enfants et bébés | | civili | donne,bambini | massacro,uccisione,saccheggio,distruzione_incendio | plus d'un millier | minimo | | rappresaglia per un'imboscata Mayi-Mayi
+A ANC,APR > femmes | | civili | donne | violenza_sessuale,tortura,mutilazione | la plupart des femmes | indeterminato
+## P3-064 | multi-sito | Sud-Kivu
+L Kitutu | village | E* | in=Mwenga:territoire | rel=225@Bukavu^sud-ouest
+L Kakubu | village | E
+L Kilima | village | E
+L Bukavu | ville | R
+A ANC > civils, dont enfants et vieillards | | civili | bambini,anziani | uccisione | 13 | esatto
+A ANC > maisons | | civili | | distruzione_incendio | plus d'une centaine de maisons | minimo
+## P3-065 | puntuale | Sud-Kivu
+L Nzovu | village | E* | in=Bakisi:chefferie,Shabunda:territoire | rel=192@Shabunda^sud
+L Shabunda | localité | R
+L Bunyakiri | localité | O
+A MAYI_MAYI > civils tutsi d'origine rwandaise, dont cinq femmes | tutsi,rwandais | civili | donne | uccisione | sept | esatto
+## P3-066 | multi-sito | Sud-Kivu
+L Swima | village | E* | in=Fizi:territoire | rel=38@Uvira^sud | n=mercato sul lago Tanganyika
+L Lusambo | village | E | in=Fizi:territoire
+L Uvira | ville | R
+A ANC,FAB > civils | | civili | | uccisione | 22 | esatto | | accusati di essere Mayi-Mayi e di collaborare con il CNDD-FDD
+## P3-067 | puntuale | Sud-Kivu
+L Bushaku | village | E* | in=Kalehe:territoire | rel=50@Bukavu^nord
+L Bukavu | ville | R
+A ANC,APR > civils | | civili | | detenzione_arbitraria,uccisione,distruzione_incendio,saccheggio | au moins 10 | minimo | | bruciati vivi; rappresaglia
+## P3-068 | multi-sito | Sud-Kivu
+L Bunyakiri | localité | E* | in=Kalehe:territoire | rel=80@Bukavu^nord
+L Maibano | village | E | rel=~Bunyakiri
+L Bulambika | centre commercial | E | rel=~Bunyakiri
+L Bukavu | ville | R
+A ANC,APR > personnes | | civili | | uccisione | une dizaine | approssimato
+## P3-069 | multi-sito | Sud-Kivu
+L Bogamanda | village | E* | in=Kalehe:territoire
+L Buhama | village | E | in=Kalehe:territoire
+L Lemera | village | E | in=Kalehe:territoire | n=sulla strada per il mercato di Chipaho
+A ANC,APR > commerçants se rendant au marché | | civili | | uccisione | plusieurs dizaines | ordine_di_grandezza | | accusati di collaborare con i Mayi-Mayi
+## P3-070 | puntuale | Sud-Kivu
+L Mboko | village | E* | in=Fizi:territoire | rel=52@Uvira^sud
+L Uvira | ville | R
+A ANC,APR,FAB > civils | | civili | | perquisizione_arbitraria,esecuzione_sommaria | neuf | esatto
+## P3-071 | multi-sito | Sud-Kivu
+L Mubumbano | village | E* | in=Walungu:territoire | rel=60@Bukavu^sud-ouest
+L Mudirhi | village | E | in=Walungu:territoire
+L Ntondo | village | E | in=Walungu:territoire
+L Bukavu | ville | R
+A ANC,APR,FAC,ALIR,MAYI_MAYI > civils | | civili | | uccisione | nombre indéterminé | indeterminato | | scontri; vittime accusate di sostenere Mudundu 40
+## P3-072 | multi-sito | Sud-Kivu
+L Makobola II | village | E* | in=Fizi:territoire | rel=24@Uvira^sud
+L Bangwe | village | E | in=Fizi:territoire
+L Katuta | village | E | in=Fizi:territoire
+L Mikunga | village | E | in=Fizi:territoire
+L Kashekezi | village | E | in=Fizi:territoire
+L Uvira | ville | R
+A ANC,APR,FAB > civils, dont femmes, enfants, volontaires de la Croix-Rouge et responsables religieux | | civili, personale umanitario | donne,bambini | massacro,uccisione,distruzione_incendio,saccheggio,attacco_personale_umanitario | plus de 800 | minimo | | rappresaglia
+## P3-073 | itinerario | Sud-Kivu
+L Burhale | localité | E* | in=Walungu:territoire | rel=55@Bukavu^nord-ouest
+L Mushinga-Lubona | localité | E | in=Walungu:territoire | rel=62@Bukavu^nord-ouest
+L Bukavu | ville | R
+A ANC,APR > civils accusés de soutenir Mudundu 40 | | civili | | uccisione | plusieurs | indeterminato
+## P3-074 | puntuale | Sud-Kivu
+L Bitale | village | E* | in=Kalehe:territoire | rel=62@Bukavu^nord-ouest
+L Bukavu | ville | R
+L Kavumu | localité | O
+A ANC,APR > civils | | civili | donne,minori | uccisione,distruzione_incendio,violenza_sessuale | au moins six | minimo
+## P3-075 | puntuale | Sud-Kivu
+L Kamituga | ville | E* | in=Mwenga:territoire | rel=180@Bukavu | n=collina di Mero; fosse comuni nel sito dell'Università
+L Bukavu | ville | R
+A ANC > personnes | | civili | | rapimento,uccisione,massacro,occultamento_cadaveri | plus de 100 | minimo
+## P3-076 | puntuale | Sud-Kivu
+L Kazimia | village | E* | in=Nganja:chefferie,Fizi:territoire | rel=171@Uvira^sud
+L Uvira | ville | R
+A FAB > pêcheurs | | civili | | arresto_arbitrario,uccisione,distruzione_incendio | six | esatto | | bruciati vivi
+## P3-077 | puntuale | Sud-Kivu
+L Mwandiga | village | E* | in=Fizi:territoire | rel=~Baraka
+L Baraka | ville | R
+A ANC > familles en fuite | | civili | bambini | uccisione,distruzione_incendio,massacro | 28 | esatto | | bruciati vivi
+## P3-078 | areale | Sud-Kivu
+L Burhinyi | chefferie | E* | in=Mwenga:territoire | rel=80@Bukavu^sud-ouest | n=groupements Mulambi e Karhendezi
+L Bukavu | ville | R
+L Cirhongo | localité | R
+A ANC,APR > civils accusés de collaborer avec Mudundu 40 | | civili | | uccisione | une douzaine | approssimato | | rappresaglia
+## P3-079 | puntuale | Sud-Kivu
+L Budaha | village | E* | in=Burhinyi:chefferie,Mwenga:territoire
+A ANC,APR > civils | | civili | | uccisione,massacro | 72 | esatto | | rappresaglia
+## P3-080 | puntuale | Sud-Kivu
+L Nyalukungu | village | E* | in=Wakabango:chefferie,Shabunda:territoire | rel=108@Shabunda^sud
+L Shabunda | localité | R
+A MAYI_MAYI > civils accusés de collaborer avec le RCD-Goma | | civili | | uccisione,massacro | plus d'une cinquantaine | minimo | | Mayi-Mayi provenienti da Pangi (Maniema)

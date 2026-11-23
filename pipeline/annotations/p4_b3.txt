@@ -1,0 +1,260 @@
+## P4-076 | areale | Katanga
+L Tumbwe | chefferie | E* | in=Kalemie:territoire | n=groupement Kalumbi
+L Benze | village | E | in=Sud-Lukuga:chefferie,Nyunzu:territoire
+A MAYI_MAYI > civils | | civili | | uccisione,mutilazione,tortura,saccheggio,distruzione_incendio,sfollamento_forzato | nombre indéterminé | indeterminato | | 2001-2003
+## P4-077 | areale | Katanga
+L Tumbwe | chefferie | E* | in=Kalemie:territoire | n=tra Tumbwe e Sud-Lukuga
+L Nyemba | village | O
+L Miala | village | O
+A ANC,APR,FRD > civils | | civili | | uccisione,reclutamento_forzato,detenzione_arbitraria,trattamenti_inumani,esecuzione_sommaria,attacco_villaggi | nombre indéterminé | indeterminato | | detenzione in buche fangose; esecuzioni pubbliche
+## P4-078 | puntuale | Katanga
+L Ankoro | ville | E* | n=Ankoro-Nord e Ankoro-Sud
+A FAC > civils | | civili | | bombardamento_indiscriminato,uccisione,distruzione_incendio,attacco_scuola,attacco_sanita,saccheggio | plus de 100 tués ; plus de 4 000 maisons détruites | minimo | | circa 245 colpi di artiglieria
+## P4-079 | multi-sito | Katanga
+L Mukanga | ville | E* | in=Kayumba:chefferie,Malemba Nkulu:territoire
+L Museba | village | E
+L Ilunga | village | E
+L Kamitengo | village | E
+L Kakenza | village | E
+L Kimana | village | E
+A MAYI_MAYI > civils | | civili | donne | uccisione,violenza_sessuale,saccheggio,distruzione_incendio,mutilazione,attacco_scuola,attacco_sanita | nombre indéterminé (au moins 12 identifiés à Mukanga) | indeterminato
+## P4-080 | puntuale | Nord-Kivu
+L Bushimoo | village | E* | in=Bashali:chefferie,Masisi:territoire | n=groupement Bashali-Mokoto
+A ANC > personnes hunde | hunde | civili | | uccisione | nombre indéterminé | indeterminato
+## P4-081 | areale | Nord-Kivu
+L Bashali | chefferie | E* | in=Masisi:territoire | n=villaggi nyanga del groupement Bashali-Mokoto
+A MAYI_MAYI > villages nyanga | nyanga | civili | | distruzione_incendio,uccisione | nombre indéterminé | indeterminato | | gruppo Mayi-Mayi guidato da un capo hunde
+## P4-082 | multi-sito | Nord-Kivu
+L Bushimoo | village | E* | in=Bashali:chefferie,Masisi:territoire
+L pont sur l'Osso | pont | E
+L Kauli | village | E
+L Binyungunyungu | village | E
+A ANC > civils hunde | hunde | civili | donne | uccisione,distruzione_incendio,violenza_sessuale | nombre indéterminé (une quinzaine au pont de l'Osso) | indeterminato
+## P4-083 | multi-sito | Nord-Kivu
+L Bushimoo | village | E* | in=Bashali:chefferie,Masisi:territoire
+L Kailenge | village | E
+A ANC > population convoquée à une réunion publique | hunde | civili | | uccisione,massacro | au moins 44 | minimo
+## P4-084 | puntuale | Nord-Kivu
+L Kabusa | village | E* | in=Walikale:territoire | rel=10@Walikale | n=foresta circostante
+L Walikale | localité | R
+A ANC > civils réfugiés en forêt | | sfollati | donne | uccisione,tortura | cinq tués, deux femmes torturées | esatto
+## P4-085 | puntuale | Nord-Kivu
+L Lukweti | village | E* | in=Masisi:territoire
+A ANC > habitants | | civili | | uccisione,saccheggio | sept | esatto
+## P4-086 | puntuale | Nord-Kivu
+L Mubambiro | village | E* | rel=20@Goma^nord | n=ai margini del parco dei Virunga
+L Goma | ville | R
+A ANC > Pygmées | pygmées | civili | donne | violenza_sessuale,trattamenti_inumani,detenzione_arbitraria | nombre indéterminé | indeterminato | | accusati di collaborare con le FDLR
+A FDLR > femmes pygmées | pygmées | civili | donne | violenza_sessuale | | indeterminato
+## P4-087 | puntuale | Nord-Kivu
+L Mudja | village | E* | rel=15@Goma^nord
+L Goma | ville | R
+A ANC > Pygmées | pygmées | civili | donne | violenza_sessuale,trattamenti_inumani,detenzione_arbitraria | nombre indéterminé | indeterminato | | settembre 2003, dopo la fine del periodo del rapporto
+## P4-088 | puntuale | Nord-Kivu
+L Kiantsaba | village | E* | rel=15@Beni
+L Beni | ville | R
+A APC > civils | | civili | | uccisione,distruzione_incendio | au moins cinq | minimo
+## P4-089 | puntuale | Nord-Kivu
+L Irango | village | E*
+A UPDF > personnes accusées de soutenir les Mayi-Mayi | | civili | minori | uccisione,violenza_sessuale,distruzione_incendio,saccheggio | nombre indéterminé | indeterminato
+## P4-090 | areale | Nord-Kivu
+L Kanyabayonga | localité | R | n=regione a nord
+L Kayna | village | E*
+L Mayene | village | E
+L Nyamindo | village | E
+L Kisandja | village | E
+L Kiteka | village | E
+A FDLR > civils | | civili | | uccisione,minaccia | des dizaines | ordine_di_grandezza
+## P4-091 | puntuale | Sud-Kivu
+L Masanga | village | E* | in=Bakisi:chefferie,Shabunda:territoire | rel=51@Shabunda
+L Shabunda | localité | R
+A MAYI_MAYI > civils | | civili | | uccisione,saccheggio,distruzione_incendio | au moins 21 | minimo
+## P4-092 | puntuale | Sud-Kivu
+L Nundu | village | E* | in=Fizi:territoire | rel=56@Uvira^sud
+L Uvira | ville | R
+A MAYI_MAYI > civils, dont le chef du village et une femme | | civili | donne | uccisione,mutilazione | au moins trois | minimo
+## P4-093 | puntuale | Sud-Kivu
+L Sange | ville | E* | in=Uvira:territoire | rel=33@Uvira^nord | n=quartiere Nyakabere II
+L Uvira | ville | R
+A MAYI_MAYI,FDLR > civils, dont trois femmes | | civili | donne | uccisione,distruzione_incendio | six | esatto
+A GROUPES_AUTODEFENSE > une femme | | civili | donne | uccisione | une | esatto | antefatto | milizie di autodifesa istituite dal RCD-Goma
+## P4-094 | puntuale | Sud-Kivu
+L Kaboke II | village | E* | in=Fizi:territoire | n=secteur de Tanganyika
+A ANC,APR > personnes, dont un bébé et deux mineurs | | civili | bambini | uccisione,distruzione_incendio | entre 17 et 20 | intervallo
+## P4-095 | multi-sito | Sud-Kivu
+L Cibanda | village | E* | in=Walungu:territoire | rel=40@Bukavu^sud-ouest
+L Nshesha | village | E
+L Makwale | village | E
+L Bukavu | ville | R
+A ANC,APR,FRD > populations civiles | | civili | donne | violenza_sessuale,saccheggio | | indeterminato
+## P4-096 | areale | Sud-Kivu
+L presqu'île d'Ubwari | presqu'île | E* | in=Fizi:territoire
+A FDD > hommes accusés de soutenir le RCD-Goma | | civili | | violenza_sessuale | au moins 22 | minimo | | operazione «Savon» / «Huile de palme»
+## P4-097 | puntuale | Sud-Kivu
+L Nyabibwe | village | E* | in=Kalehe:territoire | rel=95@Bukavu^nord
+L Bukavu | ville | R
+A FDLR > civils, femmes et enfants | | civili | donne,bambini | uccisione,violenza_sessuale,saccheggio,rapimento,lavoro_forzato,reclutamento_minori | sept tués | esatto
+## P4-098 | areale | Sud-Kivu
+L Uvira | ville | E* | n=regione di Uvira
+A MAYI_MAYI,FRF > civils | | civili | donne | violenza_sessuale,uccisione,saccheggio | nombre indéterminé | indeterminato
+## P4-099 | multi-sito | Sud-Kivu
+L Uvira | ville | E*
+L Runingu | village | E
+L Kiliba | village | E
+L Sange | village | E
+L Ndunda | village | E
+L Luvungi | village | E
+L Kamanyola | localité | E
+A ANC > civils | | civili | donne | violenza_sessuale,uccisione | nombre indéterminé | indeterminato
+## P4-100 | puntuale | Sud-Kivu
+L Baraka | ville | E* | in=Fizi:territoire
+A MAYI_MAYI > population civile | | civili | | bombardamento_indiscriminato,uccisione,distruzione_beni,sfollamento_forzato | au moins 17 ; au moins 40 maisons | minimo | | bombe artigianali lanciate da piroghe
+## P4-101 | multi-sito | Sud-Kivu
+L Mushinga | localité | E* | in=Burhale:groupement,Walungu:territoire | n=villaggi Mwegerera, Lukumbo, Karhundu, Izirangabo
+L Walungu | localité | E | n=parte sud del centro
+A ANC,FRD > civils | | civili | donne | bombardamento_indiscriminato,uccisione,violenza_sessuale,sparizione_forzata,saccheggio,occultamento_cadaveri | plusieurs dizaines ; au moins 27 femmes violées, six disparues | ordine_di_grandezza | | attacco al quartier generale di Mudundu 40
+A ANC > établissements d'enseignement et infrastructures sanitaires | | civili | | attacco_scuola,attacco_sanita,distruzione_beni | | | | punizione collettiva
+## P4-102 | puntuale | Sud-Kivu
+L Nyamwoma | village | E* | in=Bafuliro:chefferie,Uvira:territoire | rel=28@Uvira^nord
+L Uvira | ville | R
+A PALIPEHUTU > agriculteurs refusant de payer une taxe | | civili | minori | uccisione,saccheggio,distruzione_incendio | sept | esatto | | secondo un'altra fonte disertori delle FNL
+## P4-103 | areale | Sud-Kivu
+L Fizi | territoire | E*
+A NON_SPECIFICATO > femmes et hommes | | civili | donne | violenza_sessuale | plus de 1 660 cas recensés (dont 89 hommes) | minimo | | tutti i gruppi armati della zona; gli stupri di uomini soprattutto da parte delle FDD
+## P4-104 | puntuale | Sud-Kivu
+L Kalundja | village | E* | in=Fizi:territoire | rel=7@Baraka
+L Baraka | ville | R
+A FDD > civils, dont des hommes | | civili | | uccisione,violenza_sessuale,saccheggio | au moins quatre tués ; des dizaines violés | minimo
+## P4-105 | areale | Sud-Kivu
+L Bakisi | chefferie | E* | in=Shabunda:territoire | n=Mungembe, Matili, Nyalukungu, Lulingu, Chelamazi, Lugungu, Masanga, Kikamba; il testo scrive 'Bakasi'
+A MAYI_MAYI,FDLR,ANC:minore,APR:minore,FRD:minore > femmes | | civili | donne | violenza_sessuale | 2 500 cas documentés par les ONG locales | minimo
+## P4-106 | areale | Sud-Kivu
+L Uvira | territoire | E* | n=piana della Ruzizi
+A ANC,APR,FRD,MAYI_MAYI,ALIR,FDLR,PALIPEHUTU > femmes | | civili | donne | violenza_sessuale | nombre indéterminé | indeterminato
+## P4-107 | puntuale | Maniema
+L Kasenga Numbi | localité | E* | in=Kailo:territoire
+A ANC,APR > civils soutenant supposément les Mayi-Mayi | | civili | | rapimento,uccisione | cinq | esatto
+A MAYI_MAYI > civil accusé d'espionner pour le RCD-Goma | | civili | | tortura,mutilazione,uccisione | un | esatto | | sepolto vivo dopo atroci torture
+## P4-108 | puntuale | Maniema
+L Punia | ville | E* | n=prigione centrale detta «Kigali»
+A ANC,APR,AUTORITES_PROVINCIALES:mandante > commerçant en minerais et porteurs | | civili | | arresto_arbitrario,esecuzione_sommaria,detenzione_arbitraria | 13 | esatto | | su ordine del consiglio di sicurezza presieduto dall'amministratore del territorio
+## P4-109 | puntuale | Maniema
+L Lubao | village | E* | in=Kailo:territoire
+A ANC,APR > civils | | civili | | bombardamento_indiscriminato,uccisione,ferimento,saccheggio | six tués, huit blessés ; puis quatre tués | esatto
+## P4-110 | puntuale | Maniema
+L Nyoka | village | E* | in=Kailo:territoire | rel=19@Kindu
+L Kindu | ville | R
+A ANC,APR > civils accusés de soutenir les Mayi-Mayi | | civili | | esecuzione_sommaria,sparizione_forzata | au moins 12 | minimo
+## P4-111 | puntuale | Maniema
+L Basoko | quartier | E* | in=Kindu:ville
+A ANC,APR > civils | | civili | | uccisione | sept | esatto | | rastrellamento
+## P4-112 | puntuale | Maniema
+L Yumbi | village | E* | rel=35@Punia
+L Punia | ville | R
+A ANC,APR > civils | | civili | | uccisione | une vingtaine | approssimato | | rappresaglia
+## P4-113 | puntuale | Maniema
+L Lubelenge | village | E* | in=Kailo:territoire
+A MAYI_MAYI > hommes d'un groupe de voyageurs | | civili | | rapimento,uccisione,trattamenti_inumani | 15 | esatto | | sepolti vivi davanti alle donne
+## P4-114 | puntuale | Maniema
+L Makali | village | E* | in=Kailo:territoire | rel=12@Kindu
+L Kindu | ville | R
+A ANC,APR > village | | civili | | distruzione_incendio | 64 maisons | esatto
+## P4-115 | puntuale | Maniema
+L Kasongo | ville | E* | n=hotel Palace
+A ANC,APR > Mayi-Mayi hors de combat | | combattenti fuori combattimento | | esecuzione_sommaria,distruzione_incendio | quatre | esatto | | bruciati vivi
+## P4-116 | puntuale | Maniema
+L Kitangi | village | E* | in=Pangi:territoire | rel=15@Kampene
+L Kampene | localité | R
+A ANC,APR > villageois et passants | | civili | | arresto_arbitrario,uccisione,massacro | plus d'une cinquantaine | minimo | | militari travestiti da Mayi-Mayi
+## P4-117 | multi-sito | Maniema
+L île de Nyonga | île | E* | in=Basongola:chefferie,Kailo:territoire
+L île de Katangila | île | E
+L Keko | village | E
+L Kindu | ville | D
+A ANC,FRD > civils, dont femmes et enfants | | civili | donne,bambini | uccisione,massacro,esecuzione_sommaria,distruzione_incendio,espulsione_forzata | plus de 100 | minimo | | uomini separati da donne e bambini e uccisi
+## P4-118 | multi-sito | Maniema
+L Kipala | camp | E* | rel=29@Kindu
+L Kindu | ville | R
+L Mimbite | village | E | in=Pangi:territoire
+L Lumembe | village | E | in=Pangi:territoire
+A MAYI_MAYI > civils, dont femmes et enfants | | civili | donne,bambini | rapimento,lavoro_forzato,percosse,uccisione,trattamenti_inumani | entre 200 et 300 réduits en esclavage ; cinq tués | intervallo
+## P4-119 | puntuale | Maniema
+L Brazza | quartier | E* | in=Kindu:ville | n=barriera; boulevard Joseph Kabila; strada di Lwama
+A ANC,GROUPES_AUTODEFENSE > civils | | civili | | uccisione,massacro | plus d'une centaine | minimo
+## P4-120 | puntuale | Maniema
+L Alunguli | commune | E* | in=Kindu:ville
+A ANC,GROUPES_AUTODEFENSE > civils, dont un bébé et des écoliers | | civili | bambini | esecuzione_sommaria,occultamento_cadaveri | 20 | esatto | | fosse comuni scoperte nel 2007
+## P4-121 | puntuale | Maniema
+L Tokolote | quartier | E* | in=Kindu:ville
+A ANC,GROUPES_AUTODEFENSE > civils | | civili | | arresto_arbitrario,esecuzione_sommaria,occultamento_cadaveri | sept | esatto | | fascicolo aperto nel 2004 presso l'auditorato militare, senza processo (secondo il rapporto)
+## P4-122 | puntuale | Maniema
+L Songwe | village | E* | in=Kailo:territoire | rel=24@Kindu^sud | n=chiesa «les Apôtres»
+L Kindu | ville | R
+A ANC > civils, dont femmes et enfants | | civili | donne,bambini | uccisione,attacco_luogo_di_culto | 19 | esatto
+## P4-123 | multi-sito | Maniema
+L Katalama | village | E* | rel=14@Kindu
+L Mongali | village | E | rel=14@Kindu
+L Kindu | ville | R
+A ANC > civils, dont femmes et enfants | | civili | donne,bambini | esecuzione_sommaria | 22 | esatto
+## P4-124 | puntuale | Maniema
+L Kibombo | ville | E* | rel=110@Kindu^sud | n=quartieri Kawelo e dei poliziotti
+L Kindu | ville | R
+A ANC > civils soupçonnés de soutenir les Mayi-Mayi | | civili | | esecuzione_sommaria,occultamento_cadaveri | au moins 37 | minimo
+## P4-125 | puntuale | Maniema
+L Lubelenge | village | E* | in=Kailo:territoire
+L Kimbolo | localité | O
+A ANC > village, lieux de culte, centres sanitaires | | civili | | saccheggio,distruzione_incendio,attacco_luogo_di_culto,attacco_sanita | plus de 100 maisons | minimo | | operazione «Kangola Nzela»
+## P4-126 | areale | Maniema
+L Kindu | ville | E* | n=e dintorni
+L Lubelenge | village | E
+A MAYI_MAYI > femmes de tous âges | | civili | donne | violenza_sessuale,rapimento | un grand nombre (238 cas à Lubelenge) | indeterminato | | schiavitù sessuale durante il blocco di Kindu
+A ANC,APR,FRD > femmes | | civili | donne | violenza_sessuale | en plus petit nombre | indeterminato
+## P4-127 | areale | Maniema
+L Kalima | ville | E* | in=Pangi:territoire
+L Amisi | village | E
+L Kamakozi | village | E | in=Kailo:territoire
+A MAYI_MAYI > femmes | | civili | donne | rapimento,violenza_sessuale,trattamenti_inumani | des centaines | ordine_di_grandezza | | schiavitù sessuale
+A MAYI_MAYI > hommes | | civili | | rapimento,lavoro_forzato
+## P4-128 | areale | Maniema
+L Kasongo | territoire | E* | n=collettività Maringa, Mulu e Bakwange
+A MAYI_MAYI,ANC,APR,FRD > femmes | | civili | donne | violenza_sessuale,trattamenti_inumani | plus de 2 500 | minimo | | incesto forzato in pubblico
+## P4-129 | puntuale | Kinshasa
+L camp Kokolo | camp militaire | E* | in=Kinshasa:ville
+L prison de Makala | prison | E | in=Kinshasa:ville | n=CPRK
+A FAC > ressortissants libanais | libanais | civili | | esecuzione_sommaria | 11 | esatto | | dopo l'assassinio del presidente Kabila
+A FORCES_SECURITE_CONGOLAISES > personnes raflées | | civili | | arresto_arbitrario,tortura,detenzione_arbitraria | une centaine | approssimato
+## P4-130 | puntuale | Kinshasa
+L Kinshasa | ville | E* | n=cachots dell'ANR
+L Brazzaville | ville | O
+A ANR > militaires des FAC demandeurs d'asile | | militari | | rapimento,tortura,trattamenti_inumani,detenzione_arbitraria | 19 | esatto | | condannati all'ergastolo dalla Cour d'ordre militaire nel 2003
+## P4-131 | puntuale | Kinshasa
+L GLM | lieu de détention | E* | in=Kinshasa:ville
+A FORCES_SECURITE_CONGOLAISES > détenus | | detenuti | | tortura,trattamenti_inumani,esecuzione_sommaria | nombre indéterminé | indeterminato
+## P4-132 | puntuale | Kinshasa
+L Kinshasa | ville | E* | n=residenze universitarie; DRGS (Kin Mazière); CPRK
+A FAC > étudiants | | civili | donne | arresto_arbitrario,violenza_sessuale,tortura,saccheggio | une centaine arrêtés, trois étudiantes violées, neuf torturés | esatto
+## P4-133 | multi-sito | Bas-Congo
+L Luozi | localité | E*
+L Moanda | ville | E
+A PNC,FAC > manifestants et militants du BDK | BDK | civili | | uccisione,arresto_arbitrario,detenzione_arbitraria,tortura | au moins 14 tués, plus de 40 arrêtés | minimo
+## P4-134 | puntuale | Kasaï-Occidental
+L Mwanza | village | E* | in=Dimbelenge:territoire | rel=12@Kajiba
+L Kajiba | localité | R
+A ANC,APR > civils accusés de renseigner les FAC | | civili | | uccisione | quatre | esatto
+## P4-135 | puntuale | Kasaï-Oriental
+L polygone minier de la MIBA | concession minière | E* | rel=~Mbuji-Mayi
+L Mbuji-Mayi | ville | R
+A GARDIENS_MIBA > creuseurs illégaux, dont des mineurs | | civili | minori | uccisione,ferimento,detenzione_arbitraria,trattamenti_inumani | plusieurs centaines (tués et blessés) | ordine_di_grandezza | | caso del febbraio 2001 archiviato dalla Cour d'ordre militaire (secondo il rapporto)
+## P4-136 | puntuale | Kasaï-Oriental
+L Katako-Kombe | ville | E*
+A ANC,APR > civils soupçonnés de collaborer avec les Mayi-Mayi | | civili | | uccisione,tortura | au moins sept tués, deux torturés | minimo
+## P4-137 | puntuale | Kasaï-Oriental
+L Nyeme | village | E* | in=Katako-Kombe:territoire
+A ANC,APR > membres de l'église kimbanguiste | kimbanguisti | civili | donne | violenza_sessuale,tortura,saccheggio | deux femmes violées, 18 hommes torturés | esatto
+## P4-138 | puntuale | Kasaï-Oriental
+L Omeoga | village | E* | in=Basambala:chefferie,Katako-Kombe:territoire
+A MAYI_MAYI > villageois | | civili | donne | esecuzione_sommaria,violenza_sessuale,ferimento,saccheggio,distruzione_incendio | un exécuté, deux femmes violées, trois blessés | esatto | | Mayi-Mayi di Lomassa
+## P4-139 | areale | Kasaï-Oriental
+L Katako-Kombe | territoire | E*
+A ANC,APR,FRD > enfants | | civili | bambini | reclutamento_minori,reclutamento_forzato,lavoro_forzato,tortura,violenza_sessuale | nombre indéterminé | indeterminato | | 1999-2003
+A MAYI_MAYI:minore,FAC:minore > enfants | | civili | bambini | reclutamento_minori | | indeterminato

@@ -1,0 +1,165 @@
+## P2-121 | puntuale | Nord-Kivu
+L Grand séminaire de Buhimba | séminaire | E* | rel=~Mugunga
+L camp de Mugunga | camp | R
+A EX_FAR_INTERAHAMWE,BANDITS_ARMES > religieux tutsi (deux abbés, une sœur) | tutsi,clero cattolico | civili | | uccisione,attacco_luogo_di_culto | trois | esatto | condizionale
+## P2-122 | puntuale | Nord-Kivu
+L Bunagana | localité | E* | in=Rutshuru:territoire | n=al confine con l'Uganda
+A APR,UPDF > civils, surtout Banyarwanda hutu | banyarwanda,hutu | civili | | uccisione | entre 28 et 36 | intervallo | condizionale | tutsi locali avrebbero fatto da guide (secondo alcune fonti)
+## P2-123 | puntuale | Nord-Kivu
+L Musekera | localité | E* | in=Bweza:groupement,Rutshuru:territoire | n=maison communale
+A AFDL,APR > civils, surtout Banyarwanda hutu | banyarwanda,hutu | civili | | detenzione_arbitraria,uccisione,massacro,occultamento_cadaveri | entre 70 et 150 | intervallo | | radunati col pretesto di una distribuzione di cibo
+## P2-124 | puntuale | Nord-Kivu
+L Tanda | village | E* | in=Rutshuru:territoire | rel=~Musekera
+L Musekera | localité | R
+A AFDL,APR > civils, surtout Banyarwanda hutu | banyarwanda,hutu | civili | | uccisione,distruzione_incendio | des dizaines | ordine_di_grandezza
+## P2-125 | multi-sito | Nord-Kivu
+L Bisoko | village | E* | in=Rugari:groupement,Rutshuru:territoire
+L Mugwata | village | E | in=Rutshuru:territoire
+L Ngugo | village | E | in=Rutshuru:territoire
+L Kuri-Rugari | village | E | in=Rutshuru:territoire
+L camp militaire de Rumangabo | camp militaire | R
+A AFDL,APR > civils | | civili | donne,bambini | uccisione,massacro,saccheggio | plus de 800 (liste locale de 830 noms) | minimo
+## P2-126 | puntuale | Nord-Kivu
+L camp de déplacés de Nyongera | camp | E* | in=Rutshuru:territoire | rel=?@Rutshuru
+L Rutshuru | localité | R
+A AFDL,APR > déplacés banyarwanda hutu originaires du Bwito | banyarwanda,hutu | sfollati | | uccisione,attacco_campo_rifugiati | nombre indéterminé | indeterminato | | secondo una fonte preceduto da uno scontro con ex-FAR/Interahamwe
+## P2-127 | puntuale | Nord-Kivu
+L Rutshuru | localité | E* | n=centro città, casa del 'PNA', casa della Posta, cava di sabbia
+L Kiringa | village | O | rel=1@Rutshuru
+A AFDL,APR > civils, surtout Banyarwanda hutu | banyarwanda,hutu | civili | donne | detenzione_arbitraria,esecuzione_sommaria,massacro,persecuzione | au moins 350 | minimo | | censimento e selezione etnica (i nande rilasciati)
+## P2-128 | multi-sito | Nord-Kivu
+L Kashwa | village | E* | rel=~Rutshuru
+L Burayi | village | E | rel=~Rutshuru
+L Rutshuru | localité | R
+A AFDL,APR > civils, surtout Banyarwanda hutu | banyarwanda,hutu | civili | | esecuzione_sommaria | entre 30 et 60 | intervallo
+## P2-129 | multi-sito | Nord-Kivu
+L Mushoro | village | E* | in=Kisigari:groupement,Rutshuru:territoire
+L Biruma | village | E | in=Rutshuru:territoire
+L Kabaya | village | E | in=Rutshuru:territoire
+L Kazuba | village | E | in=Rutshuru:territoire
+A AFDL,APR > civils, surtout Banyarwanda hutu | banyarwanda,hutu | civili | | uccisione,massacro,distruzione_incendio | une centaine | approssimato | | radunati col pretesto di una riunione
+## P2-130 | puntuale | Nord-Kivu
+L paroisse de Jomba | paroisse | E* | in=Rutshuru:territoire
+A AFDL,APR > un abbé et quatre sœurs banyarwanda hutu | banyarwanda,hutu,clero cattolico | civili | | sparizione_forzata | cinq | esatto
+## P2-131 | puntuale | Nord-Kivu
+L Rutshuru | localité | E* | n=edificio dello stato maggiore AFDL/APR; barriere all'ingresso e presso il Mondo Giusto; fiume Fuko
+A AFDL,APR > civils banyarwanda hutu | banyarwanda,hutu | civili | | arresto_arbitrario,detenzione_arbitraria,uccisione,occultamento_cadaveri | nombre indéterminé | indeterminato
+## P2-132 | puntuale | Nord-Kivu
+L Mugogo | marché | E* | in=Rutshuru:territoire | rel=31@Rutshuru
+L Rutshuru | localité | R
+A AFDL,APR > Banyarwanda hutu | banyarwanda,hutu | civili | | massacro,uccisione,persecuzione | plusieurs centaines (liste de 1 589 victimes remise à la MONUC en 2005) | ordine_di_grandezza | | selezione: i non hutu fatti allontanare
+## P2-133 | puntuale | Nord-Kivu
+L Kabaraza | camp IZCN | E* | in=Rutshuru:territoire | rel=20@Rutshuru | n=ingresso del parco dei Virunga
+L Ngwenda | village | O | n=barriera di selezione etnica
+L Rutshuru | localité | R
+A AFDL,APR > Banyarwanda hutu | banyarwanda,hutu | civili | | rapimento,massacro,persecuzione | plusieurs centaines (près de 600 selon la plupart des sources) | ordine_di_grandezza
+## P2-134 | multi-sito | Nord-Kivu
+L Kashwa | localité | E* | in=Gisigari:groupement,Rutshuru:territoire | n=villaggi circostanti
+L Ngungu | village | E | in=Masisi:territoire | n=regione di Ngungu
+L camp de Matebe | camp militaire | E | rel=~Rutshuru
+L Rutshuru | localité | R
+A AFDL,APR > enfants, dont certains de 10 ans | | civili | bambini | reclutamento_minori,reclutamento_forzato,tortura,trattamenti_inumani,violenza_sessuale | nombreux | indeterminato | | reclutamento anche nelle scuole; mandati al fronte
+## P2-135 | multi-sito | Nord-Kivu
+L Chanzerwa | localité | E* | in=Binja:groupement,Rutshuru:territoire
+L Buhimba | village | E | in=Rutshuru:territoire | n=chiesa CEPAC
+A AFDL,APR > civils, surtout Banyarwanda hutu, et des Nande | banyarwanda,hutu,nande | civili | donne,bambini | uccisione,rapimento,detenzione_arbitraria,massacro,occultamento_cadaveri,attacco_luogo_di_culto | plus de 300 (334 victimes recensées) | minimo
+## P2-136 | puntuale | Nord-Kivu
+L Vitshumbi | village | E* | in=Rutshuru:territoire | n=riva del lago Edoardo
+L Rwindi | complexe touristique | E | in=Rutshuru:territoire
+A AFDL,APR > villageois accusés d'avoir tué un militaire | | civili | | rapimento,sparizione_forzata | au moins 17 | minimo
+## P2-137 | puntuale | Nord-Kivu
+L Rusovu | village | E* | in=Tongo:groupement,Bwito:chefferie,Rutshuru:territoire
+A AFDL,APR > civils, surtout Banyarwanda hutu | banyarwanda,hutu | civili | | detenzione_arbitraria,uccisione,massacro,distruzione_incendio | au moins 88 | minimo
+## P2-138 | multi-sito | Nord-Kivu
+L Musanza | village | E | in=Bambu:groupement,Bwito:chefferie,Rutshuru:territoire
+L Marangara | village | E | in=Rutshuru:territoire
+L Kanyangili | village | E | in=Rutshuru:territoire
+L Kagando | village | E* | in=Rutshuru:territoire
+L Kishishe | village | E | in=Rutshuru:territoire
+A AFDL,APR > civils, surtout Banyarwanda hutu | banyarwanda,hutu | civili | | uccisione,massacro,distruzione_incendio | au moins 200 | minimo | | data novembre o dicembre 1996
+## P2-139 | puntuale | Nord-Kivu
+L Duane | village | E* | in=Tongo:groupement,Bwito:chefferie,Rutshuru:territoire
+A AFDL,APR > civils banyarwanda hutu | banyarwanda,hutu | civili | | rapimento,uccisione,distruzione_incendio,massacro | 85 | esatto | | bruciati vivi
+## P2-140 | puntuale | Nord-Kivu
+L Bukombo | village | E* | in=Bwito:chefferie,Rutshuru:territoire
+A AFDL,APR > civils, surtout Banyarwanda hutu | banyarwanda,hutu | civili | donne,bambini | massacro,uccisione | environ 300 | approssimato
+A AFDL,APR > hôpital de Bukombo | | civili | | attacco_sanita,saccheggio,distruzione_beni
+## P2-141 | puntuale | Nord-Kivu
+L Mushababwa | village | E* | in=Bambu:groupement,Bwito:chefferie,Rutshuru:territoire
+A AFDL,APR > civils, surtout Banyarwanda hutu | banyarwanda,hutu | civili | donne,bambini | uccisione,massacro | des dizaines | ordine_di_grandezza
+## P2-142 | puntuale | Nord-Kivu
+L Kazuba | village | E* | in=Bukombo:localité,Bwito:chefferie,Rutshuru:territoire | n=chiesa avventista
+A AFDL,APR > civils, surtout Banyarwanda hutu | banyarwanda,hutu | civili | donne,bambini | massacro,uccisione,distruzione_incendio,attacco_luogo_di_culto | plusieurs centaines | ordine_di_grandezza
+## P2-143 | puntuale | Nord-Kivu
+L Kabizo | village | E* | in=Bwito:chefferie,Rutshuru:territoire
+A AFDL,APR > civils, surtout Banyarwanda hutu | banyarwanda,hutu | civili | | massacro,uccisione,distruzione_incendio | plus d'une centaine (une source : 157) | minimo
+## P2-144 | multi-sito | Nord-Kivu
+L Tebero | village | E* | in=Masisi:territoire
+L Njango | village | E | in=Masisi:territoire
+L Goma | ville | O
+A ELEMENTS_ARMES_HUTU > civils, surtout d'origine nande, voyageant en camion | nande | civili | | attacco_convogli,massacro,saccheggio,distruzione_incendio | plusieurs centaines (760 corps selon certaines sources) | ordine_di_grandezza | | movente non precisato
+## P2-145 | puntuale | Nord-Kivu
+L Ngungu | village | E* | in=Masisi:territoire
+A EX_FAR_INTERAHAMWE > civils | | civili | | uccisione | entre cinq et onze | intervallo
+## P2-146 | puntuale | Nord-Kivu
+L Matanda | village | E* | in=Masisi:territoire
+A AFDL,APR > réfugiés et Banyarwanda hutu | hutu,banyarwanda | rifugiati e civili | | uccisione | au moins 97 | minimo
+## P2-147 | puntuale | Nord-Kivu
+L Kinigi | village | E* | in=Masisi:territoire | n=chiesa avventista e scuola primaria Rubona
+A AFDL,APR > civils, surtout Banyarwanda hutu | banyarwanda,hutu | civili | donne,bambini | massacro,uccisione,attacco_luogo_di_culto,attacco_scuola | près de 310 | approssimato | | accusati di ospitare ex-FAR/Interahamwe
+## P2-148 | puntuale | Nord-Kivu
+L Katoyi | village | E* | in=Masisi:territoire | n=sud-ovest del territorio di Masisi
+A AFDL,APR > civils et réfugiés rwandais | banyarwanda,hutu,rwandais | civili e rifugiati | donne,bambini | massacro,uccisione | environ 280 | approssimato
+## P2-149 | puntuale | Nord-Kivu
+L Kausa | village | E* | in=Masisi:territoire | rel=~Nyamitaba | n=collina Kanyabihanga
+L Nyamitaba | localité | R
+A AFDL,APR > civils banyarwanda hutu et réfugiés rescapés de Mugunga | banyarwanda,hutu,rwandais | civili e rifugiati | donne,bambini | massacro,uccisione | plus de 460 | minimo
+A AFDL,APR > femmes | banyarwanda,hutu | civili | donne | violenza_sessuale | de nombreuses femmes | indeterminato
+## P2-150 | puntuale | Nord-Kivu
+L paroisse de Nyakariba | paroisse | E* | in=Masisi:territoire
+L Kilolirwe | localité | O
+L Nyamitaba | localité | R
+A AFDL,APR > civils de Nyamitaba et Nyakariba, dont un prêtre | | civili | | massacro,uccisione,attacco_luogo_di_culto,occultamento_cadaveri | près de 160 | approssimato | | ossa esumate e bruciate nel 1997
+## P2-151 | multi-sito | Nord-Kivu
+L colline de Mufunzi | colline | E* | rel=~Ngungu | n=detta Nyabihanga, 'luogo dei crani'
+L Ngungu | village | E | in=Masisi:territoire
+L Murambi | village | E | in=Masisi:territoire
+L Kashovu | village | E | in=Masisi:territoire
+L Karangara | village | E | in=Masisi:territoire
+L Mumba | village | E | in=Masisi:territoire
+L Kibabi | village | E | in=Masisi:territoire
+L Nyambisi | village | E | in=Masisi:territoire
+A AFDL,APR > civils soupçonnés de collaborer avec les milices hutu | | civili | | rapimento,uccisione | entre une dizaine et plusieurs centaines | intervallo
+## P2-152 | puntuale | Nord-Kivu
+L Muheto | village | E* | in=Masisi:territoire | rel=10@Nyakariba
+L Nyakariba | paroisse | R
+A AFDL,APR > civils | | civili | | uccisione,distruzione_incendio | entre 16 et 22, puis 16 | intervallo
+## P2-153 | puntuale | Nord-Kivu
+L Bitonga | village | E* | in=Masisi:territoire
+A AFDL,APR > civils, surtout Banyarwanda hutu | banyarwanda,hutu | civili | | uccisione,massacro | entre 107 et 134 | intervallo
+## P2-154 | puntuale | Nord-Kivu
+L Kanyangote | village | E* | in=Masisi:territoire | rel=~Matanda | n=presso la parrocchia di Matanda
+L Matanda | paroisse | R
+A AFDL,APR > membres d'une même famille | | civili | bambini | uccisione | 14 | esatto
+## P2-155 | puntuale | Nord-Kivu
+L Kalangala | village | E* | in=Masisi:territoire
+A AFDL,APR > civils banyarwanda hutu | banyarwanda,hutu | civili | | uccisione | au moins 20 | minimo
+## P2-156 | puntuale | Nord-Kivu
+L Rubaya | village | E* | in=Masisi:territoire
+A AFDL,APR > civils, surtout Banyarwanda hutu | banyarwanda,hutu | civili | donne,bambini | uccisione,massacro,distruzione_incendio | plus d'une centaine | minimo
+## P2-157 | puntuale | Nord-Kivu
+L Nambi | village | E* | in=Masisi:territoire | n=mercato del bestiame
+L colline Kayonde | colline | E
+A AFDL,APR > civils | | civili | donne | rapimento,uccisione,sparizione_forzata | entre 30 et 50 enlevés ; 15 corps retrouvés | intervallo
+## P2-158 | puntuale | Nord-Kivu
+L Chandarama | village | E* | in=Masisi:territoire | n=fiume Kinyabibuga
+L Mushake | localité | O
+L Kilolirwe | localité | O
+L Ruvunda | localité | O
+A AFDL,APR > civils (selon une source, seulement des hommes) | | civili | | uccisione | nombre indéterminé | indeterminato
+## P2-159 | puntuale | Nord-Kivu
+L Mweso | localité | E* | in=Masisi:territoire | n=collina Kilumbu; parrocchia di Mweso
+A AFDL,APR > civils, surtout Banyarwanda hutu | banyarwanda,hutu | civili | | massacro,uccisione,distruzione_incendio,occultamento_cadaveri | une centaine | approssimato
+## P2-160 | puntuale | Nord-Kivu
+L Ruzirantaka | village | E* | in=Masisi:territoire
+A FAC,APR > villageois | | civili | | uccisione,saccheggio | 17 | esatto | | per coprire la morte di un militare

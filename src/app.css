@@ -1,0 +1,19 @@
+:root {
+  --ink: #1d1b1a;
+  --muted: #6b625d;
+  --paper: #fffdfb;
+  --rule: #e4dcd6;
+  --accent: #8f1f17;
+  --serif: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+  --sans: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --mono: 'IBM Plex Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace;
+  color: var(--ink);
+  font: 16px/1.5 var(--sans);
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: #f4f1ee; }
+button:focus-visible, a:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) {
+  * { scroll-behavior: auto !important; transition: none !important; animation: none !important; }
+}
+.maplibregl-popup-content { font: 0.8rem var(--sans); padding: 0.35rem 0.55rem; }

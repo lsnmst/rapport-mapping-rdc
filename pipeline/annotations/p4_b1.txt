@@ -1,0 +1,124 @@
+## P4-001 | puntuale | Orientale
+L Obenge | village | E* | in=Opala:territoire
+L Opala | localité | O
+A ANC,APR > civils, dont femmes et enfants, soupçonnés d'être des Mayi-Mayi | | civili | donne,bambini | tortura,uccisione,distruzione_incendio | au moins 11 | minimo
+## P4-002 | puntuale | Orientale
+L Kababali | village | E* | rel=~Masimango
+L Masimango | village | R
+A ANC,APR > civils, dont plusieurs mineurs | | civili | minori | uccisione,distruzione_incendio | 11 | esatto
+## P4-003 | puntuale | Orientale
+L Masimango | village | E*
+A ANC,APR > civils et femmes | | civili | donne | uccisione,violenza_sessuale | 16 tués, 10 femmes violées | esatto
+## P4-004 | areale | Orientale
+L Masimango | village | E* | n=regione circostante
+A ANC,APR > personnes, surtout civils non armés | | civili | | uccisione,saccheggio,distruzione_incendio,attacco_villaggi | une centaine au moins | minimo | | nei sei mesi successivi al 21 giugno 2001
+## P4-005 | puntuale | Orientale
+L Kisangani | ville | E*
+A POPULATION_LOCALE,MUTINS_ANC:istigazione > Rwandais, personnes d'origine rwandaise ou leur ressemblant | rwandais | civili | | uccisione | au moins six | minimo
+## P4-006 | multi-sito | Orientale
+L Kisangani | ville | E*
+L Mangobo | commune | E | in=Kisangani:ville
+L camp Ketele | camp militaire | E | in=Kisangani:ville
+L aéroport de Bangoka | aéroport | E | rel=20@Kisangani^est
+L pont Tshopo | pont | E | in=Kisangani:ville
+A ANC,APR > civils | | civili | donne | uccisione,massacro,ferimento,violenza_sessuale,saccheggio,mutilazione,occultamento_cadaveri | au moins 276 tués, des centaines de blessés | minimo | | repressione dell'ammutinamento del maggio 2002
+## P4-007 | puntuale | Orientale
+L Buta | ville | E*
+A ALC,UPDF > civils, dont un activiste des droits de l'homme | | civili | | tortura,uccisione,detenzione_arbitraria,decessi_per_privazioni | nombre indéterminé | indeterminato | | detenzione in buche fangose; chiuse dopo un'inchiesta della MONUC
+## P4-008 | puntuale | Orientale
+L Madesi | village | E* | n=dintorni
+A APC > femmes | | civili | donne | violenza_sessuale | six | esatto | | stupri collettivi
+## P4-009 | areale | Orientale
+L Isiro | ville | E* | n=zona dei combattimenti dell'operazione «Effacer le tableau»
+A ALC > combattants de l'APC hors de combat et civils, dont femmes et enfants | | combattenti fuori combattimento, civili | donne,bambini | tortura,mutilazione,esecuzione_sommaria,uccisione | au moins 16 combattants et un nombre indéterminé de civils | minimo | | operazione «Effacer le tableau»; cannibalismo non confermato dal rapporto
+## P4-010 | puntuale | Orientale
+L Ganga | localité | E* | n=distretto dell'Haut-Uélé
+A ALC > vendeurs d'huile de palme et une femme | | civili | donne | tortura,uccisione | sept et une | esatto
+## P4-011 | puntuale | Orientale
+L mine d'or de Kilomoto | mine | E* | in=Watsa:territoire | n=dintorni
+A FAPC > civils | | civili | | violenza_sessuale,uccisione | nombre indéterminé | indeterminato
+## P4-012 | multi-sito | Orientale
+L Aruda | village | E* | in=Walendu Pitsi:chefferie,Djugu:territoire | n=groupement Zabu
+L Mola | village | E | in=Djugu:territoire
+L Kpandroma | localité | R
+L Fataki | village | O
+A MILICES_HEMA > civils lendu | lendu | civili | | uccisione | au moins 35 | minimo
+## P4-013 | areale | Orientale
+L Walendu Tatsi | chefferie | E* | n=groupements Salimboko, Poli-Masumbuku, Penyi
+A MILICES_HEMA > personnes et deux mineures | lendu | civili | minori | uccisione,rapimento,sparizione_forzata | au moins 16 | minimo
+## P4-014 | areale | Orientale
+L lac Albert | lac | E* | n=villaggi rivieraschi; collettività Bahema Banywagi e Bahema-Nord
+A MILICES_LENDU > civils, surtout Hema et Alur | hema,alur | civili | | uccisione | nombre indéterminé | indeterminato
+## P4-015 | areale | Orientale
+L Zumbe | centrale | E* | in=Bedu Ezekere:groupement,Walendu Tatsi:chefferie | n=una ventina di villaggi
+A UPDF > personnes, dont de nombreux civils lendu | lendu | civili | donne | uccisione,violenza_sessuale,saccheggio,sparizione_forzata,attacco_villaggi | une centaine | approssimato
+## P4-016 | areale | Orientale
+L Bulo | groupement | E* | in=Ndo Okebo:chefferie,Djugu:territoire
+A MILICES_HEMA,UPDF > personnes, dont de nombreux civils lendu déplacés | lendu | sfollati | | uccisione,massacro | 105 | esatto
+## P4-017 | puntuale | Orientale
+L Kotoni | village | E* | in=Irumu:territoire | n=e dintorni
+A MILICES_HEMA > personnes, dont de nombreux civils lendu et ngiti | lendu,ngiti | civili | | uccisione | une soixantaine | approssimato
+## P4-018 | puntuale | Orientale
+L Mudzipela | quartier | E* | in=Bunia:ville
+A MILICES_HEMA,POPULATION_LOCALE,UPDF:istigazione > civils lendu, ngiti, nande et bira | lendu,ngiti,nande,bira | civili | donne,bambini | massacro,uccisione,mutilazione,saccheggio,distruzione_incendio,persecuzione | entre 200 et 250 | intervallo | | ufficiali UPDF e notabili hema avevano incitato all'attacco in una riunione
+## P4-019 | puntuale | Orientale
+L Fataki | village | E* | in=Walendu Djatsi:chefferie,Djugu:territoire | n=dintorni
+A UPDF,MILICES_HEMA > membres du CICR | | personale umanitario | | attacco_convogli,attacco_personale_umanitario,uccisione | six | esatto | condizionale | attribuzione secondo fonti locali
+A MILICES_HEMA > organismes humanitaires | | personale umanitario | | ostruzione_aiuti | | | condizionale
+## P4-020 | puntuale | Orientale
+L Gobu | village | E* | in=Bahema-Nord:chefferie,Djugu:territoire
+A APC,MILICES_HEMA > Lendu, surtout civils (femmes, enfants, vieillards, handicapés) | lendu | civili | donne,bambini,anziani,disabili | esecuzione_sommaria,occultamento_cadaveri | 40 | esatto | | militari hema dell'APC
+## P4-021 | puntuale | Orientale
+L Kobu | village | E* | in=Walendu Djatsi:chefferie,Djugu:territoire | n=mercato; vicino alle miniere di Kilomoto
+A UPDF,MILICES_HEMA > civils lendu, dont un handicapé mental | lendu | civili | disabili | uccisione,sfollamento_forzato | 35 | esatto
+## P4-022 | puntuale | Orientale
+L Datule | village | E* | in=Bahema-Sud:chefferie,Irumu:territoire | n=foresta a qualche km
+A MILICES_HEMA,UPC:complicità > Lendu | lendu | civili | minori | espulsione_forzata,massacro,uccisione | une centaine | approssimato | | cacciati dal villaggio da un comandante UPC il giorno prima
+## P4-023 | puntuale | Orientale
+L Kasenyi | localité | E* | in=Irumu:territoire | n=posto di polizia
+A MILICES_HEMA > civils lendu en fuite | lendu | civili | | uccisione,mutilazione,massacro | une cinquantaine | approssimato
+## P4-024 | puntuale | Orientale
+L Gobu | village | E* | in=Bahema-Nord:chefferie,Djugu:territoire
+A MILICES_HEMA > hommes alur | alur | civili | | reclutamento_forzato | tous les hommes | indeterminato
+## P4-025 | areale | Orientale
+L Walendu Bindi | chefferie | E* | in=Irumu:territoire | n=Aveba, Bukiringi, Nombe, Kaswara, Djino, Kagaba, Biro, Kapalayi, Gety, Tsubina e altri
+A UPDF,MILICES_HEMA > civils lendu | lendu | civili | | uccisione,massacro,tortura,violenza_sessuale,saccheggio,attacco_villaggi | plusieurs centaines | ordine_di_grandezza
+## P4-026 | puntuale | Orientale
+L Walu | localité | E* | in=Ngombe-Nyama:groupement,Irumu:territoire
+A UPC > civils, surtout bira | bira | civili | donne | uccisione,violenza_sessuale,saccheggio,attacco_scuola,attacco_sanita | au moins 46 | minimo | condizionale | rappresaglia (al condizionale)
+## P4-027 | puntuale | Orientale
+L Gobu | village | E* | in=Bahema-Nord:chefferie,Djugu:territoire
+A MILICES_LENDU,POPULATION_LOCALE > Hema et Alur, civils et militaires hors de combat | hema,alur | civili e combattenti fuori combattimento | | esecuzione_sommaria,massacro | au moins 80 | minimo
+## P4-028 | areale | Orientale
+L Walendu Pitsi | chefferie | E* | in=Djugu:territoire
+L Buba | localité | E | in=Walendu Pitsi:chefferie
+A UPDF,MILICES_HEMA > miliciens et civils lendu | lendu | civili e combattenti | | uccisione,attacco_villaggi | nombre indéterminé (au moins 27 à Buba) | indeterminato
+## P4-029 | puntuale | Orientale
+L Mongbwalu | ville | E* | in=Djugu:territoire | n=il testo scrive 'Mongwalu'
+A UPC,POPULATION_LOCALE:sostegno > civils lendu | lendu | civili | | uccisione,persecuzione | une vingtaine | approssimato
+## P4-030 | puntuale | Orientale
+L Mongbwalu | ville | E* | in=Djugu:territoire
+L Kobu | village | O
+L Bambou | ville minière | O
+L Kpandroma | localité | O
+A MILICES_LENDU > civils, surtout hema | hema | civili | | uccisione,massacro,sfollamento_forzato | des dizaines | ordine_di_grandezza | | rappresaglia
+## P4-031 | multi-sito | Orientale
+L Bunia | ville | E* | n=quartieri Mudzipela, Bigo, Saio, Rwambuzi, Simbiliabo; residenza del governatore, ospedale di Bigo, prigione centrale
+L Lengabo | village | E | rel=?@Bunia
+A UPC > civils bira, lendu et nande | bira,lendu,nande | civili | | uccisione,persecuzione | nombre indéterminé | indeterminato | | in totale almeno 300 civili uccisi per appartenenza etnica, per lo più dall'UPC
+A MILICES_LENDU,MILICES_NGITI > civils hema | hema | civili | | uccisione,ferimento,mutilazione | nombre indéterminé, dont 32 à Lengabo | indeterminato
+A UPDF,UPC > civils lendu, nande et bira | lendu,nande,bira | civili | | uccisione,attacco_sanita,occultamento_cadaveri | au moins 80 | minimo
+## P4-032 | multi-sito | Orientale
+L Komanda | ville | E* | in=Basili-Basumu:chefferie,Irumu:territoire | n=e villaggi vicini
+A APC,MILICES_LENDU,MILICES_NGITI,POPULATION_LOCALE:complicità > civils, surtout hema | hema | civili | | uccisione,persecuzione | des dizaines | ordine_di_grandezza
+## P4-033 | puntuale | Orientale
+L Komanda | ville | E* | in=Irumu:territoire
+L Beni | ville | D
+A UPC > civils de différentes ethnies, dont des déplacés de Bunia | | civili, sfollati | | uccisione | plus d'une cinquantaine | minimo | | vendetta per il massacro del 9 agosto
+## P4-034 | puntuale | Orientale
+L Mabanga | ville aurifère | E* | in=Mambisa:chefferie,Djugu:territoire
+L Bunia | ville | D
+A MILICES_HEMA,UPC:affiliato > habitants « non-originaires » | non originaires | civili | | uccisione,massacro,tortura,persecuzione | plusieurs dizaines (16 cloués sur des planches) | ordine_di_grandezza | | miliziani hema-gegere associati all'UPC
+## P4-035 | multi-sito | Orientale
+L Songolo | localité | E* | in=Walendu Bindi:chefferie,Irumu:territoire | n=diversi villaggi; roccaforte FRPI
+A UPC,MILICES_BIRA:sostegno > civils, dont femmes et enfants | ngiti,lendu | civili | donne,bambini | uccisione,mutilazione,saccheggio,distruzione_incendio,attacco_villaggi | au moins 14 ; plus d'un millier de maisons incendiées | minimo | | almeno tre donne impalate

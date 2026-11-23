@@ -1,0 +1,143 @@
+## P2-201 | multi-sito | Katanga
+L Vyura | localité | E* | in=Moba:territoire
+L Mwanza | village | E | in=Moba:territoire
+A BANYAMULENGE_ARMES,AFDL,APR > chef coutumier de Vyura et un parent | | civili | | arresto_arbitrario,tortura,uccisione | deux | esatto | | il nipote sepolto vivo
+## P2-202 | puntuale | Équateur
+L Ikela | localité | E* | n=ospedale generale, convento del Sacro Cuore, scuola primaria di Ekombo
+A FAZ > hôpital, couvent, école | | civili | | saccheggio,attacco_sanita,attacco_luogo_di_culto,attacco_scuola
+## P2-203 | multi-sito | Équateur
+L Yalisele | mission catholique | E* | in=Djolu:territoire
+L Yoseki | hôpital | E | in=Djolu:territoire
+L Mondombe | village | E | in=Bokungu:territoire
+L Deke | paroisse | E | rel=68@Bokungu
+L Bokungu | localité | R
+A REFUGIES_RWANDAIS > mission, hôpital, ferme | | civili | | saccheggio,attacco_luogo_di_culto,attacco_sanita
+A EX_FAR_INTERAHAMWE > paroisse protestante de Deke | | civili | | saccheggio,attacco_luogo_di_culto | | | | il testo indica ex-FAR
+## P2-204 | puntuale | Équateur
+L Wapinda | localité | E* | in=Yakoma:territoire
+A DSP > école, hôpital, résidences | | civili | | saccheggio,attacco_scuola,attacco_sanita
+## P2-205 | puntuale | Équateur
+L Gbadolite | ville | E*
+A FAZ,DSP > civils | | civili | | uccisione,saccheggio | nombre indéterminé | indeterminato
+## P2-206 | multi-sito | Équateur
+L Ene | groupement | E* | rel=10@Ikela
+L Moma | village | E
+L Yali | village | E
+L Ene-Punga | village | E
+L Ikela | localité | R
+A EX_FAR_INTERAHAMWE > civils | | civili | bambini | uccisione,saccheggio | nombre indéterminé | indeterminato | | tra le vittime un bambino di 9 anni
+## P2-207 | puntuale | Équateur
+L Ilombo | village | E* | in=Ikela:territoire
+A EX_FAR_INTERAHAMWE > un homme | | civili | | uccisione,saccheggio | un | esatto
+## P2-208 | puntuale | Équateur
+L Mpenda | village | E* | in=Bikoro:territoire | rel=120@Mbandaka | n=strada Mpenda–Iyembe
+L Iyembe | village | E | in=Bikoro:territoire
+L Mbandaka | ville | R
+A EX_FAR_INTERAHAMWE > civils, dont une mineure | | civili | minori | uccisione | deux | esatto
+## P2-209 | puntuale | Équateur
+L Vabesu | village | E* | in=Yakoma:territoire | rel=8@Wapinda
+L Wapinda | localité | R
+A AFDL,APR > civils | | civili | | rapimento,esecuzione_sommaria | sept | esatto | | costretti a indicare i nascondigli della DSP
+## P2-210 | multi-sito | Équateur
+L Mbandaka | ville | E* | n=porto PLZ, oggi porto Endundu
+L Djoa | village | E
+A AFDL,APR > chef de la collectivité Losanganya | | civili | | arresto_arbitrario,esecuzione_sommaria,sparizione_forzata | un | esatto | | sospettato di aver informato le autorità dei massacri di rifugiati
+## P2-211 | puntuale | Équateur
+L Baenga | village | E* | in=Basankusu:territoire
+A FAC,APR > civils | | civili | donne | uccisione,violenza_sessuale | neuf | esatto
+## P2-212 | puntuale | Kasaï-Occidental
+L Tshimbulu | ville | E*
+A AFDL,APR > civils et un jeune militaire non combattant | | civili | | uccisione | dix | esatto
+## P2-213 | puntuale | Kasaï-Occidental
+L Kananga | ville | E*
+A AFDL,APR > civils, dont des religieuses carmélites | clero cattolico | civili | donne | trattamenti_inumani,saccheggio | nombre indéterminé | indeterminato
+## P2-214 | puntuale | Kasaï-Occidental
+L Kananga | ville | E*
+A FORCES_SECURITE_CONGOLAISES > civils | | civili | | tortura,saccheggio | | | | giugno 1997–agosto 1998, sotto il comandante militare della città
+## P2-215 | puntuale | Bandundu
+L Mangangu | village | E* | rel=~Kenge | n=a ovest di Kenge e all'ingresso della città
+L Kenge | ville | R
+A FAZ,DSP,UNITA,EX_FAR_INTERAHAMWE > civils considérés comme traîtres | | civili | | esecuzione_sommaria | nombre indéterminé | indeterminato
+## P2-216 | puntuale | Bandundu
+L Kenge | ville | E*
+A FAZ,DSP,UNITA,EX_FAR_INTERAHAMWE,AFDL,APR > civils, dont des enfants | | civili | bambini | bombardamento_indiscriminato,uccisione,ferimento | au moins 65 morts, 126 blessés | minimo | | scontri a armi pesanti tra le due parti
+A FAZ,DSP,UNITA,EX_FAR_INTERAHAMWE,AFDL,APR > membres de la Croix-Rouge | | personale umanitario | | attacco_personale_umanitario,uccisione | 10 | esatto
+A AFDL,APR > enfants soldats envoyés en première ligne | | combattenti | bambini | reclutamento_minori | nombre indéterminé | indeterminato | condizionale
+## P2-217 | itinerario | Bandundu
+L Kenge | ville | E* | n=quartiere del ponte Kwango
+L Moyen-ville | village | E
+L Tiabakweno | village | E
+L Ndjili | village | E
+L Mbinda | village | E
+L Mbinda Nseke | village | E
+L Kinshasa | ville | D
+A FAZ,DSP,UNITA,EX_FAR_INTERAHAMWE > civils, notamment membres de l'Église kimbanguiste | kimbanguisti | civili | | esecuzione_sommaria,persecuzione | au moins 30 | minimo
+A FAZ,DSP,UNITA,EX_FAR_INTERAHAMWE > femmes | | civili | donne | violenza_sessuale | nombre indéterminé | indeterminato
+A FAZ,DSP,UNITA,EX_FAR_INTERAHAMWE > civils le long de la route Kenge-Kinshasa | | civili | | uccisione,violenza_sessuale,saccheggio,distruzione_incendio | plusieurs dizaines | ordine_di_grandezza | | in totale la battaglia di Kenge ha causato oltre 200 morti civili
+## P2-218 | multi-sito | Kinshasa
+L Masina | commune | E* | in=Kinshasa:ville
+L Matete | commune | E | in=Kinshasa:ville
+L Kingabwa | quartier | E | in=Limete:commune,Kinshasa:ville
+A AFDL,APR,POPULATION_LOCALE:complicità > personnes exécutées publiquement | | civili | | esecuzione_sommaria,occultamento_cadaveri | un grand nombre | indeterminato
+## P2-219 | puntuale | Kinshasa
+L bâtiment GLM | lieu de détention | E* | in=Kinshasa:ville | n=esecuzioni sulla riva del fiume
+A AFDL,APR > militaires ex-FAZ et opposants politiques détenus | opposizione politica | militari detenuti, civili | | detenzione_arbitraria,esecuzione_sommaria,occultamento_cadaveri | nombre indéterminé | indeterminato
+## P2-220 | multi-sito | Kinshasa
+L camp Kokolo | camp militaire | E* | in=Kinshasa:ville
+L camp Tshatshi | camp militaire | E | in=Kinshasa:ville
+A FAC,APR > détenus | | detenuti | | detenzione_arbitraria,tortura,decessi_per_privazioni | nombre indéterminé ; de nombreux morts | indeterminato
+## P2-221 | multi-sito | Kinshasa
+L camp Kabila | camp militaire | E* | in=Kinshasa:ville | n=ex camp Mobutu
+L hôpital Mama Yemo | hôpital | E | in=Kinshasa:ville
+L clinique Ngaliema | hôpital | E | in=Kinshasa:ville
+A AFDL,APR,FAC > blessés de guerre des ex-FAR | hutu,rwandais | combattenti fuori combattimento | malati | rapimento,trattamenti_inumani,sparizione_forzata,attacco_sanita | au moins 24 | minimo | condizionale | 'molto probabilmente giustiziati'
+## P2-222 | puntuale | Kinshasa
+L Kinshasa | ville | E*
+A FAC,APR,KADOGO > civils | | civili | | trattamenti_inumani,tortura,uccisione | de nombreux | indeterminato | | fustigazioni pubbliche ('chicotte')
+## P2-223 | multi-sito | Kinshasa
+L camp CETA | camp militaire | E* | in=Kinshasa:ville
+L camp Tshatshi | camp militaire | E | in=Kinshasa:ville
+A FAC,APR > épouses et filles de militaires ex-FAZ | | civili | donne,minori | violenza_sessuale,lavoro_forzato | un grand nombre | indeterminato | | concubinato forzato
+## P2-224 | puntuale | Kinshasa
+L camp Kokolo | camp militaire | E* | in=Kinshasa:ville | n=parte detta 'camp américain'
+A FAC,APR > épouses et filles de militaires ex-FAZ, femmes arrêtées au hasard | | civili | donne,minori | violenza_sessuale,tortura | un grand nombre | indeterminato | | stupri collettivi
+## P2-225 | areale | Kinshasa
+L Kinshasa | ville | E*
+A AFDL,APR > femmes, dont des prostituées | | civili | donne | violenza_sessuale,percosse | un grand nombre | indeterminato
+## P2-226 | puntuale | Kinshasa
+L Kinshasa | ville | E* | n=diversi quartieri
+L Brazzaville | ville | O | n=Repubblica del Congo
+A NON_SPECIFICATO > habitants de Kinshasa | | civili | | bombardamento_indiscriminato,uccisione | au moins 21 | minimo | | tiri di artiglieria da Brazzaville
+## P2-227 | puntuale | Kinshasa
+L Kinshasa | ville | E*
+L Limete | commune | E | in=Kinshasa:ville | n=residenza del presidente del PALU
+A FAC,APR > militants du PALU | PALU | militanti | | arresto_arbitrario,tortura,uccisione,ferimento,perquisizione_arbitraria,saccheggio | entre un et quatre tués le 25 juillet ; plusieurs dizaines arrêtés | intervallo
+## P2-228 | puntuale | Kinshasa
+L Kinshasa | ville | E*
+A FAC,APR > militants de l'UDPS | UDPS | militanti | | arresto_arbitrario,tortura,detenzione_arbitraria | | indeterminato
+## P2-229 | multi-sito | Kinshasa
+L Kinshasa | ville | E* | n=prigione centrale
+L Mikonga | centre militaire | E
+A FAC,APR > sœurs du président du FSDC | | civili | donne | percosse,violenza_sessuale | deux | esatto
+A FAC,APR > président du FSDC | FSDC | civili | | arresto_arbitrario,tortura | un | esatto
+## P2-230 | puntuale | Bas-Congo
+L port de Matadi | port | E* | in=Matadi:ville
+A GARDE_CIVILE > agent de la douane | | civili | | tortura | un | esatto | | il comandante della Garde civile condannato nel 2004 dal tribunale distrettuale di Rotterdam (Paesi Bassi), come indicato nel rapporto
+## P2-231 | areale | Bas-Congo
+L Bas-Fleuve | district | E*
+L Tshela | localité | E | n=centro operativo delle FAA
+L Kinshasa | ville | D
+A FAA > réfugiés originaires du Cabinda | cabindais | rifugiati | | arresto_arbitrario,sparizione_forzata | nombre indéterminé | indeterminato
+A FORCES_SECURITE_CONGOLAISES > ressortissants cabindais accusés de séparatisme | cabindais | civili | | arresto_arbitrario,detenzione_arbitraria | plusieurs | indeterminato
+## P2-232 | puntuale | Bas-Congo
+L camp Lisanga | camp militaire | E* | in=Matadi:ville | n=Missioni
+A AFDL,APR,FAC > épouses de militaires ex-FAZ | | civili | donne | violenza_sessuale,lavoro_forzato | nombre indéterminé | indeterminato
+## P2-233 | puntuale | Bas-Congo
+L camp Redjaf | camp militaire | E* | in=Matadi:ville
+A FAC,APR,UPDF > femmes | | civili | donne | violenza_sessuale | plusieurs | indeterminato
+## P2-234 | puntuale | Bas-Congo
+L base de Kitona | base militaire | E*
+A FAC,APR > militaires ex-FAZ | | militari detenuti | | decessi_per_privazioni,esecuzione_sommaria,tortura,trattamenti_inumani | entre 5 et 10 morts par jour pendant deux mois | intervallo
+## P2-235 | puntuale | Bas-Congo
+L base de Kitona | base militaire | E*
+A FAC,APR > soldats ex-FAZ révoltés | | militari detenuti | | esecuzione_sommaria | | indeterminato

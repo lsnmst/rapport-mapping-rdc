@@ -1,0 +1,161 @@
+## P3-121 | puntuale | Orientale
+L Musekere | village | E* | in=Bahema-Nord:chefferie,Djugu:territoire | n=villaggio di pescatori
+A MILICES_LENDU > civils hema | hema | civili | | massacro,uccisione | plus d'une centaine | minimo | | miliziani del groupement di Buba
+## P3-122 | puntuale | Orientale
+L Bambou | ville minière | E* | in=Walendu Djatsi:chefferie,Djugu:territoire | n=fiume Chari
+A MILICES_LENDU,UPDF,MILICES_HEMA > civils | | civili | | uccisione,mutilazione,saccheggio,occultamento_cadaveri | plus de 200 | minimo | | scontri per il controllo della città mineraria
+## P3-123 | areale | Orientale
+L Blukwa | groupement | E* | in=Djugu:territoire
+A MILICES_LENDU > Hema | hema | civili | | massacro,uccisione | plusieurs centaines | ordine_di_grandezza
+## P3-124 | areale | Orientale
+L Buba | groupement | E* | in=Walendu Pitsi:chefferie,Djugu:territoire
+A MILICES_HEMA,UPDF > civils lendu | lendu | civili | | uccisione,attacco_villaggi | une dizaine | approssimato
+## P3-125 | multi-sito | Orientale
+L Mbau | village | E* | in=Walendu Djatsi:chefferie,Djugu:territoire
+L Glakpa | village | E | in=Djugu:territoire
+L Gobi | village | E | in=Djugu:territoire
+L Logai | village | E | in=Djugu:territoire
+L Dz'na | groupement | E | in=Djugu:territoire
+L Mayalibo | village | E | in=Djugu:territoire
+A MILICES_HEMA,APC:sostegno > villages lendu | lendu | civili | | saccheggio,distruzione_incendio,attacco_villaggi | | | | miliziani da Mangala, Ghele, Gele e Liko
+## P3-126 | puntuale | Kasaï-Occidental
+L Dimbelenge | localité | E* | n=centro; chiesa
+A FAC > civils, dont femmes, enfants et le président de la Croix-Rouge locale | | civili, personale umanitario | donne,bambini | uccisione,detenzione_arbitraria,distruzione_incendio,attacco_personale_umanitario | au moins 36 | minimo | | accusati di collaborare con l'ANC/APR
+## P3-127 | puntuale | Kasaï-Occidental
+L Kankole | localité | E* | in=Dimbelenge:territoire | rel=32@Katende
+L Katende | localité | R
+L Bibumba | localité | O
+A FAC > civils | | civili | | uccisione | quatre | esatto
+## P3-128 | puntuale | Kasaï-Occidental
+L Kabinda Mukole | localité | E* | in=Demba:territoire | rel=7@Bena Leka
+L Bena Leka | ville | O
+A FAC > civils accusés d'avoir hébergé l'ANC/APR | | civili | donne,bambini | uccisione,saccheggio,distruzione_incendio | au moins 23 | minimo
+## P3-129 | puntuale | Kasaï-Occidental
+L Bena Leka | ville | E* | in=Demba:territoire
+A FAC > civils | | civili | donne | uccisione,violenza_sessuale,trattamenti_inumani | trois tués, au moins 13 femmes violées | minimo
+## P3-130 | puntuale | Kasaï-Occidental
+L Tshinseleke | village | E* | in=Dimbelenge:territoire
+L Katende | localité | O
+A ANC,APR > chef coutumier et civils | | civili | | uccisione,lavoro_forzato | quatre | esatto | | tre civili costretti a camminare su un campo minato
+## P3-131 | puntuale | Kasaï-Occidental
+L Bibumba | localité | E* | in=Demba:territoire
+A FAC > civils ayant protesté | | civili | | esecuzione_sommaria,trattamenti_inumani | au moins sept | minimo | | altri civili uccisi nella foresta vicina
+## P3-132 | puntuale | Katanga
+L Kalemie | ville | E* | n=Hôpital général
+A FAC,MILICES_PRO_GOUVERNEMENT > militaires de l'ANC/APR hors de combat | | militari fuori combattimento | | esecuzione_sommaria,distruzione_incendio | une quinzaine | approssimato | | sei bruciati vivi in strada
+A FAC > soldats blessés de l'ANC/APR et un infirmier | | militari fuori combattimento, personale sanitario | malati | uccisione,attacco_sanita | sept | esatto
+A FAC,ANC,APR > civils | | civili | | uccisione | nombre indéterminé | indeterminato | | proiettili vaganti durante gli scontri
+## P3-133 | puntuale | Katanga
+L Kalemie | ville | E* | n=avenues Lambo e Maila, parrocchia di Lubuye, prigione centrale, ponte sulla Lukuga
+A ANC,APR > « Volontaires » désarmés et civils | | civili e combattenti fuori combattimento | | arresto_arbitrario,esecuzione_sommaria | au moins 84 | minimo
+## P3-134 | puntuale | Katanga
+L Kalemie | ville | E*
+A ZDF > civils | | civili | | bombardamento_indiscriminato,uccisione,ferimento,distruzione_beni | au moins 25 tués, 13 blessés | minimo | | raid aerei 1998-2003
+## P3-135 | puntuale | Katanga
+L Kasenga | village | E* | in=Manda:chefferie,Moba:territoire
+A ANC,APR > civils accusés de collaborer avec les FAC | | civili | | esecuzione_sommaria,distruzione_incendio | cinq | esatto | | diverse centinaia di case incendiate
+## P3-136 | puntuale | Katanga
+L Nyunzu | ville | E*
+A ZDF > civils | | civili | | bombardamento_indiscriminato,uccisione,ferimento,distruzione_beni | au moins 14 | minimo
+## P3-137 | puntuale | Katanga
+L Kadimbu-Tambo | village | E* | in=Luela-Luvunguyi:chefferie,Kabalo:territoire | rel=20@Kabalo
+L Kabalo | ville | R
+A ANC,APR > civils | | civili | bambini | uccisione,distruzione_incendio | entre neuf et onze | intervallo
+## P3-138 | multi-sito | Katanga
+L Kakuyu | village | E* | in=Kabalo:territoire | rel=95@Kabalo
+L Kalanda | village | E | in=Kabalo:territoire
+L Kahompwa | village | E | in=Kabalo:territoire
+L Kabalo | ville | R
+A ANC,APR > civils accusés « d'être des Luba et des frères du Président Kabila » | luba | civili | | massacro,uccisione,persecuzione | au moins 28 | minimo
+## P3-139 | multi-sito | Katanga
+L Ngoma | village | E* | in=Munga:groupement,Kabalo:territoire
+L Kabamba | village | E | in=Kabalo:territoire
+L Pofu | village | E | in=Kabalo:territoire
+L Lwama | village | E | in=Kabalo:territoire
+L Rudisha | village | E | in=Kabalo:territoire
+L Mukila | village | E | in=Kabalo:territoire
+L Kiluwe | village | E | in=Kabalo:territoire
+L Kabambale | village | E | in=Kabalo:territoire
+L Ndala | village | E | in=Kabalo:territoire
+A ANC,APR > civils accusés d'aider les Mayi-Mayi Mufu 3 | | civili | donne,bambini | massacro,uccisione,violenza_sessuale,mutilazione,saccheggio | plus d'une quarantaine | minimo
+## P3-140 | puntuale | Katanga
+L Mbayo | village | E* | in=Luela Luvunguyi:chefferie,Kabalo:territoire
+A ANC,APR > civils | | civili | | rapimento,esecuzione_sommaria,occultamento_cadaveri | au moins 23 | minimo
+## P3-141 | multi-sito | Katanga
+L Kitule | village | E* | in=Lukuswa:chefferie,Kabalo:territoire
+L Kyoto | village | D
+A FAC > civils, dont des représentants du RCD-Goma et leurs familles | | civili | | uccisione | plus d'une cinquantaine (au moins 41 à Kitule) | minimo
+A FAC > civils porteurs | | civili | | lavoro_forzato,sparizione_forzata,saccheggio | une quarantaine | approssimato
+## P3-142 | puntuale | Katanga
+L Kabango | village | E* | in=Lwena Luvunguyi:chefferie,Kabalo:territoire
+L Boya | localité | O
+A ANC,APR > civils accusés d'espionner pour les FAC | | civili | | arresto_arbitrario,uccisione,saccheggio,distruzione_incendio | au moins 15 | minimo
+## P3-143 | itinerario | Katanga
+L route Kabalo-Kakuyu | route | E* | in=Kabalo:territoire
+L Mulonga | village | O | in=Luela-Luvunguyi:chefferie,Kabalo:territoire
+A ANC,APR > jeunes hommes de Mulonga | | civili | | rapimento,esecuzione_sommaria,occultamento_cadaveri | au moins 11 | minimo | | data imprecisa (una domenica del 2000)
+## P3-144 | puntuale | Katanga
+L Lyapenda | village | E* | in=Manda:chefferie,Moba:territoire
+A ANC,APR > civils | | civili | | detenzione_arbitraria,uccisione,distruzione_incendio,massacro | 84 | esatto | | bruciati vivi in due case
+## P3-145 | puntuale | Katanga
+L Katwe | village | E* | in=Kapungo:groupement,Moba:territoire
+A ANC,APR > civils | | civili | donne | uccisione,distruzione_incendio,violenza_sessuale | au moins 22 | minimo | | bruciati vivi
+## P3-146 | puntuale | Katanga
+L Mazembe | village | E* | in=Manda:chefferie,Moba:territoire
+A ANC,APR > civils, surtout travailleurs de la société ELGYMA, dont une dizaine d'enfants | | civili | bambini | uccisione,distruzione_incendio,massacro,distruzione_beni | 48 | esatto
+## P3-147 | puntuale | Katanga
+L Katimbe | village | E* | in=Kayabala:chefferie,Moba:territoire | rel=~Kasanga
+L Kasanga | localité | R
+A ANC,APR > civils | | civili | | uccisione,distruzione_incendio,attacco_villaggi | au moins 10 | minimo
+## P3-148 | puntuale | Katanga
+L Sola | village | E* | in=Kongolo:territoire | rel=30@Kongolo^nord
+L Kongolo | ville | R
+A MAYI_MAYI > civils accusés d'avoir soutenu l'ANC/APR | | civili | | esecuzione_sommaria,tortura,mutilazione | au moins huit | minimo | | parodia di processo; parti del corpo usate come feticci
+## P3-149 | puntuale | Katanga
+L Kasanga | village | E* | in=Mohona:chefferie,Kongolo:territoire
+A ANC,APR > civils et Mayi-Mayi hors de combat | | civili e combattenti fuori combattimento | bambini | massacro,uccisione,saccheggio,distruzione_incendio | 58 | esatto
+## P3-150 | puntuale | Katanga
+L Nonge | village | E* | in=Mohona:chefferie,Kongolo:territoire
+A ANC,APR > civils | | civili | | uccisione,distruzione_incendio | au moins 17 | minimo
+## P3-151 | puntuale | Katanga
+L Tubundu | village | E* | in=Mambwe:chefferie,Kongolo:territoire | rel=6@Makutano
+L Makutano | localité | R
+L Kongolo | ville | O
+A ANC,APR > civils, dont de nombreux enfants | | civili | bambini | massacro,uccisione,distruzione_incendio | au moins 125 | minimo
+## P3-152 | multi-sito | Katanga
+L Nungu | village | E* | in=Kongolo:territoire
+L Imba | village | E | in=Kongolo:territoire
+L Mukuko | village | E | in=Kongolo:territoire
+A ANC,APR > villageois en réunion | | civili | | uccisione | 14 | esatto
+A ANC,APR > villages (Mwana Kasongo, Kwenze, Mayenze, Tuta, Kaulo, Mwana Tambwe, Ngamba, Toileti, Imba, Kalawa, Mesu, Kabenge, Muti, Kilongo, Seba, Himba) | | civili | | saccheggio,distruzione_incendio,attacco_villaggi,uccisione | au moins trois tués en novembre | minimo
+## P3-153 | puntuale | Katanga
+L Moza Block 1 | village | E* | rel=20@Kongolo
+L Kongolo | ville | R
+A ANC,APR > civils | | civili | | esecuzione_sommaria | cinq | esatto
+## P3-154 | puntuale | Katanga
+L Moza | village | E* | in=Bayashi:chefferie,Kongolo:territoire
+A ANC,APR > civils non armés | | civili | | arresto_arbitrario,uccisione,distruzione_incendio,massacro | 34 tués, un blessé | esatto
+## P3-155 | puntuale | Katanga
+L Nindila | village | E* | rel=~Sola
+L Sola | village | R
+A ANC,APR > villageois | | civili | | detenzione_arbitraria,uccisione,distruzione_incendio | 11 | esatto | | bruciati vivi; rappresaglia
+## P3-156 | multi-sito | Katanga
+L Sulumba | village | E* | in=Nord-Lukuga:chefferie,Nyunzu:territoire
+L Lwazi | village | E | in=Nyunzu:territoire
+L Mpende | village | E | in=Nyunzu:territoire
+L Mufunqwa | village | E | in=Nyunzu:territoire
+A ALIR > habitants | | civili | | distruzione_incendio,attacco_villaggi
+## P3-157 | multi-sito | Katanga
+L Lengwe | village | E* | in=Nyunzu:territoire
+L Katuko | village | E | in=Nyunzu:territoire
+A MAYI_MAYI > civils | | civili | | distruzione_incendio,uccisione | sept | esatto
+## P3-158 | puntuale | Katanga
+L Makele | village | E* | in=Sud-Lukuga:chefferie,Nyunzu:territoire | n=fiume Lweyeye
+A ANC,APR > civils, dont femmes et enfants, déplacés et Mayi-Mayi | | civili e combattenti | donne,bambini | massacro,uccisione,distruzione_incendio,saccheggio | plusieurs dizaines (51 noms identifiés) | ordine_di_grandezza
+## P3-159 | puntuale | Katanga
+L Nyemba | village | E* | in=Nord-Lukuga:chefferie,Nyunzu:territoire | rel=39@Nyunzu
+L Nyunzu | ville | R
+A ANC,APR > pygmées (civils et ex-Mayi-Mayi désarmés) | pygmées | civili e combattenti fuori combattimento | | esecuzione_sommaria | 12 | esatto
+## P3-160 | puntuale | Katanga
+L Mpende | village | E* | in=Nord-Lukuga:chefferie,Nyunzu:territoire
+A MAYI_MAYI > villageois | | civili | | uccisione,ferimento,distruzione_incendio | neuf tués, six blessés | esatto | | Mayi-Mayi pigmei; rappresaglia

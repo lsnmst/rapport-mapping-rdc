@@ -1,0 +1,151 @@
+## P3-161 | multi-sito | Katanga
+L Misimbe | village | E* | in=Nord-Lukuga:chefferie,Nyunzu:territoire | rel=2@Mpende
+L Makuikui | village | E | in=Nyunzu:territoire
+L Mpende | village | R
+A ANC,APR > civils, dont une femme et un enfant | | civili | donne,bambini | uccisione | 11 | esatto | | dopo un'imboscata dei Mayi-Mayi
+## P3-162 | puntuale | Katanga
+L Kalundu | village | E* | in=Nord-Lukuga:chefferie,Nyunzu:territoire
+A ALIR > civils, dont le chef du village | | civili | | uccisione | deux | esatto
+## P3-163 | puntuale | Katanga
+L Bulolo | village | E* | in=Sud-Lukuga:chefferie,Nyunzu:territoire
+L Bwana | village | O
+A ANC,APR > civils, dont un enfant | | civili | bambini | rapimento,uccisione,occultamento_cadaveri | quatre | esatto
+## P3-164 | puntuale | Katanga
+L Kilya | village | E* | in=Nyunzu:territoire
+A MAYI_MAYI > civils, dont le chef du village | | civili | | uccisione,ferimento | trois tués, un blessé | esatto | | rappresaglia per una denuncia di furto
+## P3-165 | puntuale | Katanga
+L Kasandwe | localité | E* | in=Nyunzu:territoire | rel=14@Nyunzu
+L Pilipili | village | R | rel=7@Nyunzu
+L Nyunzu | ville | R
+A ANC,APR > civils, dont au moins deux enfants | | civili | bambini | uccisione,occultamento_cadaveri | entre 12 et 16 | intervallo
+A ALIR > civil accusé de collaborer avec l'ANC/APR | | civili | | uccisione | un | esatto | antefatto | a Pilipili il giorno prima
+## P3-166 | puntuale | Katanga
+L Kalenge | village | E* | in=Nyunzu:territoire | rel=8@Nyunzu
+L Nyunzu | ville | R
+A ALIR > civils | | civili | | uccisione | trois | esatto
+## P3-167 | multi-sito | Katanga
+L Lipenda | village | E* | in=Nyunzu:territoire | rel=6@Nyunzu
+L Nathanali | bivouac | E
+L Nyunzu | ville | R
+A MAYI_MAYI,ALIR > civils | | civili | | uccisione | entre cinq et sept | intervallo
+## P3-168 | puntuale | Katanga
+L Biengele | village | E* | in=Nyunzu:territoire | rel=2@Nyunzu>Kongolo
+L Nyunzu | ville | R
+L Kongolo | ville | R
+A ALIR,MAYI_MAYI > hommes et femmes | | civili | donne | uccisione,trattamenti_inumani | sept hommes tués, 20 femmes dénudées | esatto | | Mayi-Mayi pigmei
+## P3-169 | puntuale | Katanga
+L Kasala | village | E* | in=Museka:chefferie,Malemba Nkulu:territoire
+A ANC,APR > civils, dont sept enfants | | civili | bambini | minaccia,distruzione_incendio,uccisione | au moins onze | minimo
+## P3-170 | puntuale | Katanga
+L Mulongo | localité | E* | in=Malemba Nkulu:territoire | n=attraversamento del fiume Congo
+A ANC,APR > civils traversant le fleuve | | civili | | uccisione,occultamento_cadaveri | au moins 52 | minimo | | 1999-2001
+## P3-171 | multi-sito | Katanga
+L Cantonnier | village | E* | rel=20@Pweto
+L Pweto | ville | R
+L Lubumbashi | ville | E | n=cachots dell'ANR
+L GLM | lieu de détention | E | in=Kinshasa:ville
+A FAC > personnes accusées de préparer un coup d'État, dont l'un des fondateurs de l'AFDL | | militari e civili | | detenzione_arbitraria,trattamenti_inumani,esecuzione_sommaria | neuf | esatto | | condannati a morte da una Cour d'ordre militaire in un processo sommario
+A FORCES_SECURITE_CONGOLAISES > défenseurs des droits de l'homme (ASADHO) | | civili | | arresto_arbitrario,detenzione_arbitraria,tortura | plusieurs | indeterminato | | inizio 2001
+## P3-172 | puntuale | Équateur
+L Businga | localité | E*
+A FAC > civils | | civili | | bombardamento_indiscriminato,uccisione | cinq puis deux | esatto | | bombardamento con Antonov
+## P3-173 | puntuale | Équateur
+L Gemena | ville | E*
+A FAC > civils | | civili | | bombardamento_indiscriminato,uccisione,ferimento | au moins 27 | minimo | | bombardamento con Antonov
+## P3-174 | puntuale | Équateur
+L Businga | localité | E* | n=foresta intorno al villaggio
+A FAC > civils, dont une femme blessée | | civili | donne | uccisione,esecuzione_sommaria | au moins quatre | minimo
+## P3-175 | puntuale | Équateur
+L Boyasegbakole I | localité | E* | in=Gemena:territoire
+A ANT > civils | | civili | | uccisione,distruzione_incendio | 18 tués, 55 maisons incendiées | esatto | | scontri ANT – ALC/UPDF per Gemena
+## P3-176 | multi-sito | Équateur
+L Nduma | village | E* | rel=100@Zongo
+L Mase | village | E | rel=2@Nduma
+L Zongo | ville | R
+A FAC,GARDE_PRESIDENTIELLE > civils, dont six femmes | | civili | donne | uccisione,occultamento_cadaveri,distruzione_incendio | 25 et 15 | esatto | | unità PPU della Guardia presidenziale
+## P3-177 | multi-sito | Équateur
+L Loko | localité | E* | in=Businga:territoire | n=centro IME Loko
+L Businga | localité | R
+A FAC,ANT,ALIR > centre de développement, hôpital, biens de la CEUM | | civili | | saccheggio,attacco_sanita,attacco_luogo_di_culto
+## P3-178 | multi-sito | Équateur
+L Umangi | village | E* | rel=20@Lisala
+L Edjeke | village | E | rel=20@Lisala
+L Lisala | ville | R
+A FAC,ALIR > civils | | civili | | uccisione | quatre | esatto
+## P3-179 | puntuale | Équateur
+L Lisala | ville | E*
+A FAC,ANT,ALIR,ALC,UPDF > civils | | civili | | bombardamento_indiscriminato,uccisione | au moins 15 | minimo
+## P3-180 | puntuale | Équateur
+L Bopuo | village | E* | rel=7@Lisala
+L Lisala | ville | R
+A FAC,ANT,ALIR > civils | | civili | | uccisione | trois | esatto
+## P3-181 | puntuale | Équateur
+L Ngonzi-Rive | village | E* | rel=9@Lisala | n=davanti al Groupe scolaire
+L Lisala | ville | R
+A FAC,ANT,ALIR > otages civils | | civili | | rapimento,esecuzione_sommaria,saccheggio | sept | esatto
+## P3-182 | puntuale | Équateur
+L Businga | localité | E* | rel=12@Businga
+A ALC,UPDF > prisonniers (ALiR, soldats tchadiens) | | combattenti fuori combattimento | | esecuzione_sommaria,mutilazione | un exécuté ; nombreux cas rapportés | indeterminato
+## P3-183 | puntuale | Équateur
+L Zongo | ville | E*
+A ANT > civils | | civili | | saccheggio | | | | ritiro delle truppe ciadiane
+## P3-184 | multi-sito | Équateur
+L Businga | localité | R
+L Loko | localité | E* | n=tra Businga e Loko
+L Bokosa | village | E
+L Bogbudu | village | E
+L Bobusu | village | E
+L Bobale | village | E
+A FAC,ALIR > mineurs et civils | | civili | minori | uccisione | trois mineurs et un nombre indéterminé de civils | indeterminato
+## P3-185 | puntuale | Équateur
+L Inke | village | E* | rel=50@Gbadolite
+L Gbadolite | ville | R
+A FAC,ALIR > civils | | civili | | uccisione | au moins huit | minimo
+## P3-186 | puntuale | Équateur
+L Bogwaka | village | E* | in=Gemena:territoire | n=a sud di Gemena
+L Bogon | village | O
+A FAC > jeunes choristes voulant rejoindre l'ALC | | civili | | detenzione_arbitraria,esecuzione_sommaria,occultamento_cadaveri | entre 32 et 45 | intervallo
+## P3-187 | puntuale | Équateur
+L Bongandanga | localité | E*
+A FAC > civils accusés d'appartenir à l'ALC | | civili | | uccisione | deux | esatto | | 'bataillon Robot' delle FAC
+## P3-188 | puntuale | Équateur
+L Bolima-Likote | village | E* | n=tra i territori di Bongandanga e Djolu
+A FAC > femmes | | civili | donne | rapimento,violenza_sessuale | 36 | esatto | | 'bataillon Robot'
+## P3-189 | puntuale | Équateur
+L Djilingi | village | E* | n=capoluogo del groupement Likote
+A FAC > civils | | civili | | uccisione,distruzione_incendio | six | esatto | | 'bataillon Robot'
+## P3-190 | puntuale | Équateur
+L Makanza | localité | E* | in=Basankusu:territoire
+A FAC > civils | | civili | | bombardamento_indiscriminato,uccisione | nombre indéterminé | indeterminato
+## P3-191 | puntuale | Équateur
+L Basankusu | ville | E*
+A FAC > civils | | civili | | bombardamento_indiscriminato,uccisione | nombre indéterminé | indeterminato
+## P3-192 | puntuale | Équateur
+L Mbombe | village | E* | n=tra Dongo e Imese
+A FAC > personnes accusées de soutenir le MLC | | civili | | uccisione | 17 | esatto
+## P3-193 | puntuale | Équateur
+L Bolomba | localité | E*
+L Likwelo | localité | O
+A FAC > civils, dont le chef de localité de Likwelo | | civili | | uccisione | cinq | esatto | | accusati di collaborare con il MLC
+## P3-194 | puntuale | Équateur
+L Eliki | localité | E* | rel=23@Bolomba
+L Bolomba | localité | R
+L Boso-Nzote | village | O
+A FAC > civils accusés de soutenir le MLC | | civili | | arresto_arbitrario,esecuzione_sommaria,occultamento_cadaveri | six | esatto | | parodia di processo
+## P3-195 | puntuale | Équateur
+L Bobganga | village | E*
+L Maponga | localité | O
+A FAC > femmes accusées de collaborer avec le MLC | | civili | donne | uccisione | deux | esatto | | sepolte vive
+## P3-196 | multi-sito | Équateur
+L Mange | village | E* | in=Befale:territoire | n=asse Basankusu–Boende
+L Mompanga | village | O | in=Befale:territoire
+A FAC,ALIR > civils, dont le chef de localité de Mompanga | | civili | | esecuzione_sommaria | neuf | esatto | | accusati di sostenere il MLC
+## P3-197 | puntuale | Équateur
+L Mange | village | E* | in=Befale:territoire
+A FAC,ALIR > femmes, dont une mineure | | civili | donne,minori | violenza_sessuale,rapimento | une vingtaine violées | approssimato | | una vittima morta per le ferite; schiavitù sessuale
+## P3-198 | puntuale | Équateur
+L Buburu | village | E* | n=fiume Oubangui
+A FAC > mineurs | | civili | minori | uccisione,occultamento_cadaveri | sept | esatto | | per aver rifiutato di cedere le biciclette
+## P3-199 | puntuale | Équateur
+L Dongo | localité | E* | n=avenue Mbenga; strada Dongo–Ikwangala
+A FAC > civils | | civili | | arresto_arbitrario,esecuzione_sommaria,massacro,occultamento_cadaveri | des dizaines | ordine_di_grandezza | | 10a brigata delle FAC
