@@ -42,7 +42,9 @@ body {
   background: #f4f1ee;
 }
 
-html { scrollbar-gutter: stable; }
+html {
+  scrollbar-gutter: stable;
+}
 
 button:focus-visible,
 a:focus-visible,
@@ -62,4 +64,8 @@ input:focus-visible {
 .maplibregl-popup-content {
   font: 0.8rem var(--sans);
   padding: 0.35rem 0.55rem;
+}
+
+.maplibregl-cooperative-gesture-screen {
+  display: none !important;
 }
