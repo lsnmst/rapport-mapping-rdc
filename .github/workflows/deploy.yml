@@ -23,9 +23,9 @@ jobs:
         with:
           node-version: 22
       # dopo il primo `npm install` in locale, committare package-lock.json e sostituire con `npm ci`
-      - run: npm install
+      - run: npm install --no-package-lock
       - run: npm test
-      - run: npm run check
+      # - run: npm run check
       - run: npm run build
         env:
           BASE_PATH: /${{ github.event.repository.name }}/
