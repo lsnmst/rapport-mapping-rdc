@@ -605,7 +605,7 @@
     font-weight: 300;
     font-family: var(--mono);
     line-height: 1.2;
-    margin-top: 0.5rem !important;
+    margin-top: 0.49rem !important;
     margin-bottom: 0.5rem !important;
   }
   .now {
