@@ -1,21 +1,65 @@
 :root {
-  --ink: #1d1b1a;
-  --muted: #6b625d;
+  --ink: #0e0a42;
+  --muted: #655880;
   /* sfondo dei pannelli: bianco, poi velato dal pastello del periodo corrente (impostato da App.svelte) */
-  --panel-bg: color-mix(in srgb, var(--period-bg, #ffffff) 45%, rgb(255 255 255 / 0.93));
+  --panel-bg: color-mix(in srgb, var(--period-bg, #f3eded) 45%, rgb(255 255 255 / 0.93));
   --paper: color-mix(in srgb, var(--period-bg, #fffdfb) 28%, #fffdfb);
   --rule: #e4dcd6;
-  --accent: #8f1f17;
-  --serif: 'Source Serif 4', Georgia, 'Times New Roman', serif;
-  --sans: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --accent: #503432;
+  --serif: 'Ga Maamli', Georgia, 'Times New Roman', serif;
+  --sans: 'Ubuntu Condensed', system-ui, -apple-system, 'Segoe UI', sans-serif;
   --mono: 'IBM Plex Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace;
+  --quote: 'Old Standard TT', system-ui;
   color: var(--ink);
   font: 16px/1.5 var(--sans);
 }
-* { box-sizing: border-box; }
-html, body { margin: 0; padding: 0; background: #f4f1ee; }
-button:focus-visible, a:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
-@media (prefers-reduced-motion: reduce) {
-  * { scroll-behavior: auto !important; transition: none !important; animation: none !important; }
+
+::-webkit-scrollbar {
+  width: 3px;
 }
-.maplibregl-popup-content { font: 0.8rem var(--sans); padding: 0.35rem 0.55rem; }
+
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--ink);
+  border-radius: 2px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: var(--muted);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #f4f1ee;
+}
+
+html { scrollbar-gutter: stable; }
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    scroll-behavior: auto !important;
+    transition: none !important;
+    animation: none !important;
+  }
+}
+
+.maplibregl-popup-content {
+  font: 0.8rem var(--sans);
+  padding: 0.35rem 0.55rem;
+}

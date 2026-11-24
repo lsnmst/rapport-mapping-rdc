@@ -11,8 +11,8 @@ const UI = {
     en: 'This map presents the incidents described in the Mapping Exercise Report published in 2010 by the UN Office of the High Commissioner for Human Rights. Scroll down to move forward in time, up to go back.',
   },
   warning: {
-    fr: 'Avertissement : les fiches décrivent des massacres, des actes de torture et des violences sexuelles.',
-    en: 'Warning: the incident records describe massacres, torture and sexual violence.',
+    fr: 'Avertissement : les fiches décrivent des massacres, des actes de torture et des violences sexuelles. Le rapport décrit des violations présumées ; il ne se prononce pas sur la responsabilité pénale individuelle.',
+    en: 'Warning: the incident records describe massacres, torture and sexual violence. The report describes alleged violations; it does not determine individual criminal responsibility.',
   },
   alleged: {
     fr: "Le rapport décrit des violations présumées ; il ne se prononce pas sur la responsabilité pénale individuelle.",
@@ -66,10 +66,18 @@ const UI = {
     fr: "Double-clic, boutons + / − ou Ctrl + molette pour zoomer. Dès que vous reprenez le défilement, la carte revient à la vue d'ensemble.",
     en: 'Double-click, + / − buttons or Ctrl + scroll to zoom. As soon as you resume scrolling, the map returns to the overview.',
   },
+  dragHint: {
+    fr: 'Glisser pour déplacer · double-clic pour remettre en place',
+    en: 'Drag to move · double-click to put back',
+  },
   zoomMonth: { fr: 'Zoomer sur ce mois', en: 'Zoom to this month' },
   showList: { fr: 'Afficher la liste des incidents en cours', en: 'Show the list of ongoing incidents' },
   hideList: { fr: 'Masquer la liste', en: 'Hide the list' },
   geoConfidence: { fr: 'Fiabilité de la position', en: 'Position reliability' },
+  geoConfidenceMain: { fr: "Fiabilité de la position (lieu principal)", en: "Position reliability (main place)" },
+  posHigh: { fr: "position fiable", en: "reliable position" },
+  posLow: { fr: "position approximative", en: "approximate position" },
+  posNone: { fr: "zone seulement", en: "area only" },
 } satisfies Record<string, Bi>;
 
 export type UiKey = keyof typeof UI;
