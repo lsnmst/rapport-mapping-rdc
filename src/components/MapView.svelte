@@ -109,6 +109,16 @@
     PERIOD_COLORS[4].ink,
   ];
 
+  const RENAME = toMs("1997-05-17"); // Zaïre → République démocratique du Congo
+  const countryName = (): string =>
+    now < RENAME
+      ? lang === "fr"
+        ? "Zaïre"
+        : "Zaire"
+      : lang === "fr"
+        ? "République démocratique du Congo"
+        : "Democratic Republic of the Congo";
+
   /**
    * Simboli:
    *  high  punto pieno, il più evidente (bordo bianco)
@@ -304,8 +314,68 @@
 
     map.on("load", () => {
       const m = map!;
+      // Le 11 province del periodo 1993–2003 (prima del découpage del 2015), linee sottili
+      m.addSource("provinces", {
+        type: "geojson",
+        data: `${import.meta.env.BASE_URL}data/provinces_1993.geojson`,
+      });
+      m.addLayer({
+        id: "provinces",
+        type: "line",
+        source: "provinces",
+        paint: {
+          "line-color": "#AC6767",
+          "line-opacity": 0.3,
+          "line-width": ["interpolate", ["linear"], ["zoom"], 4, 0.4, 8, 1],
+        },
+      });
+      // Nasconde i confini provinciali attuali (26 province) della mappa di base, che sarebbero anacronistici
+      for (const l of m.getStyle().layers ?? [])
+        if (l.id.startsWith("boundary_state"))
+          m.setLayoutProperty(l.id, "visibility", "none");
       baseZoom = overviewZoom();
       m.addSource("incidents", { type: "geojson", data: toGeoJSON([]) });
+      m.addSource("country", {
+        type: "geojson",
+        data: {
+          type: "FeatureCollection",
+          features: [
+            {
+              type: "Feature",
+              geometry: { type: "Point", coordinates: [23.6, -3.2] },
+              properties: {},
+            },
+          ],
+        },
+      });
+      m.addLayer({
+        id: "country-name",
+        type: "symbol",
+        source: "country",
+        layout: {
+          "text-field": countryName(),
+          "text-font": ["Noto Sans Italic"],
+          "text-size": ["interpolate", ["linear"], ["zoom"], 4, 13, 7, 20],
+          "text-transform": "uppercase",
+          "text-letter-spacing": 0.35,
+          "text-max-width": 12,
+          "text-allow-overlap": true,
+        },
+        paint: {
+          "text-color": "#6b5e57",
+          "text-opacity": 0.55,
+          "text-halo-color": "#ffffff",
+          "text-halo-width": 1,
+        },
+      });
+      // La mappa di base scrive già il nome attuale del paese: lo togliamo solo per la RDC
+      for (const l of m.getStyle().layers ?? [])
+        if (l.type === "symbol" && l.id.includes("country"))
+          m.setFilter(l.id, [
+            "all",
+            ...(l.filter ? [l.filter] : []),
+            ["!=", ["get", "iso_a2"], "CD"],
+          ] as maplibregl.FilterSpecification);
       m.addLayer({
         id: "area",
         type: "circle",
@@ -365,8 +435,7 @@
         const hit = m.queryRenderedFeatures(e.point, {
           layers: ["high", "low", "area"],
         });
-        if (hit.length)
-          onselect(String(hit[0].properties!.id)); 
+        if (hit.length) onselect(String(hit[0].properties!.id));
         else onbackground();
       });
       ready = true;
@@ -376,6 +445,18 @@
   });
 
   onDestroy(() => map?.remove());
+
+  let shownName = "";
+  $effect(() => {
+    void now;
+    void lang;
+    if (!map || !ready) return;
+    const n = countryName();
+    if (n !== shownName) {
+      map.setLayoutProperty("country-name", "text-field", n);
+      shownName = n;
+    }
+  });
 
   $effect(() => {
     void incidents;
